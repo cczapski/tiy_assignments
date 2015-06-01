@@ -1,0 +1,497 @@
+/*- everything is in helvetica or helvetica bold
+- all images are in the images folder
+- the dark blue is: #083452
+- the medium blue is: #106db3
+- the dark gray (in the buttons and text) is: #5e686f
+- the lighter gray text is: #a3b3bf
+- white is white :)
+
+- the width of the container is 1300px, 
+and the height is *roughly* 2105px (try to get close to that)*/
+
+/*
+========================================================
+TEXT FORMATTING
+========================================================
+*/
+
+body {
+	font-family: helvetica;
+	color: #083452;
+}
+
+h1 {
+	font-size: 110px;
+	font-weight: bold;
+	color: white;
+}
+
+h2 {
+	font-size: 50px;
+	color: #083452;
+}
+
+h3 {
+	color: #083452;
+	font-size: 65px;
+}
+
+h4 {
+	color: #106db3;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 2;
+}
+
+h5 {
+	font-size: 13px;
+}
+
+h6 {
+	font-size: 16px;
+	color: white;
+}
+
+.underline {
+	border-bottom: 1px solid #a3b3bf;
+}
+
+.blue-text {
+	border-bottom: 1px solid #106db3;
+	color: #106db3;
+}
+
+/*
+========================================================
+MAIN LAYOUT
+========================================================
+*/
+
+.container {
+	max-width: 1300px;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+header {
+	width: 1300px;
+	height: 530px;
+	background:	url("../images/surf.jpg");
+	background-size: cover;
+}
+
+.content {
+	width: 1300px;
+	height: 1000px;
+}
+
+.pop-posts {
+	width: 1300px;
+	height: 475px;
+}
+
+footer {
+	width: 1300px;
+	height: 100px;
+	background: #083452;
+}
+
+/*
+========================================================
+HEADER
+========================================================
+*/
+
+.top {
+	width: 1300px;
+	height: 60px;
+}
+
+.logo-section {
+	float: left;
+	margin-left: 100px;
+	padding-top: 10px;
+	width: 300px;
+}
+
+.logo-title {
+	float: left;
+	padding-top: 15px;
+}
+
+.logo {
+	display: inline-block;
+	float: left;
+	margin-right: 15px;
+}
+
+nav {
+	float: right;
+	padding-right: 150px;
+	padding-top: 10px;
+	width: 250px;
+}
+
+.nav-list {
+	display: inline;
+	margin-left: 25px;
+	margin-top: 15px;
+	float: left;
+}
+
+.search {
+	display: inline-block;
+	padding-top: 8px;
+	padding-left: 10px;
+}
+
+.title {
+	width: 1210px;
+	height: 110px;
+	padding-top: 140px;
+	padding-left: 90px; 
+}
+
+.title2 {
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/*
+========================================================
+CONTENT
+========================================================
+*/
+
+.content-container {
+	max-width: 975px;
+	width: 100%;
+	height: 845px;
+	margin: 0 auto;
+	padding-top: 90px;
+	padding-bottom: 65px;
+	overflow: hidden;
+}
+
+/*
+=================================
+Article
+=================================
+*/
+
+.article {
+	width: 700px;
+	height: 845px;
+	float: left;
+}
+
+.date-bar {
+	margin-top: 25px;
+}
+
+.date-author {
+	height: 22px;
+	width: 22px;
+	padding-right: 90px;
+	display: inline-block;
+	float: left;
+}
+
+.date {
+	color: #a3b3bf;
+	font-size: 14px;
+	font-weight: lighter;
+	padding-top: 5px;
+}
+
+.article-text {
+	font-size: 16px;
+	font-weight: lighter;
+	line-height: 1.65;
+	color: #5e686f;
+	padding-top: 25px;
+	padding-right: 60px;
+}
+
+.radical {
+	height: 38px;
+	width: 600px;
+	margin-top: 20px;
+	margin-left: 2px;
+	padding-top: 15px;
+	padding-left: 20px;
+	border-left: 2px solid #a3b3bf;
+	font-style: italic;
+	font-weight: lighter;
+	font-size: 30px;
+	color: #106db3;
+}
+
+/*
+=================================
+Buttons
+=================================
+*/
+
+.btn-container {
+	width: 470px;
+	height: 30px;
+	margin-top: 20px;
+}
+
+.btn1-png {
+	width: 33px;
+	height: 30px;
+	float: left;
+	background: #5e686f;
+}
+
+.comments-png {
+	display: inline-block;
+	float: left;
+}
+
+.btn1-text {
+	width: 117px;
+	height: 22px;
+	float: left;
+	background: #a3b3bf;
+	padding-top: 8px;
+	padding-left: 8px;
+	margin-right: 10px;
+	color: white;
+	font-size: 14px;
+	font-weight: lighter;
+}
+
+.btn2-png {
+	width: 33px;
+	height: 30px;
+	float: left;
+	background: #5e686f;
+}
+
+.later-png {
+	display: inline-block;
+	float: left;
+}
+
+.btn2-text {
+	width: 87px;
+	height: 22px;
+	float: left;
+	background: #a3b3bf;
+	padding-top: 8px;
+	padding-left: 8px;
+	margin-right: 10px;
+	color: white;
+	font-size: 14px;
+	font-weight: lighter;
+}
+
+.btn3-png {
+	width: 33px;
+	height: 30px;
+	float: left;
+	background: #083452;
+}
+
+.share-png {
+	display: inline-block;
+	float: left;
+}
+
+.btn3-text {
+	width: 113px;
+	height: 22px;
+	float: left;
+	background: #106db3;
+	padding-top: 8px;
+	padding-left: 8px;
+	margin-right: 10px;
+	color: white;
+	font-size: 14px;
+	font-weight: lighter;
+}
+
+/*
+=================================
+Sidebar
+=================================
+*/
+
+.sidebar {
+	width: 275px;
+	height: 845px;
+	float: left;
+}
+
+.author {
+	width: 180px;
+	height: 85px;
+	margin-left: 95px;
+	margin-bottom: 30px;
+}
+
+.social {
+	margin-top: 0;
+	margin-left: 20px;
+	color: #a3b3bf;
+	font-weight: lighter;
+	font-size: 14px;
+	display: inline;
+}
+
+.paddle {
+	width: 275px;
+	height: 300px;
+	margin-top: 45px;
+}
+
+.about-ad {
+	font-weight: lighter;
+	float: right;
+	font-size: 14px;
+	padding-top: 5px;
+	width: 90px;
+	color: #a3b3bf;
+}
+
+.sidebar-sect {
+	margin-top: 50px;
+	width: 275px;
+	height: 200px;
+}
+
+.sidebar-text {
+	color: #a3b3bf;
+	font-weight: lighter;
+	font-size: 14px;
+	line-height: 1.8;
+}
+
+/*
+========================================================
+POP-POSTS
+========================================================
+*/
+
+.pop-title {
+	width: 1020px;
+	height: 95px;
+	padding-top: 50px;
+	padding-left: 280px;
+	border-top: 1px solid #a3b3bf;
+}
+
+.surfer {
+	background: url("../images/surfer.jpg") blue;
+	height: 330px;
+	width: 325px;
+	float: left;
+	background-size: cover;
+}
+
+.brews {
+	background: url("../images/beer.jpg") salmon;
+	height: 330px;
+	width: 325px;
+	float: left;
+	background-size: cover;
+}
+
+.zack {
+	background: url("../images/zack.jpg") blue;
+	height: 330px;
+	width: 325px;
+	float: left;
+	background-size: cover;
+}
+
+.shots {
+	background: url("../images/booze.jpg") salmon;
+	height: 330px;
+	width: 325px;
+	float: left;
+	background-size: cover;
+}
+
+.text-surfer {
+	font-size: 30px;
+	color: #083452;
+	margin-top: 290px;
+	margin-left: 5px;
+}
+
+.text-brews {
+	font-size: 30px;
+	color: white;
+	margin-top: 290px;
+	margin-left: 15px;
+	font-weight: 300;
+}
+
+.text-zack {
+	font-size: 30px;
+	color: #083452;
+	margin-top: 245px;
+	margin-left: 15px;
+	line-height: 40px;
+}
+
+.text-shots {
+	font-size: 30px;
+	color: #083452;
+	margin-top: 290px;
+	margin-left: 15px;
+}
+
+/*
+========================================================
+FOOTER
+========================================================
+*/
+
+.ironyard {
+	height: 75px;
+	width: 500px;
+	padding-top: 25px;
+	padding-left: 165px;
+	color: #a3b3bf;
+	float: left;
+}
+
+.ironyard-logo {
+	display: inline-block;
+	float: left;
+}
+
+.copyright {
+	float: left;
+	padding-left: 10px;
+	padding-top: 15px;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.right-bottom {
+	padding-top: 40px;
+	padding-right: 165px;
+	float: right;
+}
+
+.foot-nav {
+	height: 25px;
+	width: 300px;
+	display: inline;
+	color: #a3b3bf;
+	font-size: 14px;
+	margin-left: 5px;
+	font-weight: 300;
+}
+
+
+
+
