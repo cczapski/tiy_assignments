@@ -1,0 +1,192 @@
+/*- everything is in helvetica or helvetica bold
+- all images are in the images folder
+- the dark blue is: #083452
+- the medium blue is: #106db3
+- the dark gray (in the buttons and text) is: #5e686f
+- the lighter gray text is: #a3b3bf
+- white is white :)
+
+Try to use rulers or just your best visual judgment to get things align as they should be
+
+- the width of the container is 1300px, and the height is *roughly* 2105px (try to get close to that)*/
+
+html {
+	box-sizing: border-box;
+}
+
+* {
+	box-sixing: inherit;
+}
+
+body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/*=============================================================
+							MAIN LAYOUT
+=============================================================*/
+
+.container {
+	width: 1300px;
+	height: 2105px;
+	margin: 0 auto;
+}
+
+/*=============================================================
+							TYPOGRAPHY
+=============================================================*/
+
+h1, 
+h2,
+h3,
+h4,
+h5 {
+	text-transform: uppercase;
+}
+
+h2, 
+h3,
+h4 {
+	color: #083452;
+}
+
+
+h1 {
+	color: white;
+	font-size: 100px;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 60px;
+}
+
+h3 {
+	font-size: 40px;
+}
+
+h4 {
+	font-size: 30px;
+}
+
+h5 {
+	color: #106db3;
+	font-size: 20px;
+}
+
+/*
+=============================================================
+							HEADER
+=============================================================
+*/
+
+header {
+	width: 1300px;
+	height: 525px;
+	background: url("../images/surf.jpg");
+	background-size: cover;
+}
+
+/*
+-------------------------------
+Surf & Paddle Co. Blog
+-------------------------------
+*/
+
+.top {
+	width: 1300px;
+	height: 55px;
+}
+
+.logo-blog {
+	padding-left: 100px;
+	padding-top: 10px;
+	float: left;
+}
+
+.logo {
+	display: inline-block;
+	float: left;
+}
+
+.blog-title {
+	color: #083452;
+	font-size: 18px;
+	font-size: 1.125rem;
+	text-transform: uppercase;
+	float: left;
+	padding-left: 10px;
+	padding-top: 15px;
+}
+
+/*
+-------------------------------
+Primary Nav
+-------------------------------
+*/
+
+/*HELP!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.primary-nav {
+	padding-right: 145px;
+	padding-top: 15px;
+}
+
+.nav-text {
+	color: #083452;
+	font-size: 18px;
+	font-size: 1.125rem;
+	text-transform: uppercase;
+	float: right;
+	padding-left: 25px;
+}
+
+.search {
+	width: 30px;
+	float: right;
+}
+
+/*
+-------------------------------
+Main Header
+-------------------------------
+*/
+
+.main-head {
+	width: 1300px;
+	height: 770px;
+}
+
+/*
+=============================================================
+							MAIN
+=============================================================
+*/
+
+.main {
+	width: 1300px;
+	height: 1005px;
+}
+
+/*
+=============================================================
+							SECONDARY
+=============================================================
+*/
+
+.secondary {
+	width: 1300px;
+	height: 475px;
+}
+
+/*
+=============================================================
+							FOOTER
+=============================================================
+*/
+
+footer {
+	width: 1300px;
+	height: 100px;
+}
+
