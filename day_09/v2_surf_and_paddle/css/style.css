@@ -1,0 +1,241 @@
+/*- everything is in helvetica or helvetica bold
+- all images are in the images folder
+- the dark blue is: #083452
+- the medium blue is: #106db3
+- the dark gray (in the buttons and text) is: #5e686f
+- the lighter gray text is: #a3b3bf
+- white is white :)
+
+Try to use rulers or just your best visual judgment to get things align as they should be
+
+- the width of the container is 1300px, and the height is *roughly* 2105px (try to get close to that)*/
+
+/*
+=================================================================
+							OVERALL LAYOUT
+=================================================================
+*/
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+} 
+
+.container {
+	width: 1300px;
+	height: 2105px;
+	margin: 0 auto;
+}
+
+body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/*
+=================================================================
+							TYPOGRAPHY
+=================================================================
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	text-transform: uppercase;
+	line-height: 1.2;
+}
+
+h2, 
+h3,
+h4 {
+	color: #083452;
+}
+
+h1 {
+	color: white;
+	font-size: 110px;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 53px;
+	font-size: 3.313rem;
+	padding-bottom: 10px;
+}
+
+h5 {
+	color: #106db3;
+}
+
+.underline {
+	border-bottom: 1px solid #a3b3bf;
+}
+
+/*
+=================================================================
+							HEADER
+=================================================================
+*/
+
+header {
+	height: 525px;
+	background: url("../images/surf.jpg");
+	background-size: cover;
+}
+
+/*
+---------------------------------
+			Header Top
+---------------------------------
+*/
+
+.header-top {
+	width: 1300px;
+	height: 55px;
+}
+
+.top-left {
+	padding-left: 100px;
+	padding-top: 10px;
+	float: left;
+}
+
+.surf-logo,
+.surf-blog {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.surf-blog {
+	color: #083452;
+	font-size: 18px;
+	font-size: 1.125em;
+	text-transform: uppercase;
+	padding-left: 15px;
+}
+
+.primary-nav {
+	float: right;
+	padding-top: 20px;
+	padding-right: 150px;
+}
+
+.nav-list,
+.search {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.nav-list {
+	color: #083452;
+	font-size: 18px;
+	font-size: 1.125em;
+	text-transform: uppercase;
+	padding-left: 20px;
+}
+
+.search {
+	padding-left: 15px;
+}
+
+/*
+---------------------------------
+			Header Main
+---------------------------------
+*/
+
+.header-main {
+	padding-top: 150px;
+	text-align: center;
+}
+
+.tagline {
+	color: white;
+	font-size: 16px;
+	font-size: 1rem;
+	text-align: center;
+}
+
+/*
+=================================================================
+							MAIN
+=================================================================
+*/
+
+.main {
+	width: 1300px;
+	height: 1005px;
+}
+
+/*
+---------------------------------
+			Article
+---------------------------------
+*/
+
+article {
+	width: 705px;
+	height: 850px;
+	float: left;
+	margin-top: 90px;
+	margin-left: 160px;
+	border: 1px dashed blue;
+}
+
+.article-author {
+	width: 22px;
+	height: 22px;
+}
+
+.date {
+	color: #a3b3bf;
+	font-size: 14px;
+	font-style: lighter;
+	display: inline-block;
+	padding-left: 90px;
+}
+
+/*
+---------------------------------
+			Aside
+---------------------------------
+*/
+
+aside {
+	width: 275px;
+	height: 850px;
+	float: right;
+	margin-top: 90px;
+	margin-right: 160px;
+	border: 1px dashed blue;
+}
+
+/*
+=================================================================
+							SECONDARY
+=================================================================
+*/
+
+.secondary {
+	height: 475px;
+	width: 1300px;
+	border: 1px dashed blue;
+}
+
+/*
+=================================================================
+							FOOTER
+=================================================================
+*/
+
+footer {
+	height: 100px;
+	width: 1300px;
+	border: 1px dashed blue;
+}
+
+
