@@ -125,11 +125,10 @@ Primary Nav
 -------------------------------
 */
 
-/*HELP!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-
 .primary-nav {
 	padding-right: 145px;
-	padding-top: 15px;
+	padding-top: 20px;
+	float: right;
 }
 
 .nav-text {
@@ -137,16 +136,15 @@ Primary Nav
 	font-size: 18px;
 	font-size: 1.125rem;
 	text-transform: uppercase;
-	float: right;
 	padding-left: 25px;
-	padding-top: 10px;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .search {
-	width: 30px;
-	float: right;
+	display: inline-block;
+	vertical-align: middle;
 	padding-left: 15px;
-	padding-top: 5px;
 }
 
 /*
@@ -156,7 +154,7 @@ Main Header
 */
 
 .main-head {
-	padding-top: 160px;
+	padding-top: 150px;
 	text-align: center;
 }
 
