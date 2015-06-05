@@ -1,0 +1,196 @@
+/*
+==============================================================
+OVERALL LAYOUT
+==============================================================
+*/
+
+html {
+	box-sizing: border-box;
+}
+
+*, 
+*:before, 
+*:after {
+	box-sizing: inherit;
+}
+
+.container, header, .top-header {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.container {
+	background: #f5f8fa;
+	height: 2000px;
+	overflow: hidden;
+}
+
+/*
+==============================================================
+TYPOGRAPHY
+==============================================================
+*/
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.f-tiny-grey {
+	font-size: 13px;
+	color: #8799a6;
+}
+
+/*
+==============================================================
+HEADER
+==============================================================
+*/
+
+header, .top-header, .mid-bar {
+	background: white;
+}
+
+/*
+------------------------------
+Top Header
+------------------------------
+*/
+
+.top-header {
+	height: 50px;
+	position: fixed;
+}
+
+.top-header-content {
+	width: 950px;
+	margin: 0 auto;
+}
+
+.twitter-logo {
+	width: 50px;
+	padding-top: 15px;
+	padding-left: 25px;
+	float: left;
+}
+
+.upper-right-bars {
+	float: right;
+	margin-right: 30px;
+}
+
+.search-bar {
+	width: 240px;
+	margin-top: 5px;
+	padding: 8px 12px;
+	background: #f5f8fa;
+	border: 2px solid #e7edf0;
+	border-radius: 30px;
+	float: left;
+}
+
+.search-text {
+	float: left;
+}
+
+.search-icon {
+	width: 15px;
+	float:right;
+}
+
+.login-bar {
+	width: 170px;
+	margin-left: 20px;
+	float: left;
+	color: #52636f;
+}
+
+.account-text, .login-text {
+	margin-top: 15px;
+	float: left;
+}
+
+.login-text {
+	margin-left: 5px;
+	font-size: 14px;
+}
+
+/*
+------------------------------
+Hero Image
+------------------------------
+*/
+
+.hero {
+	width: 1280px;
+	height: 324px;
+	position: relative;
+	top: 50px;
+	background: url("../twitter.png/banner.jpg");
+	background-size: cover;
+	background-position: 0 -50px;
+}
+
+/*
+------------------------------
+Middle Bar
+------------------------------
+*/
+
+.mid-bar {
+	height: 65px;
+	width: 1280px;
+	margin: 0 auto;
+	position: relative;
+	top: 50px;
+	border-bottom: 1px solid #e9eef2;
+}
+
+.mid-container {
+	width: 950px;
+	margin: 0 auto;
+}
+
+.section-IY-logo {
+	width: 310px;
+	float: left;
+	border: 1px dashed red;
+}
+
+.contain-IY-logo {
+	width: 227px;
+	height: 227px;
+	background: white;
+	border-radius: 10px;
+	position: absolute;
+	bottom: -30px;
+}
+
+.big-IY-logo {
+	width: 220px;
+}
+
+.nav-bar {
+	width: 640px;
+	float: left;
+	border: 1px dashed blue;
+}
+
+.nav-text {
+	text-transform: uppercase;
+	color: #6c7b84;
+	font-size: 11px;
+	line-height: 1.8;
+}
+
+.nav-numbers {
+	font-size: 20px;
+}
+
+.nav-box {
+	text-align: center;
+	padding: 5px 15px 10px 15px;
+	float: left;
+	border: 1px dashed green;
+}
+
+
