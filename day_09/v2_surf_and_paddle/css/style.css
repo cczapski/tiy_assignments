@@ -62,12 +62,28 @@ h1 {
 	color: white;
 	font-size: 110px;
 	font-weight: bold;
+	line-height: .85;
+}
+
+h2 {
+	font-size: 60px;
+	font-size: 3.75rem;
+	text-align: center;
+	padding-top: 40px;
 }
 
 h3 {
 	font-size: 50px;
 	font-size: 3.125rem;
 	padding-bottom: 10px;
+}
+
+h4 {
+	font-size: 30px;
+	font-size: 1.875rem;
+	position: absolute;
+	left: 15px;
+	bottom: 10px;
 }
 
 h5 {
@@ -80,6 +96,14 @@ h5 {
 
 .underline {
 	border-bottom: 1px solid #a3b3bf;
+}
+
+.link-color-blue {
+	color: #106db3;
+}
+
+.link-color-grey {
+	color: #a3b3bf;
 }
 
 /*
@@ -156,7 +180,7 @@ header {
 */
 
 .header-main {
-	padding-top: 150px;
+	padding-top: 160px;
 	text-align: center;
 }
 
@@ -313,7 +337,6 @@ aside {
 	float: right;
 	margin-top: 90px;
 	margin-right: 160px;
-	border: 1px dashed blue;
 }
 
 .aside-author {
@@ -364,7 +387,61 @@ aside {
 .secondary {
 	height: 475px;
 	width: 1300px;
-	border: 1px dashed blue;
+}
+
+.secondary-title {
+	height: 145px;
+	width: 1300px;
+	border-top: 1px solid #a3b3bf;
+}
+
+.pop-stories {
+	height: 330px;
+	width: 1300px;
+}
+
+.story1 {
+	width: 325px;
+	height: 330px;
+	background: url("../images/surfer.jpg");
+	background-size: cover;
+	float: left;
+	position: relative;
+}
+
+.story1 h4 {
+	left: 5px;
+}
+
+.story2 {
+	width: 325px;
+	height: 330px;
+	background: url("../images/beer.jpg");
+	background-size: cover;
+	float: left;
+	position: relative;
+}
+
+.story2 h4 {
+	color: white;
+}
+
+.story3 {
+	width: 325px;
+	height: 330px;
+	background: url("../images/zack.jpg");
+	background-size: cover;
+	float: left;
+	position: relative;
+}
+
+.story4 {
+	width: 325px;
+	height: 330px;
+	background: url("../images/booze.jpg");
+	background-size: cover;
+	float: left;
+	position: relative;
 }
 
 /*
@@ -376,7 +453,41 @@ aside {
 footer {
 	height: 100px;
 	width: 1300px;
-	border: 1px dashed blue;
+	background: #083452;
+}
+
+.footer-left {
+	padding-top: 25px;
+	padding-left: 160px;
+	float: left;
+}
+
+.ironyard-logo, 
+.copyright {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.copyright {
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
+.copyright,
+.footer-nav {
+	color: #a3b3bf;
+	font-size: 14px;
+}
+
+.footer-right {
+	padding-top: 35px;
+	padding-right: 160px;
+	float: right;
+}
+
+.footer-nav {
+	display: inline-block;
+	padding-left: 3px;
 }
 
 
