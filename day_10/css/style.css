@@ -72,6 +72,11 @@ h5 {
 	font-weight: lighter;
 }
 
+.h5-2 {
+ 	font-size: 19px;
+ 	font-size: 1.188rem;
+}
+
 h6 {
 	font-size: 13px;
 	font-size: 0.813rem;
@@ -104,6 +109,9 @@ REPEATED STYLING
 .bold {
 	font-weight: bold;
 }
+.normal {
+	font-weight: normal;
+}
 
 .white-text {
 	color: white;
@@ -111,6 +119,11 @@ REPEATED STYLING
 
 .grey-handle {
 	color: #9fadb7;
+}
+
+.small-font {
+	font-size: 14px;
+	font-size: 0.875rem;
 }
 
 .test-border {
@@ -429,7 +442,32 @@ Also Like
 ------------------------------
 */
 
+.also-like {
+	width: 310px;
+	background: white;
+	padding: 20px 15px 15px 15px;
+	position: absolute;
+	top: 630px;
+}
 
+.other-users {
+	padding-top: 10px;
+	clear: both;
+}
+
+.avatar,
+.name {
+	float: left;
+}
+
+.avatar {
+  height: 40px;
+  width: 40px;
+}
+
+.name {
+	padding-left: 10px;
+}
 
 /*
 ------------------------------
