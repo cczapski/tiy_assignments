@@ -1,3 +1,10 @@
+/* 
+Blue color - #0095d3
+
+
+*/
+
+
 /*
 ==============================================================
 OVERALL LAYOUT
@@ -35,9 +42,50 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 }
 
-.f-tiny-grey {
+h1 {
+
+}
+
+h2 {
+	text-transform: uppercase;
+	color: #6c7b84;
+	font-size: 12px;
+	font-size: 0.75rem;
+	line-height: 1.8;
+}
+
+h3 {
+	font-size: 20px;
+	color: #0095d3;
+}
+
+h6 {
 	font-size: 13px;
+	font-size: 0.813rem;
 	color: #8799a6;
+}
+
+/*
+==============================================================
+REPEATED STYLING
+==============================================================
+*/
+
+.grey-border {
+	border-radius: 5px;
+	border: 2px solid #e8edf1;
+}
+
+.selected-text {
+	color: black;
+}
+
+.p-bold {
+	font-weight: bold;
+}
+
+.test-border {
+	border: 1px dashed blue;
 }
 
 /*
@@ -153,7 +201,7 @@ Middle Bar
 .section-IY-logo {
 	width: 310px;
 	float: left;
-	border: 1px dashed red;
+	border: 1px solid white;
 }
 
 .contain-IY-logo {
@@ -172,25 +220,35 @@ Middle Bar
 .nav-bar {
 	width: 640px;
 	float: left;
-	border: 1px dashed blue;
-}
-
-.nav-text {
-	text-transform: uppercase;
-	color: #6c7b84;
-	font-size: 11px;
-	line-height: 1.8;
-}
-
-.nav-numbers {
-	font-size: 20px;
 }
 
 .nav-box {
 	text-align: center;
-	padding: 5px 15px 10px 15px;
+	padding: 5px 15px 13px 15px;
 	float: left;
-	border: 1px dashed green;
 }
 
+.selected-nav {
+	border-bottom: 5px solid #0095d3;
+}
+
+.follow-btn {
+	width: 110px;
+	background: #f7f9fb;
+	margin-top: 10px;
+	float: right;
+}
+
+.follow-icon {
+	width: 25px;
+	margin-left: 10px;
+}
+
+.follow-text,
+.follow-icon {
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
 
