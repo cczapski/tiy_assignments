@@ -145,6 +145,10 @@ REPEATED STYLING
 	color: #ccd6dd;
 }
 
+.story-text {
+	font-size: 18px;
+}
+
 .grey-handle {
 	color: #9fadb7;
 }
@@ -549,7 +553,13 @@ TWEETS
 ==============================================================
 */
 
-.tweets-sect, .tweet-story {
+.tweets-sect, 
+.tweet-story1, 
+.tweet-story2,
+.tweet-story3,
+.tweet-story4,
+.tweet-story5,
+.tweet-story6 {
 	width: 630px;
 	background: white;
 	position: absolute;
@@ -568,13 +578,27 @@ TWEETS
 	margin-right: 40px;
 }
 
-.tweet-story {
+.tweet-story1,
+.tweet-story2,
+.tweet-story3,
+.tweet-story4,
+.tweet-story5,
+.tweet-story6 {
 	border-radius: 0;
 	padding-top: 10px;
 	padding-bottom: 5px;
-	float: left;
+	right: 0;
 }
 
+.tweet-story1 {
+	top: -335px;
+}
+
+.tweet-story2 {
+	top: 20px;
+}
+
+	
 .tweet-left {
 	width: 75px;
 	float: left;
@@ -608,6 +632,25 @@ TWEETS
 .icon-space {
 	margin-right: 40px;
 	float: left;	
+}
+
+.keep-calm-photo {
+	width: 470px;
+	height: 270px;
+	margin-top: 15px;
+	background: url("../twitter.png/keep-calm.jpg");
+	background-size: cover;
+	background-position: 0 -35px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.view-photo {
+	text-align: right;
+	margin-top: 5px;
+	margin-right: 10px;
+	font-size: 12px;
+	float: right;
 }
 
 /*
