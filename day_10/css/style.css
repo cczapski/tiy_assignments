@@ -28,7 +28,7 @@ html {
 
 .container {
 	background: #f5f8fa;
-	height: 2000px;
+	height: 3000px;
 	overflow: hidden;
 }
 
@@ -181,6 +181,7 @@ REPEATED STYLING
 	position: absolute;
 	top: 20px;
 	right: 0px;
+	border-radius: 5px;
 }
 
 .top-space {
@@ -598,7 +599,22 @@ TWEETS
 	top: 20px;
 }
 
+.tweet-story3 {
+	top: 458px;
+}
 	
+.tweet-story4 {
+	top: 890px;
+}
+
+.tweet-story5 {
+	top: 1300px;
+}
+
+.tweet-story6 {
+	top: 1450px;
+}
+
 .tweet-left {
 	width: 75px;
 	float: left;
@@ -651,6 +667,24 @@ TWEETS
 	margin-right: 10px;
 	font-size: 12px;
 	float: right;
+}
+
+.big-photo-1 {
+	width: 530px;
+	height: 270px;
+	margin-top: 15px; 
+	background: url("../twitter.png/big-photo1.jpg");
+	background-size: cover;
+	background-position: 0 -40px;
+}
+
+.big-photo-2 {
+	width: 530px;
+	height: 270px;
+	margin-top: 15px; 
+	background: url("../twitter.png/big-photo2.jpg");
+	background-size: cover;
+	background-position: 0 -125px;
 }
 
 /*
