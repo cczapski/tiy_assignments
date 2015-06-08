@@ -344,6 +344,7 @@ Middle Bar
 .follow-btn {
 	width: 110px;
 	background: #f7f9fb;
+	background: linear gradient (white, #c8cbce);
 	margin-top: 10px;
 	float: right;
 }
