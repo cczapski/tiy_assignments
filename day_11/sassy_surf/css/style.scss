@@ -1,0 +1,495 @@
+@import 'reset';
+
+/*- everything is in helvetica or helvetica bold
+- all images are in the images folder
+- the dark blue is: #083452
+- the medium blue is: #106db3
+- the dark gray (in the buttons and text) is: #5e686f
+- the lighter gray text is: #a3b3bf
+- white is white :)
+
+Try to use rulers or just your best visual judgment to get things align as they should be
+
+- the width of the container is 1300px, and the height is *roughly* 2105px (try to get close to that)*/
+
+/*
+=================================================================
+							OVERALL LAYOUT
+=================================================================
+*/
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+} 
+
+.container {
+	width: 1300px;
+	height: 2105px;
+	margin: 0 auto;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: #5e686f;
+	line-height: 1.65;
+}
+
+/*
+=================================================================
+							TYPOGRAPHY
+=================================================================
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	text-transform: uppercase;
+	line-height: 1.2;
+}
+
+h2, 
+h3,
+h4 {
+	color: #083452;
+}
+
+h1 {
+	color: white;
+	font-size: 110px;
+	font-weight: bold;
+	line-height: .85;
+}
+
+h2 {
+	font-size: 60px;
+	font-size: 3.75rem;
+	text-align: center;
+	padding-top: 40px;
+}
+
+h3 {
+	font-size: 50px;
+	font-size: 3.125rem;
+	padding-bottom: 10px;
+}
+
+h4 {
+	font-size: 30px;
+	font-size: 1.875rem;
+	position: absolute;
+	left: 15px;
+	bottom: 10px;
+}
+
+h5 {
+	color: #106db3;
+	font-weight: bold;
+	font-size: 18px;
+	font-size: 1.125rem;
+	line-height: 1.7;
+}
+
+.underline {
+	border-bottom: 1px solid #a3b3bf;
+}
+
+.link-color-blue {
+	color: #106db3;
+}
+
+.link-color-grey {
+	color: #a3b3bf;
+}
+
+/*
+=================================================================
+							HEADER
+=================================================================
+*/
+
+header {
+	height: 525px;
+	background: url("../images/surf.jpg");
+	background-size: cover;
+}
+
+/*
+---------------------------------
+			Header Top
+---------------------------------
+*/
+
+.header-top {
+	width: 1300px;
+	height: 55px;
+}
+
+.top-left {
+	padding-left: 100px;
+	padding-top: 10px;
+	float: left;
+}
+
+.surf-logo,
+.surf-blog {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.surf-blog {
+	color: #083452;
+	font-size: 18px;
+	font-size: 1.125em;
+	text-transform: uppercase;
+	padding-left: 15px;
+}
+
+.primary-nav {
+	float: right;
+	padding-top: 20px;
+	padding-right: 150px;
+}
+
+.nav-list,
+.search {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.nav-list {
+	color: #083452;
+	font-size: 18px;
+	font-size: 1.125em;
+	text-transform: uppercase;
+	padding-left: 20px;
+}
+
+.search {
+	padding-left: 15px;
+}
+
+/*
+---------------------------------
+			Header Main
+---------------------------------
+*/
+
+.header-main {
+	padding-top: 160px;
+	text-align: center;
+}
+
+.tagline {
+	color: white;
+	font-size: 16px;
+	font-size: 1rem;
+	text-align: center;
+}
+
+/*
+=================================================================
+							MAIN
+=================================================================
+*/
+
+.main {
+	width: 1300px;
+	height: 1005px;
+}
+
+/*
+---------------------------------
+			Article
+---------------------------------
+*/
+
+article {
+	width: 705px;
+	height: 850px;
+	float: left;
+	margin-top: 90px;
+	margin-left: 160px;
+}
+
+.article-author {
+	width: 22px;
+	height: 22px;
+}
+
+.date {
+	color: #a3b3bf;
+	font-size: 14px;
+	font-style: lighter;
+	display: inline-block;
+	padding-left: 90px;
+}
+
+.story {
+	margin-top: 25px;
+	margin-right: 80px;
+	font-weight: lighter;
+
+}
+
+.radical {
+	color: #106db3;
+	font-size: 30px;
+	font-size: 1.875rem;
+	font-style: italic;
+	font-weight: lighter;
+	text-transform: uppercase;
+	margin-top: 22px;
+	margin-left: 1px;
+	padding-left: 20px;
+	padding-top: 5px;
+	border-left: 2px solid #a3b3bf;
+}
+
+.buttons {
+	height: 30px;
+	
+	color: white;
+	font-size: 14px;
+	margin-top: 15px;
+}
+
+.btn1 {
+	width: 158px;
+	height: 33px;
+	margin-right: 10px;
+	float: left;
+}
+
+.btn1-png {
+	width: 33px;
+	height: 30px;
+	background: #5e686f;
+	float: left;
+}
+
+.btn1-text {
+	width: 125px;
+	height: 30px;
+	background: #a3b3bf;
+	float: left;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+
+.btn2 {
+	width: 128px;
+	height: 33px;
+	margin-right: 10px;
+	float: left;
+}
+
+.btn2-png {
+	width: 33px;
+	height: 30px;
+	background: #5e686f;
+	float: left;
+}
+
+.btn2-text {
+	width: 95px;
+	height: 30px;
+	background: #a3b3bf;
+	float: left;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+.btn3 {
+	width: 158px;
+	height: 33px;
+	margin-right: 10px;
+	float: left;
+}
+
+.btn3-png {
+	width: 33px;
+	height: 30px;
+	background: #083452;
+	float: left;
+}
+
+.btn3-text {
+	width: 125px;
+	height: 30px;
+	background: #106db3;
+	float: left;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+/*
+---------------------------------
+			Aside
+---------------------------------
+*/
+
+aside {
+	width: 275px;
+	height: 850px;
+	float: right;
+	margin-top: 90px;
+	margin-right: 160px;
+}
+
+.aside-author {
+	padding-left: 90px;
+}
+
+.social {
+	color: #a3b3bf;
+	font-size: 14px;
+	font-style: lighter;
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.social-align {
+	margin-top: 25px;
+	margin-bottom: 45px;
+	text-align: center;
+}
+
+.paddle {
+	width: 275px;
+}
+
+.about-ad {
+	color: #a3b3bf;
+	text-align: right;
+	font-weight: lighter;
+	font-size: 14px;
+	font-size: 0.875rem;
+	padding-bottom: 50px;
+}
+
+.sidebar-text {
+	color: #a3b3bf;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: lighter;
+}
+
+/*
+=================================================================
+							SECONDARY
+=================================================================
+*/
+
+.secondary {
+	height: 475px;
+	width: 1300px;
+}
+
+.secondary-title {
+	height: 145px;
+	width: 1300px;
+	border-top: 1px solid #a3b3bf;
+}
+
+.pop-stories {
+	height: 330px;
+	width: 1300px;
+}
+
+.story1 {
+	width: 325px;
+	height: 330px;
+	background: url("../images/surfer.jpg");
+	background-size: cover;
+	float: left;
+	position: relative;
+}
+
+.story1 h4 {
+	left: 5px;
+}
+
+.story2 {
+	width: 325px;
+	height: 330px;
+	background: url("../images/beer.jpg");
+	background-size: cover;
+	float: left;
+	position: relative;
+}
+
+.story2 h4 {
+	color: white;
+}
+
+.story3 {
+	width: 325px;
+	height: 330px;
+	background: url("../images/zack.jpg");
+	background-size: cover;
+	float: left;
+	position: relative;
+}
+
+.story4 {
+	width: 325px;
+	height: 330px;
+	background: url("../images/booze.jpg");
+	background-size: cover;
+	float: left;
+	position: relative;
+}
+
+/*
+=================================================================
+							FOOTER
+=================================================================
+*/
+
+footer {
+	height: 100px;
+	width: 1300px;
+	background: #083452;
+}
+
+.footer-left {
+	padding-top: 25px;
+	padding-left: 160px;
+	float: left;
+}
+
+.ironyard-logo, 
+.copyright {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.copyright {
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
+.copyright,
+.footer-nav {
+	color: #a3b3bf;
+	font-size: 14px;
+}
+
+.footer-right {
+	padding-top: 35px;
+	padding-right: 160px;
+	float: right;
+}
+
+.footer-nav {
+	display: inline-block;
+	padding-left: 3px;
+}
+
+
