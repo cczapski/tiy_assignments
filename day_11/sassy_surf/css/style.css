@@ -45,44 +45,12 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/*- everything is in helvetica or helvetica bold
-- all images are in the images folder
-- the dark blue is: #083452
-- the medium blue is: #106db3
-- the dark gray (in the buttons and text) is: #5e686f
-- the lighter gray text is: #a3b3bf
-- white is white :)
-
-Try to use rulers or just your best visual judgment to get things align as they should be
-
-- the width of the container is 1300px, and the height is *roughly* 2105px (try to get close to that)*/
-/*
-=================================================================
-							OVERALL LAYOUT
-=================================================================
-*/
-html {
-  box-sizing: border-box; }
-
-*, *:before, *:after {
-  box-sizing: inherit; }
-
-.container {
-  width: 1300px;
-  height: 2105px;
-  margin: 0 auto; }
-
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   color: #5e686f;
   line-height: 1.65; }
 
-/*
-=================================================================
-							TYPOGRAPHY
-=================================================================
-*/
 h1,
 h2,
 h3,
@@ -99,6 +67,7 @@ h4 {
 h1 {
   color: white;
   font-size: 110px;
+  font-size: 6.875rem;
   font-weight: bold;
   line-height: .85; }
 
@@ -135,6 +104,33 @@ h5 {
 
 .link-color-grey {
   color: #a3b3bf; }
+
+/*- everything is in helvetica or helvetica bold
+- all images are in the images folder
+- the dark blue is: $dkblue
+- the medium blue is: $mdblue
+- the dark gray (in the buttons and text) is: $dkgrey
+- the lighter gray text is: $ltgrey
+- white is white :)
+
+Try to use rulers or just your best visual judgment to get things align as they should be
+
+- the width of the container is 1300px, and the height is *roughly* 2105px (try to get close to that)*/
+/*
+=================================================================
+							OVERALL LAYOUT
+=================================================================
+*/
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+.container {
+  width: 1300px;
+  height: 2105px;
+  margin: 0 auto; }
 
 /*
 =================================================================
@@ -177,20 +173,18 @@ header {
   padding-top: 20px;
   padding-right: 150px; }
 
-.nav-list,
-.search {
-  display: inline-block;
-  vertical-align: middle; }
-
-.nav-list {
+.primary-nav ul li {
   color: #083452;
   font-size: 18px;
   font-size: 1.125em;
   text-transform: uppercase;
-  padding-left: 20px; }
-
-.search {
-  padding-left: 15px; }
+  padding-left: 20px;
+  display: inline-block;
+  vertical-align: middle; }
+.primary-nav ul img {
+  padding-left: 15px;
+  display: inline-block;
+  vertical-align: middle; }
 
 /*
 ---------------------------------
@@ -201,7 +195,7 @@ header {
   padding-top: 160px;
   text-align: center; }
 
-.tagline {
+.header-main p {
   color: white;
   font-size: 16px;
   font-size: 1rem;
@@ -228,7 +222,7 @@ article {
   margin-top: 90px;
   margin-left: 160px; }
 
-.article-author {
+article img {
   width: 22px;
   height: 22px; }
 
@@ -438,28 +432,23 @@ footer {
   padding-top: 25px;
   padding-left: 160px;
   float: left; }
-
-.ironyard-logo,
-.copyright {
-  display: inline-block;
-  vertical-align: middle; }
-
-.copyright {
-  padding-left: 5px;
-  padding-top: 5px; }
-
-.copyright,
-.footer-nav {
-  color: #a3b3bf;
-  font-size: 14px; }
+  .footer-left img, .footer-left p {
+    display: inline-block;
+    vertical-align: middle; }
+  .footer-left p {
+    padding-left: 5px;
+    padding-top: 5px;
+    color: #a3b3bf;
+    font-size: 14px; }
 
 .footer-right {
   padding-top: 35px;
   padding-right: 160px;
   float: right; }
-
-.footer-nav {
-  display: inline-block;
-  padding-left: 3px; }
+  .footer-right ul li {
+    display: inline-block;
+    padding-left: 3px;
+    color: #a3b3bf;
+    font-size: 14px; }
 
 /*# sourceMappingURL=style.css.map */

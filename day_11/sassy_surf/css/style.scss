@@ -1,11 +1,13 @@
 @import 'reset';
+@import 'colors';
+@import 'type';
 
 /*- everything is in helvetica or helvetica bold
 - all images are in the images folder
-- the dark blue is: #083452
-- the medium blue is: #106db3
-- the dark gray (in the buttons and text) is: #5e686f
-- the lighter gray text is: #a3b3bf
+- the dark blue is: $dkblue
+- the medium blue is: $mdblue
+- the dark gray (in the buttons and text) is: $dkgrey
+- the lighter gray text is: $ltgrey
 - white is white :)
 
 Try to use rulers or just your best visual judgment to get things align as they should be
@@ -30,82 +32,6 @@ html {
 	width: 1300px;
 	height: 2105px;
 	margin: 0 auto;
-}
-
-body {
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 16px;
-	color: #5e686f;
-	line-height: 1.65;
-}
-
-/*
-=================================================================
-							TYPOGRAPHY
-=================================================================
-*/
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-	text-transform: uppercase;
-	line-height: 1.2;
-}
-
-h2, 
-h3,
-h4 {
-	color: #083452;
-}
-
-h1 {
-	color: white;
-	font-size: 110px;
-	font-weight: bold;
-	line-height: .85;
-}
-
-h2 {
-	font-size: 60px;
-	font-size: 3.75rem;
-	text-align: center;
-	padding-top: 40px;
-}
-
-h3 {
-	font-size: 50px;
-	font-size: 3.125rem;
-	padding-bottom: 10px;
-}
-
-h4 {
-	font-size: 30px;
-	font-size: 1.875rem;
-	position: absolute;
-	left: 15px;
-	bottom: 10px;
-}
-
-h5 {
-	color: #106db3;
-	font-weight: bold;
-	font-size: 18px;
-	font-size: 1.125rem;
-	line-height: 1.7;
-}
-
-.underline {
-	border-bottom: 1px solid #a3b3bf;
-}
-
-.link-color-blue {
-	color: #106db3;
-}
-
-.link-color-grey {
-	color: #a3b3bf;
 }
 
 /*
@@ -144,7 +70,7 @@ header {
 }
 
 .surf-blog {
-	color: #083452;
+	color: $dkblue;
 	font-size: 18px;
 	font-size: 1.125em;
 	text-transform: uppercase;
@@ -157,22 +83,24 @@ header {
 	padding-right: 150px;
 }
 
-.nav-list,
-.search {
-	display: inline-block;
-	vertical-align: middle;
-}
+.primary-nav ul {
 
-.nav-list {
-	color: #083452;
-	font-size: 18px;
-	font-size: 1.125em;
-	text-transform: uppercase;
-	padding-left: 20px;
-}
+	li {
+		color: $dkblue;
+		font-size: 18px;
+		font-size: 1.125em;
+		text-transform: uppercase;
+		padding-left: 20px;
+		display: inline-block;
+		vertical-align: middle;
+	}
 
-.search {
-	padding-left: 15px;
+	img {
+		padding-left: 15px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
 }
 
 /*
@@ -186,7 +114,7 @@ header {
 	text-align: center;
 }
 
-.tagline {
+.header-main p {
 	color: white;
 	font-size: 16px;
 	font-size: 1rem;
@@ -218,13 +146,13 @@ article {
 	margin-left: 160px;
 }
 
-.article-author {
+article img {
 	width: 22px;
 	height: 22px;
 }
 
 .date {
-	color: #a3b3bf;
+	color: $ltgrey;
 	font-size: 14px;
 	font-style: lighter;
 	display: inline-block;
@@ -239,7 +167,7 @@ article {
 }
 
 .radical {
-	color: #106db3;
+	color: $mdblue;
 	font-size: 30px;
 	font-size: 1.875rem;
 	font-style: italic;
@@ -249,7 +177,7 @@ article {
 	margin-left: 1px;
 	padding-left: 20px;
 	padding-top: 5px;
-	border-left: 2px solid #a3b3bf;
+	border-left: 2px solid $ltgrey;
 }
 
 .buttons {
@@ -270,14 +198,14 @@ article {
 .btn1-png {
 	width: 33px;
 	height: 30px;
-	background: #5e686f;
+	background: $dkgrey;
 	float: left;
 }
 
 .btn1-text {
 	width: 125px;
 	height: 30px;
-	background: #a3b3bf;
+	background: $ltgrey;
 	float: left;
 	padding-top: 5px;
 	padding-left: 10px;
@@ -293,14 +221,14 @@ article {
 .btn2-png {
 	width: 33px;
 	height: 30px;
-	background: #5e686f;
+	background: $dkgrey;
 	float: left;
 }
 
 .btn2-text {
 	width: 95px;
 	height: 30px;
-	background: #a3b3bf;
+	background: $ltgrey;
 	float: left;
 	padding-top: 5px;
 	padding-left: 10px;
@@ -315,14 +243,14 @@ article {
 .btn3-png {
 	width: 33px;
 	height: 30px;
-	background: #083452;
+	background: $dkblue;
 	float: left;
 }
 
 .btn3-text {
 	width: 125px;
 	height: 30px;
-	background: #106db3;
+	background: $mdblue;
 	float: left;
 	padding-top: 5px;
 	padding-left: 10px;
@@ -346,7 +274,7 @@ aside {
 }
 
 .social {
-	color: #a3b3bf;
+	color: $ltgrey;
 	font-size: 14px;
 	font-style: lighter;
 	display: inline-block;
@@ -365,7 +293,7 @@ aside {
 }
 
 .about-ad {
-	color: #a3b3bf;
+	color: $ltgrey;
 	text-align: right;
 	font-weight: lighter;
 	font-size: 14px;
@@ -374,7 +302,7 @@ aside {
 }
 
 .sidebar-text {
-	color: #a3b3bf;
+	color: $ltgrey;
 	font-size: 14px;
 	font-size: 0.875rem;
 	font-weight: lighter;
@@ -394,7 +322,7 @@ aside {
 .secondary-title {
 	height: 145px;
 	width: 1300px;
-	border-top: 1px solid #a3b3bf;
+	border-top: 1px solid $ltgrey;
 }
 
 .pop-stories {
@@ -455,41 +383,37 @@ aside {
 footer {
 	height: 100px;
 	width: 1300px;
-	background: #083452;
+	background: $dkblue;
 }
 
 .footer-left {
 	padding-top: 25px;
 	padding-left: 160px;
 	float: left;
-}
 
-.ironyard-logo, 
-.copyright {
-	display: inline-block;
-	vertical-align: middle;
-}
+	img, p {
+		display: inline-block;
+		vertical-align: middle;
+	}
 
-.copyright {
-	padding-left: 5px;
-	padding-top: 5px;
-}
-
-.copyright,
-.footer-nav {
-	color: #a3b3bf;
-	font-size: 14px;
+	p {
+		padding-left: 5px;
+		padding-top: 5px;
+		color: $ltgrey;
+		font-size: 14px;
+	}
 }
 
 .footer-right {
 	padding-top: 35px;
 	padding-right: 160px;
 	float: right;
+ 
+ 	ul li {
+ 		display: inline-block;
+		padding-left: 3px;	
+		color: $ltgrey;
+		font-size: 14px;
+ 	}
+	 
 }
-
-.footer-nav {
-	display: inline-block;
-	padding-left: 3px;
-}
-
-
