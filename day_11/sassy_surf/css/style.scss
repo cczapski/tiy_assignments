@@ -1,18 +1,7 @@
 @import 'reset';
 @import 'colors';
 @import 'type';
-
-/*- everything is in helvetica or helvetica bold
-- all images are in the images folder
-- the dark blue is: $dkblue
-- the medium blue is: $mdblue
-- the dark gray (in the buttons and text) is: $dkgrey
-- the lighter gray text is: $ltgrey
-- white is white :)
-
-Try to use rulers or just your best visual judgment to get things align as they should be
-
-- the width of the container is 1300px, and the height is *roughly* 2105px (try to get close to that)*/
+@import 'buttons';
 
 /*
 =================================================================
@@ -144,11 +133,11 @@ article {
 	float: left;
 	margin-top: 90px;
 	margin-left: 160px;
-}
-
-article img {
-	width: 22px;
-	height: 22px;
+	
+	img {
+		width: 22px;
+		height: 22px;
+	}
 }
 
 .date {
@@ -180,81 +169,7 @@ article img {
 	border-left: 2px solid $ltgrey;
 }
 
-.buttons {
-	height: 30px;
-	
-	color: white;
-	font-size: 14px;
-	margin-top: 15px;
-}
 
-.btn1 {
-	width: 158px;
-	height: 33px;
-	margin-right: 10px;
-	float: left;
-}
-
-.btn1-png {
-	width: 33px;
-	height: 30px;
-	background: $dkgrey;
-	float: left;
-}
-
-.btn1-text {
-	width: 125px;
-	height: 30px;
-	background: $ltgrey;
-	float: left;
-	padding-top: 5px;
-	padding-left: 10px;
-}
-
-.btn2 {
-	width: 128px;
-	height: 33px;
-	margin-right: 10px;
-	float: left;
-}
-
-.btn2-png {
-	width: 33px;
-	height: 30px;
-	background: $dkgrey;
-	float: left;
-}
-
-.btn2-text {
-	width: 95px;
-	height: 30px;
-	background: $ltgrey;
-	float: left;
-	padding-top: 5px;
-	padding-left: 10px;
-}
-.btn3 {
-	width: 158px;
-	height: 33px;
-	margin-right: 10px;
-	float: left;
-}
-
-.btn3-png {
-	width: 33px;
-	height: 30px;
-	background: $dkblue;
-	float: left;
-}
-
-.btn3-text {
-	width: 125px;
-	height: 30px;
-	background: $mdblue;
-	float: left;
-	padding-top: 5px;
-	padding-left: 10px;
-}
 /*
 ---------------------------------
 			Aside
@@ -267,45 +182,46 @@ aside {
 	float: right;
 	margin-top: 90px;
 	margin-right: 160px;
+
+	p {
+		color: $ltgrey;
+		font-size: 14px;
+		font-size: 0.875rem;
+		font-weight: lighter;
+	}
+
+	ul {
+		margin-top: 25px;
+		margin-bottom: 45px;
+		text-align: center;
+
+		li {
+			color: $ltgrey;
+			font-size: 14px;
+			font-style: lighter;
+			display: inline-block;
+			padding-right: 10px;
+			padding-left: 10px;
+		}
+
+	}
+
+	img {
+		width: 275px;
+	}
 }
 
 .aside-author {
 	padding-left: 90px;
-}
 
-.social {
-	color: $ltgrey;
-	font-size: 14px;
-	font-style: lighter;
-	display: inline-block;
-	padding-right: 10px;
-	padding-left: 10px;
-}
-
-.social-align {
-	margin-top: 25px;
-	margin-bottom: 45px;
-	text-align: center;
-}
-
-.paddle {
-	width: 275px;
+	img {
+		width: 50%;
+	}
 }
 
 .about-ad {
-	color: $ltgrey;
 	text-align: right;
-	font-weight: lighter;
-	font-size: 14px;
-	font-size: 0.875rem;
 	padding-bottom: 50px;
-}
-
-.sidebar-text {
-	color: $ltgrey;
-	font-size: 14px;
-	font-size: 0.875rem;
-	font-weight: lighter;
 }
 
 /*
