@@ -23,6 +23,11 @@ html {
 	margin: 0 auto;
 }
 
+@mixin valign {
+	display: inline-block;
+	vertical-align: middle;
+}
+
 /*
 =================================================================
 							HEADER
@@ -54,8 +59,7 @@ header {
 
 .surf-logo,
 .surf-blog {
-	display: inline-block;
-	vertical-align: middle;
+	@include valign;
 }
 
 .surf-blog {
@@ -80,14 +84,12 @@ header {
 		font-size: 1.125em;
 		text-transform: uppercase;
 		padding-left: 20px;
-		display: inline-block;
-		vertical-align: middle;
+		@include valign;
 	}
 
 	img {
 		padding-left: 15px;
-		display: inline-block;
-		vertical-align: middle;
+		@include valign;
 	}
 
 }
@@ -308,8 +310,7 @@ footer {
 	float: left;
 
 	img, p {
-		display: inline-block;
-		vertical-align: middle;
+		@include valign;
 	}
 
 	p {
@@ -325,7 +326,7 @@ footer {
 	padding-right: 160px;
 	float: right;
  
- 	ul li {
+ 	li {
  		display: inline-block;
 		padding-left: 3px;	
 		color: $ltgrey;
