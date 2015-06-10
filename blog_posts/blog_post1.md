@@ -8,7 +8,7 @@ Thankfully this lack of tweet/retweet/follow activity didn’t have a huge impac
 	
 To add to what I had re-discovered, almost daily in lecture we are introduced to a new UI design language, reference site, and/or designer. I get to follow all of these amazing designers and sites and now get the most up to date, industry information as I learn for my new career in design! How cool. Twitter is great. Man, I love Twitter.
 	
-All was great with me and Twitter. And then Sam, our wonderful design instructor, assigned our weekend project: recreating The Iron Yard's static Twitter page with vanilla HTML and CSS…
+All was great with me and Twitter. And then Sam, our wonderful design instructor, assigned our weekend 2 project: recreating The Iron Yard's static Twitter page with vanilla HTML and CSS…
 	
 ###I love you not
 
