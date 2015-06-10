@@ -1,5 +1,4 @@
-# Twitter: 
-## A UI Design Student's story of a love/hate relationship with Twitter
+# Twitter: A UI Design Student's story of a love/hate relationship with Twitter
 
 ###I love you
 
