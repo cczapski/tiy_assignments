@@ -35,7 +35,6 @@ html {
 */
 
 header {
-	height: 300px;
 	background: url("../images/surf.jpg");
 	background-size: cover;
 }
@@ -104,7 +103,7 @@ header {
 */
 
 .header-main {
-	padding: 30px 10px 10px 10px;
+	padding: 30px 10px 30px 10px;
 	text-align: center;
 }
 
@@ -179,17 +178,23 @@ article {
 */
 
 aside {
-	width: 275px;
-	height: 850px;
-	float: right;
+	width: 100%;
 	margin-top: 90px;
-	margin-right: 160px;
+	overflow: hidden;
+
+	.aside-author img {
+		width: 50%;
+		max-width: 84px;
+		margin-left: 40%;
+	}
 
 	p {
 		color: $ltgrey;
 		font-size: 14px;
 		font-size: 0.875rem;
 		font-weight: lighter;
+		padding: 0 50px 30px 50px;
+
 	}
 
 	ul {
@@ -197,7 +202,7 @@ aside {
 		margin-bottom: 45px;
 		text-align: center;
 
-		li {
+		li a {
 			color: $ltgrey;
 			font-size: 14px;
 			font-style: lighter;
@@ -209,21 +214,14 @@ aside {
 	}
 
 	img {
-		width: 275px;
+		width: 70%;
+		max-width: 278px;
+		margin-left: 20%;
 	}
-}
 
-.aside-author {
-	padding-left: 90px;
-
-	img {
-		width: 50%;
+	.about-ad {
+		margin-left: 60%;
 	}
-}
-
-.about-ad {
-	text-align: right;
-	padding-bottom: 50px;
 }
 
 /*
@@ -233,13 +231,11 @@ aside {
 */
 
 .secondary {
-	height: 475px;
-	width: 1300px;
+	width: 100%;
 }
 
 .secondary-title {
-	height: 145px;
-	width: 1300px;
+	width: 100%;
 	border-top: 1px solid $ltgrey;
 }
 
