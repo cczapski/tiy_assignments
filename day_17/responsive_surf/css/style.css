@@ -73,9 +73,10 @@ h1 {
 
 h2 {
   font-size: 60px;
-  font-size: 1.363rem;
+  font-size: 1.5rem;
   text-align: center;
-  padding-top: 40px; }
+  padding-top: 40px;
+  padding-bottom: 40px; }
 
 h3 {
   font-size: 24px;
@@ -322,46 +323,31 @@ aside {
   border-top: 1px solid #a3b3bf; }
 
 .pop-stories {
-  height: 330px;
-  width: 1300px; }
+  width: 100%; }
+
+.story1, .story2, .story3, .story4 {
+  width: 100%;
+  height: 250px;
+  float: left;
+  position: relative;
+  background-size: 100%;
+  background-repeat: no-repeat; }
 
 .story1 {
-  width: 325px;
-  height: 330px;
-  background: url("../images/surfer.jpg");
-  background-size: cover;
-  float: left;
-  position: relative; }
-
-.story1 h4 {
-  left: 5px; }
+  background: url("../images/surfer.jpg"); }
+  .story1 h4 {
+    left: 5px; }
 
 .story2 {
-  width: 325px;
-  height: 330px;
-  background: url("../images/beer.jpg");
-  background-size: cover;
-  float: left;
-  position: relative; }
-
-.story2 h4 {
-  color: white; }
+  background: url("../images/beer.jpg"); }
+  .story2 h4 {
+    color: white; }
 
 .story3 {
-  width: 325px;
-  height: 330px;
-  background: url("../images/zack.jpg");
-  background-size: cover;
-  float: left;
-  position: relative; }
+  background: url("../images/zack.jpg"); }
 
 .story4 {
-  width: 325px;
-  height: 330px;
-  background: url("../images/booze.jpg");
-  background-size: cover;
-  float: left;
-  position: relative; }
+  background: url("../images/booze.jpg"); }
 
 /*
 =================================================================
@@ -371,11 +357,12 @@ aside {
 footer {
   width: 100%;
   overflow: hidden;
-  background: #083452; }
+  background: #083452;
+  text-align: center; }
 
 .footer-left {
+  width: 100%;
   padding-top: 25px;
-  padding-left: 160px;
   float: left; }
   .footer-left img, .footer-left p {
     display: inline-block;
@@ -384,12 +371,12 @@ footer {
     padding-left: 5px;
     padding-top: 5px;
     color: #a3b3bf;
-    font-size: 14px; }
+    font-size: 14px;
+    font-size: 0.875rem; }
 
 .footer-right {
-  padding-top: 35px;
-  padding-right: 160px;
-  float: right; }
+  width: 100%;
+  margin-top: 50px; }
   .footer-right li {
     display: inline-block;
     padding-left: 3px;
