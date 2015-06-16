@@ -1,0 +1,70 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: $dkgrey;
+	line-height: 1.65;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	text-transform: uppercase;
+	line-height: 1.2;
+}
+
+h2, 
+h3,
+h4 {
+	color: $dkblue;
+}
+
+h1 {
+	color: white;
+	font-size: 110px;
+	font-size: 6.875rem;
+	font-weight: bold;
+	line-height: .85;
+}
+
+h2 {
+	font-size: 60px;
+	font-size: 3.75rem;
+	text-align: center;
+	padding-top: 40px;
+}
+
+h3 {
+	font-size: 50px;
+	font-size: 3.125rem;
+	padding-bottom: 10px;
+}
+
+h4 {
+	font-size: 30px;
+	font-size: 1.875rem;
+	position: absolute;
+	left: 15px;
+	bottom: 10px;
+}
+
+h5 {
+	color: $mdblue;
+	font-weight: bold;
+	font-size: 18px;
+	font-size: 1.125rem;
+	line-height: 1.7;
+}
+
+.underline {
+	border-bottom: 1px solid $ltgrey;
+}
+
+.link-color-blue {
+	color: $mdblue;
+}
+
+.link-color-grey {
+	color: $ltgrey;
+}
