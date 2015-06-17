@@ -1,0 +1,40 @@
+@media screen and (min-width: 500px) {
+
+	.top-left {
+		width: 50%;
+	}
+
+	nav {
+		width: 50%;
+		margin: 0 auto;
+		text-align: right;
+		padding-top: 20px;
+
+		ul {
+			li {
+				color: $dkblue;
+				font-size: 18px;
+				font-size: 1.125em;
+				text-transform: uppercase;
+				padding-left: 20px;
+				@include valign;
+			}
+		}
+
+		img {
+			padding-left: 15px;
+			@include valign;
+		}
+
+	}
+
+	.btn {
+		overflow: none;
+		float: left;
+	}
+
+
+	.story1, .story2, .story3, .story4 {
+		width: 50%;
+	}
+}

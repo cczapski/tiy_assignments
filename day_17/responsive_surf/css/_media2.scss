@@ -1,0 +1,43 @@
+@media screen and (min-width: 700px) {
+
+	.top-left {
+		width: 36%;
+		float: left;
+		text-align: left;
+	}
+
+	nav {
+		width: 36%;
+		padding-top: 20px;
+		float: right;
+
+		ul {
+			li {
+				color: $dkblue;
+				font-size: 18px;
+				font-size: 1.125em;
+				text-transform: uppercase;
+				padding-left: 20px;
+				@include valign;
+			}
+		}
+
+		img {
+			padding-left: 15px;
+			@include valign;
+		}
+
+	}
+
+	h1 {
+		font-size: 110px;
+		font-size: 6.875rem;
+	}
+
+	.header-main {
+		padding: 30px 10px 100px 10px;
+	}
+
+
+
+}
