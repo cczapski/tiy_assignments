@@ -20,7 +20,7 @@
 		nav {
 			width: $half;
 			margin: 0;
-			padding-top: 20px;
+			padding-top: 27px;
 			float: right; 
 		}
 
@@ -37,6 +37,7 @@
 
 	article {
 		width: $two-thirds;
+		padding: 50px;
 
 		h3 {
 			font-size: 30.4px;
@@ -49,9 +50,7 @@
 		float: right;
 
 		.aside-author img {
-		width: 50%;
-		max-width: 84px;
-		margin-left: 40%;
+		
 		}
 
 		p {
@@ -67,15 +66,18 @@
 		}
 
 		img {
-			width: 95%;
-			max-width: 278px;
-			margin-left: 0;
-			margin-right: 5%;
+			
 		}
 
 		.about-ad {
 			margin-left: 0;
+			margin: 0 auto;
+			display: inline-block;
 			text-align: right;
+		}
+
+		.sidebar {
+			max-width: 278px;
 		}
 
 		h5 {
@@ -94,13 +96,13 @@
 	}
 
 	h2 {
-		font-size: 30.4px;
-		font-size: 1.9rem;
+		font-size: 40px;
+		font-size: 2.5rem;
 	}
 
 	.story1, .story2, .story3, .story4 {
 		width: $half;
-		height: 200px;
+		height: 240px;
 		float: left;
 		background-size: 100%;
 		background-repeat: no-repeat;
