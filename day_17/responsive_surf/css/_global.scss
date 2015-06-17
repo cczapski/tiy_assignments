@@ -42,6 +42,7 @@ header {
 
 .header-top {
 	width: 100%;
+	overflow: hidden;
 
 	.top-left {
 		width: 80%;
@@ -240,7 +241,7 @@ aside {
 
 .story1, .story2, .story3, .story4 {
 	width: 100%;
-	height: 250px;
+	height: 150px;
 	float: left;
 	position: relative;
 	background-size: 100%;

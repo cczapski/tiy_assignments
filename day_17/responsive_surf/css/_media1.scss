@@ -1,40 +1,109 @@
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600px) {
 
-	.top-left {
-		width: 50%;
+	$half: 50%;
+	$two-thirds: 66.667%;
+	$one-third: 33.333%;
+
+	h1 {
+		font-size: 72px;
+		font-size: 4.5rem;
 	}
 
-	nav {
+	.header-top {
+
+		.top-left {
+			width: $half;
+			margin: 0;
+			float: left;
+		}
+
+		nav {
+			width: $half;
+			margin: 0;
+			padding-top: 20px;
+			float: right; 
+		}
+
+		.btn {
+			overflow: none;
+			float: left;
+		}
+
+	} /*end of .header-top*/
+
+	.header-main {
+		padding: 100px 10px 60px 10px;
+	} /*end of .header-main*/
+
+	article {
+		width: $two-thirds;
+
+		h3 {
+			font-size: 30.4px;
+			font-size: 1.9rem;
+		}
+	} /*end of article*/
+
+	aside {
+		width: $one-third;
+		float: right;
+
+		.aside-author img {
 		width: 50%;
-		margin: 0 auto;
-		text-align: right;
-		padding-top: 20px;
+		max-width: 84px;
+		margin-left: 40%;
+		}
+
+		p {
+
+		}
 
 		ul {
-			li {
-				color: $dkblue;
-				font-size: 18px;
-				font-size: 1.125em;
-				text-transform: uppercase;
-				padding-left: 20px;
-				@include valign;
+
+			li a {
+
 			}
+
 		}
 
 		img {
-			padding-left: 15px;
-			@include valign;
+			width: 95%;
+			max-width: 278px;
+			margin-left: 0;
+			margin-right: 5%;
 		}
 
+		.about-ad {
+			margin-left: 0;
+			text-align: right;
+		}
+
+		h5 {
+			padding: 0;
+			padding-top: 20px;
+		}
+
+		p {
+			padding: 0;
+			padding-right: 5%;
+		}
+	} /*end of aside*/
+
+	.secondary-title {
+		overflow: hidden;
 	}
 
-	.btn {
-		overflow: none;
-		float: left;
+	h2 {
+		font-size: 30.4px;
+		font-size: 1.9rem;
 	}
-
 
 	.story1, .story2, .story3, .story4 {
-		width: 50%;
+		width: $half;
+		height: 200px;
+		float: left;
+		background-size: 100%;
+		background-repeat: no-repeat;
 	}
-}
+
+} /*end of media query*/
