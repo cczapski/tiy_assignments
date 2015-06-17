@@ -61,3 +61,9 @@ This is a checklist that the May 2015 UI Design class contributes to about all g
       - type in the command “sass —watch "css/style.scss” (location of your sass file) to initialize Sass
       - remember to turn off when not in use
 
+# Responsive
+- [ ] Add the below to your HTML body to make sure RWD works on all screen sizes
+  `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
+- [ ] Double check the RWD Checklist: http://rwdchecklist.com/
+- [ ] Comment out the end of your media queries like the below to prevent confusing/missing brackets
+  `} /*end of media query*/`
