@@ -2,6 +2,8 @@
 	background: $green;
 }
 
+//HEADER----------------------------------------------------
+
 .header-nav {
 	background: $purple;
 	overflow: hidden;
@@ -14,9 +16,32 @@
 	}
 }
 
-.header-main {
+.header-index, .header-lunch {
+
 	margin-top: 0.75rem;
 	margin-bottom: 0.75rem;
+
+	h1 {
+		text-align: center;
+		padding-top: 13rem;
+		padding-bottom: 2rem;
+	}
+}
+
+.header-index {
+	background: 
+		linear-gradient(
+		   rgba(135,34,141,0.3),
+		   rgba(135,34,141,0.3)
+		),
+		url("../images/restaurant_far_north.jpg");
+
+	background-size: cover;
+	background-position: center;
+}
+
+.header-lunch {
+	
 	background: 
 		linear-gradient(
 		   rgba(135,34,141,0.3),
@@ -27,19 +52,23 @@
 	background-size: cover;
 	background-position: center;
 
-
-	h1 {
-		text-align: center;
-		padding-top: 13rem;
-		padding-bottom: 2rem;
-	}
-
 }
 
 .sub-header {
 	background: $blue;
 	color: white;
 	text-align: center;
+}
+
+//CONTENT----------------------------------------------------
+
+.about {
+	background: white;
+	padding: 1rem;
+
+	h3 {
+		color: $pink;
+	}
 }
 
 .main-menu {
