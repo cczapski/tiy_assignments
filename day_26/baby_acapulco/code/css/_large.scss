@@ -1,7 +1,11 @@
-html {
-	box-sizing: border-box;
-}
+@media screen and (min-width: 60rem) {
 
-*, *:before, *:after {
-	box-sizing: inherit;
-}
+	.main-menu {
+		width: 33.333%;
+	}
+
+	.menu-nav {
+		width: 33.333%;
+	}
+
+} //end of media query

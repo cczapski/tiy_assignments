@@ -2,6 +2,8 @@
 
 .nav-collapse {
 
+  display: inline;
+
   ul {
     margin: 0;
     padding: 0;
@@ -13,7 +15,7 @@
   li {
     margin-bottom: .5em;
     float: left;
-    margin-right: 10%;
+    margin-right: 8%;
     padding: 1rem;
   }
 
@@ -50,9 +52,10 @@
   color: white;
   float: right;
   padding: 1rem;
+  margin: 0.5rem;
 }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 35em) {
   .js .nav-collapse {
     position: relative;
   }
@@ -62,4 +65,14 @@
   .nav-toggle {
     display: none;
   }
+
+  .nav-collapse {
+
+    ul {
+      float: none;
+      margin: 0 auto;
+    }
+
+  }
+
 }

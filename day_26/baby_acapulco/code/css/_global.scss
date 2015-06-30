@@ -1,3 +1,7 @@
+.container {
+	background: $green;
+}
+
 .header-nav {
 	background: $purple;
 	overflow: hidden;
@@ -11,19 +15,27 @@
 }
 
 .header-main {
-	background: url("../images/babyA_ceiling_hendrix.jpeg");
+	margin-top: 0.75rem;
+	margin-bottom: 0.75rem;
+	background: 
+		linear-gradient(
+		   rgba(135,34,141,0.3),
+		   rgba(135,34,141,0.3)
+		),
+		url("../images/babyA_ceiling_hendrix.jpeg");
+
 	background-size: cover;
 
 	h2 {
 		text-align: center;
-		padding-top: 4rem;
-		padding-bottom: 4rem;
+		padding-top: 13rem;
+		padding-bottom: 2rem;
 	}
 
 }
 
 .sub-header {
-	background: $green;
+	background: $blue;
 	color: white;
 	text-align: center;
 }
@@ -31,6 +43,8 @@
 .item {
 	width: 90%;
 	margin: 1rem auto;
+	overflow: hidden;
+	background: white;
 
 	.pink-box {
 		background: $pink;
@@ -38,4 +52,77 @@
 		border-radius: 0.1875rem;
 	}
 
+}
+
+.lighter-items {
+	background: $blue;
+	margin: 0.75rem 0;
+
+	h3 {
+		margin-left: 0.5rem;
+	}
+}
+
+.menu {
+	background: white;
+	padding-top: 1rem;
+	margin-top: 0.75rem;
+}
+
+.menu-nav {
+	background: $green;
+	background-size: cover;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+
+	.menu-link {
+		background: $blue;
+		border-radius: 3px;
+		border-radius: 0.1875rem;
+		font-size: 30px;
+		font-weight: $light;
+		color: white;
+		margin: 1.5rem;
+	}
+
+	p, img {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	img {
+		width: 20%;
+		padding: 1rem 0 1rem 1rem;
+	}
+}
+
+.locations {
+	margin: 0.75rem 0;
+	padding: 1rem;
+}
+
+footer {
+	background: $purple;
+	color: white;
+	font-weight: $bold;
+	padding: 1rem;
+	margin-top: 0.75rem;
+	overflow: hidden;
+
+	.left {
+		float: left;
+	}
+
+	.right {
+		float: right;
+		text-align: right;
+	}
+
+	li {
+		padding: 0.75rem;
+
+		a {
+			font-weight: $medium;
+		}
+	}
 }

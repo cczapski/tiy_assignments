@@ -1,0 +1,33 @@
+@media screen and (min-width: 35em) {
+
+.menu {
+	overflow: hidden;
+}
+
+.main-menu {
+	width: 58.333%;
+	float: right;
+	margin-right: 0;
+	padding: 1rem;
+
+	.item {
+		width: 100%;
+	}
+}
+
+.menu-nav {
+	width: 41.667%;
+	float: left;
+
+	img {
+		display: none;
+	}
+}
+
+
+.js .nav-collapse {
+  display: inline-block;    
+}
+
+
+} //end of media query
