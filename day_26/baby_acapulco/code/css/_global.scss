@@ -1,0 +1,41 @@
+.header-nav {
+	background: $purple;
+	overflow: hidden;
+
+	p {
+		color: white;
+		font-weight: $bold;
+		padding: 1rem;
+		display: inline-block;
+	}
+}
+
+.header-main {
+	background: url("../images/babyA_ceiling_hendrix.jpeg");
+	background-size: cover;
+
+	h2 {
+		text-align: center;
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+	}
+
+}
+
+.sub-header {
+	background: $green;
+	color: white;
+	text-align: center;
+}
+
+.item {
+	width: 90%;
+	margin: 1rem auto;
+
+	.pink-box {
+		background: $pink;
+		border-radius: 3px;
+		border-radius: 0.1875rem;
+	}
+
+}
