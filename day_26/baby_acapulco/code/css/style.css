@@ -126,15 +126,16 @@ img {
     padding: 1rem;
     display: inline-block; }
 
-.header-index, .header-lunch {
+.header-index, .header-lunch, .header-locations {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem; }
-  .header-index h1, .header-lunch h1 {
+  .header-index h1, .header-lunch h1, .header-locations h1 {
     text-align: center;
     padding-top: 13rem;
     padding-bottom: 2rem; }
 
 .header-index {
+  background: #87228D;
   background: linear-gradient(rgba(135, 34, 141, 0.3), rgba(135, 34, 141, 0.3)), url("../images/restaurant_far_north.jpg");
   background-size: cover;
   background-position: center; }
@@ -144,16 +145,55 @@ img {
   background-size: cover;
   background-position: center; }
 
+.header-locations {
+  background: linear-gradient(rgba(135, 34, 141, 0.3), rgba(135, 34, 141, 0.3)), url("../images/restaurant_collage.jpg");
+  background-size: cover;
+  background-position: center; }
+
 .sub-header {
   background: #5EBFD0;
   color: white;
   text-align: center; }
+
+.mid-content {
+  overflow: hidden;
+  background: white; }
 
 .about {
   background: white;
   padding: 1rem; }
   .about h3 {
     color: #EE3A79; }
+  .about p {
+    margin: 1rem; }
+
+.addresses {
+  padding: 1rem;
+  width: 90%;
+  margin: 0 auto; }
+  .addresses img, .addresses .address-deats {
+    display: inline-block;
+    vertical-align: middle; }
+  .addresses img {
+    margin: 1rem 0.50rem;
+    width: 35%;
+    border-radius: 3px;
+    border-radius: 0.1875; }
+  .addresses h5 {
+    color: #EE3A79;
+    font-weight: 700; }
+  .addresses p {
+    margin: 0; }
+  .addresses a {
+    color: #191919; }
+    .addresses a:hover {
+      font-weight: 700;
+      color: #87228D; }
+
+.iframe {
+  margin: 2rem;
+  border-radius: 3px;
+  border-radius: 0.1875rem; }
 
 .main-menu {
   overflow: hidden; }
@@ -195,6 +235,12 @@ img {
     font-weight: 300;
     color: white;
     margin: 1.5rem; }
+    .menu-nav .menu-link:hover {
+      background: #EE3A79;
+      cursor: pointer;
+      box-shadow: 3px 3px 3px #BAB8B8; }
+      .menu-nav .menu-link:hover a {
+        font-weight: 700; }
   .menu-nav p, .menu-nav img {
     display: inline-block;
     vertical-align: middle; }
@@ -216,6 +262,7 @@ img {
     overflow: hidden; }
   .locations .location-bg {
     color: white;
+    overflow: hidden;
     float: left;
     padding: 7rem 1rem 1rem 1rem;
     margin: 1rem;
@@ -224,76 +271,52 @@ img {
     background: #87228D;
     border-radius: 3px;
     border-radius: 0.1875rem; }
+    .locations .location-bg h5 {
+      font-weight: 700;
+      text-shadow: 2px 2px 2px #5EBFD0; }
+      .locations .location-bg h5:hover {
+        color: #87228D;
+        text-shadow: 2px 2px 2px white; }
   .locations .barton-springs {
     background: linear-gradient(to right, rgba(135, 34, 141, 0.7), rgba(135, 34, 141, 0.7)), url("../images/barton_springs.jpg");
     background-size: cover; }
-    .locations .barton-springs a {
-      font-weight: 700;
-      text-shadow: 2px 2px 2px #5EBFD0; }
     .locations .barton-springs:hover {
       background: url("../images/barton_springs.jpg");
       background-size: cover;
       color: #87228D;
       cursor: pointer; }
-      .locations .barton-springs:hover a {
-        color: #87228D;
-        text-shadow: 2px 2px 2px white; }
   .locations .arboretum {
     background: linear-gradient(to right, rgba(135, 34, 141, 0.7), rgba(135, 34, 141, 0.7)), url("../images/arboretum.jpg");
     background-size: cover; }
-    .locations .arboretum a {
-      font-weight: 700;
-      text-shadow: 2px 2px 2px #5EBFD0; }
     .locations .arboretum:hover {
       background: url("../images/arboretum.jpg");
       background-size: cover;
       color: #87228D;
       cursor: pointer; }
-      .locations .arboretum:hover a {
-        color: #87228D;
-        text-shadow: 2px 2px 2px white; }
   .locations .far-north {
     background: linear-gradient(to right, rgba(135, 34, 141, 0.7), rgba(135, 34, 141, 0.7)), url("../images/far_north.jpg");
     background-size: cover; }
-    .locations .far-north a {
-      font-weight: 700;
-      text-shadow: 2px 2px 2px #5EBFD0; }
     .locations .far-north:hover {
       background: url("../images/far_north.jpg");
       background-size: cover;
       color: #87228D;
       cursor: pointer; }
-      .locations .far-north:hover a {
-        color: #87228D;
-        text-shadow: 2px 2px 2px white; }
   .locations .central {
     background: linear-gradient(to right, rgba(135, 34, 141, 0.7), rgba(135, 34, 141, 0.7)), url("../images/central.jpg");
     background-size: cover; }
-    .locations .central a {
-      font-weight: 700;
-      text-shadow: 2px 2px 2px #5EBFD0; }
     .locations .central:hover {
       background: url("../images/central.jpg");
       background-size: cover;
       color: #87228D;
       cursor: pointer; }
-      .locations .central:hover a {
-        color: #87228D;
-        text-shadow: 2px 2px 2px white; }
   .locations .east-side {
     background: linear-gradient(to right, rgba(135, 34, 141, 0.7), rgba(135, 34, 141, 0.7)), url("../images/east_side.jpg");
     background-size: cover; }
-    .locations .east-side a {
-      font-weight: 700;
-      text-shadow: 2px 2px 2px #5EBFD0; }
     .locations .east-side:hover {
       background: url("../images/east_side.jpg");
       background-size: cover;
       color: #87228D;
       cursor: pointer; }
-      .locations .east-side:hover a {
-        color: #87228D;
-        text-shadow: 2px 2px 2px white; }
 
 footer {
   background: #87228D;
@@ -301,7 +324,11 @@ footer {
   font-weight: 700;
   padding: 1rem;
   margin-top: 0.75rem;
-  overflow: hidden; }
+  overflow: hidden;
+  width: 100%; }
+  footer div {
+    max-width: 700px;
+    margin: 0 auto; }
   footer .left {
     float: left; }
   footer .right {
@@ -330,6 +357,17 @@ footer {
     .menu-nav img {
       display: none; }
 
+  .about {
+    width: 58.333%;
+    float: right; }
+
+  .addresses {
+    width: 58.333%;
+    max-width: 475px;
+    padding: 0;
+    margin: 1rem;
+    float: right; }
+
   .js .nav-collapse {
     display: inline-block; } }
 @media screen and (min-width: 650px) {
@@ -346,7 +384,11 @@ footer {
       min-height: 200px; }
 
   .menu-nav {
-    width: 33.333%; } }
+    width: 33.333%; }
+
+  .about p {
+    max-width: 1000px;
+    width: 66.667%; } }
 /*! responsive-nav.js 1.0.39 by @viljamis */
 .nav-collapse {
   display: inline;
