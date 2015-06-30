@@ -1,7 +1,14 @@
 @media screen and (min-width: 60rem) {
 
 	.main-menu {
-		width: 33.333%;
+		width: 66.667%;
+
+		.item {
+			width: 45%;
+			float: left;
+			margin-right: 5%;
+			min-height: 200px;
+		}
 	}
 
 	.menu-nav {

@@ -9,12 +9,3 @@ html {
 img {
 	max-width: 100%;
 }
-
-$gutter: 2%;
-$column: 6.833%;
-
-@mixin col($num-col) {
-	width: ($column * $num-col) + ($gutter * (($num-col) - 1));
-	margin-left: 0;
-	margin-right: $gutter;
-}

@@ -14,16 +14,17 @@ body {
 }
 
 h1 {
-	font-size: 60px;
-	font-size: 3.75rem;
+	font-size: 64px;
+	font-size: 4rem;
 	font-weight: $bold;
 	line-height: 1.4;
 	color: white;
+	text-shadow: 2px 2px 2px $blue;
 }
 
 h2 {
-	font-size: 64px;
-	font-size: 4rem;
+	font-size: 50px;
+	font-size: 3.125rem;
 	font-weight: $bold;
 	line-height: 1.4;
 	color: white;

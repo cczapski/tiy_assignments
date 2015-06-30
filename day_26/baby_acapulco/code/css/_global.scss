@@ -25,8 +25,10 @@
 		url("../images/babyA_ceiling_hendrix.jpeg");
 
 	background-size: cover;
+	background-position: center;
 
-	h2 {
+
+	h1 {
 		text-align: center;
 		padding-top: 13rem;
 		padding-bottom: 2rem;
@@ -38,6 +40,10 @@
 	background: $blue;
 	color: white;
 	text-align: center;
+}
+
+.main-menu {
+	overflow: hidden;
 }
 
 .item {
@@ -57,6 +63,9 @@
 .lighter-items {
 	background: $blue;
 	margin: 0.75rem 0;
+	clear: left;
+	border-radius: 3px;
+	border-radius: 0.1875rem;
 
 	h3 {
 		margin-left: 0.5rem;
@@ -70,7 +79,7 @@
 }
 
 .menu-nav {
-	background: $green;
+	background: white;
 	background-size: cover;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
@@ -90,6 +99,11 @@
 		vertical-align: middle;
 	}
 
+	p {
+		font-size: 20px;
+    	font-size: 1.25rem;
+	}
+
 	img {
 		width: 20%;
 		padding: 1rem 0 1rem 1rem;
@@ -99,7 +113,141 @@
 .locations {
 	margin: 0.75rem 0;
 	padding: 1rem;
-}
+	background: $blue;
+	overflow: hidden;
+
+	.center {
+		margin: 0 auto;
+		width: 90%;
+		overflow: hidden;
+		// display:flex;
+		// justify-content:center;
+		// align-items:center;
+	}
+
+// LOCATIONS ---------------------------------------------------
+
+	.location-bg {
+		color: white;
+		float: left;
+		padding: 7rem 1rem 1rem 1rem;
+		margin: 1rem;
+		text-align: center;
+		min-width: 160px;
+		background: $purple;
+		border-radius: 3px;
+		border-radius: 0.1875rem;
+	}
+
+	.barton-springs {
+		@include overlay($purp-grad, $purp-grad, url("../images/barton_springs.jpg"));
+		
+		a {
+			font-weight: $bold;
+			text-shadow: 2px 2px 2px $blue;
+		}
+
+		&:hover {
+			background: url("../images/barton_springs.jpg");
+			background-size: cover;
+			color: $purple;
+			cursor: pointer;
+
+			a {
+				color: $purple;
+				text-shadow: 2px 2px 2px white;
+			}
+		}
+	} // end of barton springs
+
+	.arboretum {
+		@include overlay($purp-grad, $purp-grad, url("../images/arboretum.jpg"));
+		
+		a {
+			font-weight: $bold;
+			text-shadow: 2px 2px 2px $blue;
+		}
+
+		&:hover {
+			background: url("../images/arboretum.jpg");
+			background-size: cover;
+			color: $purple;
+			cursor: pointer;
+
+			a {
+				color: $purple;
+				text-shadow: 2px 2px 2px white;
+			}
+		}
+	} // end of arboretum
+
+	.far-north {
+		@include overlay($purp-grad, $purp-grad, url("../images/far_north.jpg"));
+		
+		a {
+			font-weight: $bold;
+			text-shadow: 2px 2px 2px $blue;
+		}
+
+		&:hover {
+			background: url("../images/far_north.jpg");
+			background-size: cover;
+			color: $purple;
+			cursor: pointer;
+
+			a {
+				color: $purple;
+				text-shadow: 2px 2px 2px white;
+			}
+		}
+	} // end of far north
+
+	.central {
+		@include overlay($purp-grad, $purp-grad, url("../images/central.jpg"));
+		
+		a {
+			font-weight: $bold;
+			text-shadow: 2px 2px 2px $blue;
+		}
+
+		&:hover {
+			background: url("../images/central.jpg");
+			background-size: cover;
+			color: $purple;
+			cursor: pointer;
+
+			a {
+				color: $purple;
+				text-shadow: 2px 2px 2px white;
+			}
+		}
+	} // end of central
+
+	.east-side {
+		@include overlay($purp-grad, $purp-grad, url("../images/east_side.jpg"));
+		
+		a {
+			font-weight: $bold;
+			text-shadow: 2px 2px 2px $blue;
+		}
+
+		&:hover {
+			background: url("../images/east_side.jpg");
+			background-size: cover;
+			color: $purple;
+			cursor: pointer;
+
+			a {
+				color: $purple;
+				text-shadow: 2px 2px 2px white;
+			}
+		}
+	} // end of east side
+
+
+} //end of locations
+
+// FOOTER --------------------------------------------------
 
 footer {
 	background: $purple;

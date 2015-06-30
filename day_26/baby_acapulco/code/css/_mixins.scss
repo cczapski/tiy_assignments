@@ -1,0 +1,8 @@
+
+
+
+@mixin overlay($color1, $color2, $image) {
+
+	background: linear-gradient(to right, $color1, $color2), $image;
+  	background-size: cover;
+}
