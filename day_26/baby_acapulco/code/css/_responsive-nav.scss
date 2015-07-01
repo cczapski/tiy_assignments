@@ -54,6 +54,8 @@
   user-select: none;
   text-decoration: none;
   color: white;
+  font-size: 18px;
+  font-size: 1.125rem;
   float: right;
   padding: 1rem;
   margin: 0.5rem;
@@ -72,11 +74,12 @@
 
   .nav-collapse {
 
-    width: calc(100% - 115px);
-    padding: 1.5rem;
+    width: calc(100% - 130px);
+    // padding: 1.5rem;
     
     ul {
       margin: 0 auto;
+      padding: 1.5rem;
     }
 
   }
