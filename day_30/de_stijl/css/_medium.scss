@@ -1,0 +1,14 @@
+@media screen and (min-width: 546px) {
+	h1 {
+		@include font(3.5);
+		line-height: 0.8;
+	}
+
+	h2 {
+		@include font(3);
+	}
+
+	h3 {
+		@include font(2);
+	}
+} //end of media query
