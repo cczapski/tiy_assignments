@@ -16,6 +16,8 @@ $border: 4px solid black;
 
 .page-wrapper {
 	
+	overflow: hidden;
+
 	background: -webkit-linear-gradient(
 	    to bottom, #000, #000 3%, #fff 3%,#fff
     );
@@ -37,6 +39,45 @@ $border: 4px solid black;
     );
   	
   	background-size: 100% 200px;
+}
+
+@keyframes rfade {
+	0%, 50% {
+		background-color: $red;
+		border: $border;
+		color: $red;
+	}
+
+	100% {
+		background-color: white;
+	}
+}
+
+@keyframes yfade {
+	0%, 50% {
+		background-color: $yellow;
+		color: $yellow;
+	}
+
+	100% {
+		background-color: white;
+	}
+}
+
+@keyframes bfade {
+	0%, 50% {
+		background-color: $blue;
+		color: $blue;
+	}
+
+	100% {
+		background-color: white;
+	}
+}
+
+@mixin fade($color, $sec) {
+	background-color: white;
+	animation: $color (($sec*3) + s) ease;
 }
 
 // SECTION INTRO --------------------------------------------
@@ -69,19 +110,22 @@ h1 {
 	text-align: right;
 	float: right;
 	padding-bottom: 0.19em;
+	padding-right: 0.1em;
 	width: 70%;
-	border-left: $border;
+	border: $border;
+	@include fade(rfade, 1);
 }
 
 h2 {
 	margin-left: 15px;
 	border-right: $border;
-	padding-right: 1em;
+	padding-left: 0.1em;
 	float: left;
-	width:40%;
+	width: 45%;
 	background: white;
 	border-top: $border;
 	border-left: $border;
+	@include fade(bfade, 1.5);
 
 	&:after {
 		width: 100%;
@@ -108,11 +152,14 @@ h2 {
 	p:first-of-type {
 		float: right;
 		border-left: $border;
+		border-right: $border;
 		padding: 0.7em;
 		text-align: right;
+		@include fade(yfade, 2);
+
 
 		&:before {
-			width: 20%;
+			width: 10%;
 			float: right;
 			height: 70px;
 			background: $red;
@@ -129,6 +176,7 @@ h2 {
 		float: left;
 		padding: 0.5em;
 		border-bottom: $border;
+		@include fade(bfade, 2);
 	}
 }
 
@@ -150,12 +198,15 @@ h2 {
 	h3 {
 		border-bottom: $border;
 		background: white;
+		@include fade(bfade, 3);
 	}
 
 	p {
 		float: right;
 		border-left: $border;
 		padding: 0.7em;
+		@include fade(rfade, 3);
+
 
 		&:first-of-type {
 			border-top: $border;
@@ -201,7 +252,7 @@ h2 {
 	&:after {
 		width: 100%;
 		height: 150px;
-		background: $red;
+		background: $yellow;
 		content: "";
 		display: block;
 		position: relative;
@@ -226,15 +277,22 @@ h2 {
 		float: left;
 		background: white;
 		padding: 0.7em;
+		@include fade(bfade, 5);
 	}
 
 	p {
 		width: 60.7%;
 		float: right;
 		padding: 0.7em;
-		border-left: $border;
-		border-bottom: $border;
-		border-top: $border;
+		border: $border;
+
+		&:first-of-type {
+			@include fade(yfade, 5);
+		}
+
+		&:last-of-type {
+			@include fade(bfade, 5);
+		}
 
 		&:last-of-type:before {
 			width: 100%;
@@ -258,24 +316,25 @@ h2 {
 	padding: 0.7em;
 
 	&:after {
-		width: 44%;
-		height: 250px;
-		background: $blue;
+		width: 40%;
+		height: 200px;
+		background: $red;
 		content: "";
 		display: block;
 		position: relative;
 		border: $border;
 		clear: left;
-		left: -1em;
-		top: -2em;
+		right: -1em;
+		top: -1em;
 	}
 
 	h3 {
-		width: 45%;
+		width: 60%;
 		float: right;
 		padding: 0.7em;
 		background: white;
 		border: $border;
+		@include fade(rfade, 6);
 	}
 
 	p {
@@ -285,7 +344,7 @@ h2 {
 		border: $border;
 
 		&:first-of-type:before {
-			width: 150%;
+			width: 110%;
 			height: 50px;
 			background: $yellow;
 			content: "";
@@ -298,6 +357,15 @@ h2 {
 
 		&:first-of-type {
 			padding-top: 0;
+			@include fade(bfade, 6);
+		}
+
+		&:nth-of-type(2) {
+			@include fade(yfade, 6);
+		}
+
+		&:last-of-type {
+			@include fade(bfade, 6);
 		}
 	}
 }
@@ -306,8 +374,7 @@ h2 {
 
 .benefits {
 	overflow: hidden;
-	border-top: $border;
-	border-bottom: $border;
+	border: $border;
 
 	&:before {
 		width: 35%;
@@ -317,6 +384,7 @@ h2 {
 		display: block;
 		position: relative;
 		border: $border;
+		float: left;
 		top: -2em;
 	}
 
@@ -327,15 +395,15 @@ h2 {
 	}
 
 	h3 {
-		border-right: $border;
-		border-top: $border;
+		border: $border;
+		@include fade(bfade, 7);
 	}
 
 	p {
 		width: 70%;
 		float: right;
-		border-left: $border;
-		border-top: $border;
+		border: $border;
+		@include fade(yfade, 7);
 	}
 
 	p:before {
@@ -375,6 +443,7 @@ h2 {
 
 	h3 {
 		border: $border;
+		@include fade(yfade, 8);
 
 		&:after {
 			width: 45%;
@@ -389,11 +458,17 @@ h2 {
 		}
 	}
 
+	p:nth-of-type(1) {
+		@include fade(rfade, 8);
+		border: $border;
+	}
+
 	p:nth-of-type(2) {
 		width: 70%;
 		border: $border;
 		float: left;
 		padding: 1em;
+		@include fade(bfade, 8);
 
 		&:before {
 			width: 25%;
@@ -414,6 +489,7 @@ h2 {
 		float: left;
 		text-align: right;
 		border: $border;
+		@include fade(yfade, 8);
 
 		&:after {
 			width: 10%;
@@ -430,12 +506,15 @@ h2 {
 		width: 45%;
 		float: right;
 		border: $border;
+		@include fade(bfade, 8);
 	}
 
 	p:nth-of-type(5) {
 		width: 80%;
 		float: right;
 		clear: both;
+		border: $border;
+		@include fade(bfade, 8);
 	}
 }
 
@@ -444,8 +523,9 @@ h2 {
 footer {
 	overflow: hidden;
 	padding: 1em;
-	border-top: $border;
-	background: $blue;
+	border: $border;
+	background: $red;
+	width: 80%;
 
 	a {
 		background: white;
@@ -453,6 +533,7 @@ footer {
 		padding: 1em;
 		float: left;
 		margin: 0.5em;
+		@include fade(bfade, 8);
 	}	
 }
 
@@ -468,11 +549,14 @@ footer {
 	h3 {
 		background: white;
 		padding: 0.5em;
+		border: $border;
+		width: 70%;
+		@include fade(yfade, 9);
 
 		&:before {
 			width: 30%;
 			height: 40px;
-			background: $yellow;
+			background: $red;
 			border: $border;
 			content: "";
 			display: block;
@@ -484,16 +568,19 @@ footer {
 
 	nav {
 		background: white;
+		width: 90%;
+		float: right;
 		border: $border;
 		text-align: right;
 		padding: 1em;
+		margin-top: 1em;
+		@include fade(bfade, 9);
 	}
 }
 
 // ARCHIVES ------------------------
 
 .design-archives {
-	text-align: right;
 	padding: 0.7em;
 	overflow: hidden;
 
@@ -505,16 +592,24 @@ footer {
 		content: "";
 		display: block;
 		position: relative;
+		right: -1em;
 		float: right;
-	}
-
-	h3, a {
-		border: $border;
-		padding: 1em;
 	}
 
 	nav, h3 {
 		background: white;
+	}
+
+	h3 {
+		border: $border;
+		@include fade(yfade, 10);
+	}
+
+	nav {
+		border: $border;
+		width: 60%;
+		float: right;
+		@include fade(bfade, 10);
 	}
 }
 
@@ -531,18 +626,19 @@ footer {
 		padding: 1em;
 		text-align: right;
 		position: relative;
-		left: -2em;
 		border: $border;
+		@include fade(rfade, 11);
 	}
 
 	ul {
 		padding: 0.7em;
 		border: $border;
+		@include fade(bfade, 11);
 
 		&:before {
 			width: 50%;
-			height: 150px;
-			background: $blue;
+			height: 95px;
+			background: $yellow;
 			border: $border;
 			content: "";
 			display: block;

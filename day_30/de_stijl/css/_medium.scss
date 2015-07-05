@@ -1,4 +1,4 @@
-@media screen and (min-width: 546px) {
+@media screen and (min-width: 650px) {
 	h1 {
 		@include font(3.5);
 		line-height: 0.8;
@@ -11,4 +11,24 @@
 	h3 {
 		@include font(2);
 	}
+
+	.summary,
+	.preamble,
+	.explanation,
+	.participation,
+	.benefits,
+	.requirements {
+		float: left;
+		width: 60%;
+	}
+
+	.intro {
+		overflow: hidden;
+	}
+
+	aside {
+		float: right;
+		width: 35%;
+	}
+
 } //end of media query
