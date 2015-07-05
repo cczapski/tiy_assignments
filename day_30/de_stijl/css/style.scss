@@ -441,4 +441,115 @@ h2 {
 
 // FOOTER ------------------------
 
+footer {
+	overflow: hidden;
+	padding: 1em;
+	border-top: $border;
+	background: $blue;
 
+	a {
+		background: white;
+		border: $border;
+		padding: 1em;
+		float: left;
+		margin: 0.5em;
+	}	
+}
+
+// ASIDE --------------------------------------------
+
+
+
+// DESIGN SELECTION ----------------
+
+.design-selection {
+	overflow: hidden;
+
+	h3 {
+		background: white;
+		padding: 0.5em;
+
+		&:before {
+			width: 30%;
+			height: 40px;
+			background: $yellow;
+			border: $border;
+			content: "";
+			display: block;
+			position: relative;
+			left: -0.5em;
+			top: -0.5em;
+		}
+	}
+
+	nav {
+		background: white;
+		border: $border;
+		text-align: right;
+		padding: 1em;
+	}
+}
+
+// ARCHIVES ------------------------
+
+.design-archives {
+	text-align: right;
+	padding: 0.7em;
+	overflow: hidden;
+
+	&:after {
+		width: 50%;
+		height: 80px;
+		background: $red;
+		border: $border;
+		content: "";
+		display: block;
+		position: relative;
+		float: right;
+	}
+
+	h3, a {
+		border: $border;
+		padding: 1em;
+	}
+
+	nav, h3 {
+		background: white;
+	}
+}
+
+// RESOURCES -----------------------
+
+.zen-resources {
+	overflow: hidden;
+
+	h3, ul {
+		background: white;
+	}
+
+	h3 {
+		padding: 1em;
+		text-align: right;
+		position: relative;
+		left: -2em;
+		border: $border;
+	}
+
+	ul {
+		padding: 0.7em;
+		border: $border;
+
+		&:before {
+			width: 50%;
+			height: 150px;
+			background: $blue;
+			border: $border;
+			content: "";
+			display: block;
+			position: relative;
+			bottom: -1em;
+			left: -1em;
+			float: left;
+		}
+	}
+}

@@ -407,4 +407,81 @@ h2 {
     float: right;
     clear: both; }
 
+footer {
+  overflow: hidden;
+  padding: 1em;
+  border-top: 4px solid black;
+  background: #0000ff; }
+  footer a {
+    background: white;
+    border: 4px solid black;
+    padding: 1em;
+    float: left;
+    margin: 0.5em; }
+
+.design-selection {
+  overflow: hidden; }
+  .design-selection h3 {
+    background: white;
+    padding: 0.5em; }
+    .design-selection h3:before {
+      width: 30%;
+      height: 40px;
+      background: #ffff00;
+      border: 4px solid black;
+      content: "";
+      display: block;
+      position: relative;
+      left: -0.5em;
+      top: -0.5em; }
+  .design-selection nav {
+    background: white;
+    border: 4px solid black;
+    text-align: right;
+    padding: 1em; }
+
+.design-archives {
+  text-align: right;
+  padding: 0.7em;
+  overflow: hidden; }
+  .design-archives:after {
+    width: 50%;
+    height: 80px;
+    background: #ff0000;
+    border: 4px solid black;
+    content: "";
+    display: block;
+    position: relative;
+    float: right; }
+  .design-archives h3, .design-archives a {
+    border: 4px solid black;
+    padding: 1em; }
+  .design-archives nav, .design-archives h3 {
+    background: white; }
+
+.zen-resources {
+  overflow: hidden; }
+  .zen-resources h3, .zen-resources ul {
+    background: white; }
+  .zen-resources h3 {
+    padding: 1em;
+    text-align: right;
+    position: relative;
+    left: -2em;
+    border: 4px solid black; }
+  .zen-resources ul {
+    padding: 0.7em;
+    border: 4px solid black; }
+    .zen-resources ul:before {
+      width: 50%;
+      height: 150px;
+      background: #0000ff;
+      border: 4px solid black;
+      content: "";
+      display: block;
+      position: relative;
+      bottom: -1em;
+      left: -1em;
+      float: left; }
+
 /*# sourceMappingURL=style.css.map */
