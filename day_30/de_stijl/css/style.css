@@ -66,11 +66,16 @@ h3 {
   font-size: 24px;
   font-size: 1.5em; }
 
+p {
+  background: white; }
+
 a {
   text-decoration: none;
   color: #0000ff; }
   a:hover {
-    color: #ff0000; }
+    color: #ff0000;
+    background: #ffff00;
+    font-weight: bold; }
 
 @media screen and (min-width: 546px) {
   h1 {
@@ -104,6 +109,10 @@ html {
   box-sizing: inherit; }
 
 .page-wrapper {
+  background: -webkit-linear-gradient(to bottom, #000, #000 3%, #fff 3%, #fff);
+  background: -moz-linear-gradient(to bottom, #000, #000 3%, #fff 3%, #fff);
+  background: -ms-linear-gradient(to bottom, #000, #000 3%, #fff 3%, #fff);
+  background: -o-linear-gradient(to bottom, #000, #000 3%, #fff 3%, #fff);
   background: linear-gradient(to bottom, #000, #000 3%, #fff 3%, #fff);
   background-size: 100% 200px; }
 
@@ -135,7 +144,10 @@ h2 {
   border-right: 4px solid black;
   padding-right: 1em;
   float: left;
-  width: 40%; }
+  width: 40%;
+  background: white;
+  border-top: 4px solid black;
+  border-left: 4px solid black; }
   h2:after {
     width: 100%;
     height: 55px;
@@ -150,23 +162,249 @@ h2 {
   border-top: 4px solid black;
   overflow: hidden; }
   .summary p {
-    padding: 0.5em;
     width: 50%; }
   .summary p:first-of-type {
-    padding-right: 0.5em;
     float: right;
-    border-left: 4px solid black; }
+    border-left: 4px solid black;
+    padding: 0.7em;
+    text-align: right; }
     .summary p:first-of-type:before {
-      width: 50%;
+      width: 20%;
       float: right;
-      height: 30px;
+      height: 70px;
+      background: #ff0000;
+      content: "";
+      display: block;
+      position: relative;
+      top: -1em;
+      right: -1em;
+      border: 4px solid black; }
+  .summary p:last-of-type {
+    float: left;
+    padding: 0.5em;
+    border-bottom: 4px solid black; }
+
+.preamble {
+  border-top: 4px solid black;
+  padding: 0.8em;
+  padding-top: 0; }
+  .preamble h3, .preamble p {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0.5em;
+    border-left: 4px solid black;
+    border-right: 4px solid black; }
+  .preamble h3 {
+    border-bottom: 4px solid black;
+    background: white; }
+  .preamble p {
+    float: right;
+    border-left: 4px solid black;
+    padding: 0.7em; }
+    .preamble p:first-of-type {
+      border-top: 4px solid black; }
+    .preamble p:last-of-type {
+      border-bottom: 4px solid black;
+      padding: 0;
+      padding-left: 0.7em;
+      padding-right: 0.7em; }
+      .preamble p:last-of-type:after {
+        width: 100%;
+        height: 100px;
+        background: #0000ff;
+        content: "";
+        display: block;
+        position: relative;
+        border: 4px solid black;
+        margin-top: 0.5em;
+        right: 1em; }
+
+.main.supporting {
+  border-top: 4px solid black;
+  overflow: hidden; }
+  .main.supporting:before {
+    width: 40%;
+    height: 150px;
+    background: #ffff00;
+    content: "";
+    display: block;
+    position: relative;
+    border: 4px solid black; }
+  .main.supporting:after {
+    width: 100%;
+    height: 150px;
+    background: #ff0000;
+    content: "";
+    display: block;
+    position: relative;
+    border: 4px solid black; }
+
+.explanation {
+  overflow: hidden; }
+  .explanation h3, .explanation p {
+    text-align: right; }
+  .explanation h3 {
+    width: 30%;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    float: left;
+    background: white;
+    padding: 0.7em; }
+  .explanation p {
+    width: 60.7%;
+    float: right;
+    padding: 0.7em;
+    border-left: 4px solid black;
+    border-bottom: 4px solid black;
+    border-top: 4px solid black; }
+    .explanation p:last-of-type:before {
+      width: 100%;
+      height: 150px;
       background: #ff0000;
       content: "";
       display: block;
       position: relative;
       border: 4px solid black;
-      margin-top: 0.5em; }
-  .summary p:last-of-type {
-    float: left; }
+      padding-top: 0;
+      right: -1em;
+      top: -1em; }
+
+.participation {
+  overflow: hidden;
+  padding: 0.7em; }
+  .participation:after {
+    width: 44%;
+    height: 250px;
+    background: #0000ff;
+    content: "";
+    display: block;
+    position: relative;
+    border: 4px solid black;
+    clear: left;
+    left: -1em;
+    top: -2em; }
+  .participation h3 {
+    width: 45%;
+    float: right;
+    padding: 0.7em;
+    background: white;
+    border: 4px solid black; }
+  .participation p {
+    float: left;
+    width: 40%;
+    padding: 0.7em;
+    border: 4px solid black; }
+    .participation p:first-of-type:before {
+      width: 150%;
+      height: 50px;
+      background: #ffff00;
+      content: "";
+      display: block;
+      position: relative;
+      border: 4px solid black;
+      padding-top: 0;
+      top: -1em; }
+    .participation p:first-of-type {
+      padding-top: 0; }
+
+.benefits {
+  overflow: hidden;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black; }
+  .benefits:before {
+    width: 35%;
+    height: 175px;
+    background: #ffff00;
+    content: "";
+    display: block;
+    position: relative;
+    border: 4px solid black;
+    top: -2em; }
+  .benefits h3, .benefits p {
+    padding: 0.7em;
+    background: white;
+    text-align: right; }
+  .benefits h3 {
+    border-right: 4px solid black;
+    border-top: 4px solid black; }
+  .benefits p {
+    width: 70%;
+    float: right;
+    border-left: 4px solid black;
+    border-top: 4px solid black; }
+  .benefits p:before {
+    width: 100%;
+    height: 30px;
+    background: #ff0000;
+    content: "";
+    display: block;
+    position: relative;
+    border: 4px solid black;
+    float: left;
+    top: -1em;
+    right: -1em; }
+
+.requirements {
+  overflow: hidden; }
+  .requirements:before {
+    width: 20%;
+    height: 50px;
+    background: #ff0000;
+    content: "";
+    display: block;
+    position: relative;
+    border: 4px solid black; }
+  .requirements h3, .requirements p {
+    padding: 0.7em;
+    background: white; }
+  .requirements h3 {
+    border: 4px solid black; }
+    .requirements h3:after {
+      width: 45%;
+      height: 100px;
+      background: #0000ff;
+      content: "";
+      display: block;
+      position: relative;
+      border: 4px solid black;
+      float: right;
+      top: -0.85em; }
+  .requirements p:nth-of-type(2) {
+    width: 70%;
+    border: 4px solid black;
+    float: left;
+    padding: 1em; }
+    .requirements p:nth-of-type(2):before {
+      width: 25%;
+      height: 350px;
+      background: #ffff00;
+      content: "";
+      display: block;
+      position: relative;
+      bottom: -2em;
+      right: -3em;
+      border: 4px solid black;
+      float: right; }
+  .requirements p:nth-of-type(3) {
+    width: 45%;
+    float: left;
+    text-align: right;
+    border: 4px solid black; }
+    .requirements p:nth-of-type(3):after {
+      width: 10%;
+      height: 80px;
+      background: #0000ff;
+      content: "";
+      display: block;
+      position: absolute;
+      border: 4px solid black; }
+  .requirements p:nth-of-type(4) {
+    width: 45%;
+    float: right;
+    border: 4px solid black; }
+  .requirements p:nth-of-type(5) {
+    width: 80%;
+    float: right;
+    clear: both; }
 
 /*# sourceMappingURL=style.css.map */

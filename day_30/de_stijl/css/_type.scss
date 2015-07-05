@@ -26,11 +26,17 @@ h3 {
 	@include font(1.5);
 }
 
+p {
+	background: white;
+}
+
 a {
 	text-decoration: none;
 	color: $blue;
 
 	&:hover {
 		color: $red;
+		background: $yellow;
+		font-weight: bold;
 	}
 }
