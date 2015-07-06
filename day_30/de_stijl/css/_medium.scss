@@ -22,13 +22,18 @@
 		width: 60%;
 	}
 
-	.intro {
+	.intro, .main.supporting {
 		overflow: hidden;
 	}
 
-	aside {
+	.wrapper {
 		float: right;
 		width: 35%;
+		position: absolute;
+		top: 360px;
+		right: 0;
 	}
+
+	
 
 } //end of media query

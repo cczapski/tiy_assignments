@@ -257,6 +257,7 @@ h2 {
 		display: block;
 		position: relative;
 		border: $border;
+		overflow: hidden;
 	}
 }
 
@@ -526,6 +527,7 @@ footer {
 	border: $border;
 	background: $red;
 	width: 80%;
+	float: right;
 
 	a {
 		background: white;
