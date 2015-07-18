@@ -1,0 +1,10 @@
+@media screen and (min-width: 1200px) {
+	.portfolio-image, .blog-content {
+		width: 48%;
+		float: left;
+
+		&:nth-child(odd) {
+			margin-left: 4%;
+		}
+	}
+}

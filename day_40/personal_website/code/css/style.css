@@ -1,0 +1,142 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-family: iskra, Arial, sans-serif;
+  font-size: 16px;
+  font-size: 1em;
+  line-height: 1.5; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Quando, Arial, sans-serif;
+  line-height: 1.8; }
+
+h1 {
+  font-size: 48px;
+  font-size: 3em; }
+
+h2 {
+  font-size: 28.8px;
+  font-size: 1.8em; }
+
+h3 {
+  font-size: 32px;
+  font-size: 2em; }
+
+h4 {
+  font-size: 28.8px;
+  font-size: 1.8em; }
+
+h5 {
+  font-size: 20.8px;
+  font-size: 1.3em; }
+
+a {
+  text-decoration: none;
+  color: #000000; }
+
+html {
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+.container {
+  margin: 1.5em;
+  overflow: hidden; }
+
+.content {
+  margin: 0 auto;
+  overflow: hidden; }
+
+.page {
+  padding-top: 1.8em;
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 350px; }
+
+.portfolio-image {
+  border: 1px solid #000000;
+  background-color: #67686C;
+  height: 200px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 1em; }
+
+.blog-content {
+  border: 1px solid #000000;
+  background-color: #9A9CA1;
+  height: 200px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 1em; }
+
+footer {
+  background: #000000;
+  height: 100px; }
+
+@media screen and (min-width: 700px) {
+  .page {
+    overflow: hidden;
+    float: left;
+    width: 48%;
+    max-width: 1000px; }
+    .page:nth-child(even) {
+      margin-left: 4%; }
+
+  .portfolio-image, .blog-content {
+    max-width: 430px; } }
+@media screen and (min-width: 1200px) {
+  .portfolio-image, .blog-content {
+    width: 48%;
+    float: left; }
+    .portfolio-image:nth-child(odd), .blog-content:nth-child(odd) {
+      margin-left: 4%; } }
+
+/*# sourceMappingURL=style.css.map */

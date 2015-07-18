@@ -1,0 +1,58 @@
+html {
+	box-sizing: border-box;
+}
+
+*, 
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+.container {
+	margin: 1.5em;
+	overflow: hidden;
+}
+
+// HEADER -------------------------------------------------------------
+
+
+
+
+// PAGES -------------------------------------------------------------
+
+.content {
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.page {
+	padding-top: 1.8em;
+	margin: 0 auto;
+	overflow: hidden;
+	max-width: 350px;
+}
+
+.portfolio-image {
+	border: 1px solid $black;
+	background-color: $mdgrey;
+	height: 200px;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 1em;
+}
+
+.blog-content {
+	border: 1px solid $black;
+	background-color: $ltgrey;
+	height: 200px;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 1em
+}
+
+// FOOTER -------------------------------------------------------------
+
+footer {
+	background: $black;
+	height: 100px;
+}
