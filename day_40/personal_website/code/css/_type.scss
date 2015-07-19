@@ -1,5 +1,5 @@
-$header-text: Quando, Arial, sans-serif;
-$body-text: iskra, Arial, sans-serif;
+$header-text: Arial, sans-serif;
+$body-text: Arial, sans-serif;
 
 @mixin font($em){
 	font-size: ($em*16) + px;
@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	@include font(3);
+	@include font(2.5);
 }
 
 h2 {

@@ -15,8 +15,24 @@ html {
 
 // HEADER -------------------------------------------------------------
 
+header, nav, ul {
+	overflow: hidden;
+}
+
 header {
-	border-bottom: 2px solid $color2;
+	h1, nav {
+		display: inline-block;
+	}
+
+	nav {
+		float: right;
+	}
+
+}
+
+li {
+	display: inline-block;
+	margin-left: 2em;
 }
 
 // PAGES -------------------------------------------------------------
@@ -24,7 +40,6 @@ header {
 .content {
 	margin: 0.3em auto;
 	overflow: hidden;
-	border-top: 2px solid $color4;
 }
 
 .page {
@@ -32,6 +47,12 @@ header {
 	margin: 0 auto;
 	overflow: hidden;
 	max-width: 350px;
+
+	button {
+		float: right;
+		margin-top: 1em;
+		padding: 1em;
+	}
 }
 
 .portfolio-image {
@@ -45,7 +66,7 @@ header {
 
 .blog-content {
 	border: 1px solid $color4;
-	background-color: $color5;
+	background-color: $color4;
 	height: 200px;
 	position: relative;
 	margin: 0 auto;

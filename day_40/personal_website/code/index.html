@@ -5,6 +5,7 @@
 	<title>Casie Czapski</title>
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/responsive-nav.min.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- FONTS -->
 	<link href='http://fonts.googleapis.com/css?family=Quando' rel='stylesheet' type='text/css'>
@@ -16,6 +17,13 @@
 	<!-- HEADER -->
 		<header>
 			<a href="#"><h1>Casie Czapski</h1></a>
+			<nav class="nav-collapse">
+				<ul>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">About</a></li>
+				</ul>
+			</nav>
 		</header>
 
 	<!-- PAGES -->
@@ -26,6 +34,7 @@
 				<div class="portfolio-image"></div>
 				<div class="portfolio-image"></div>
 				<div class="portfolio-image"></div>
+				<button>Check Out More Work</button>
 			</div>
 
 			<div class="page">
@@ -34,6 +43,7 @@
 				<div class="blog-content"></div>
 				<div class="blog-content"></div>
 				<div class="blog-content"></div>
+				<button>Check Out More Titles</button>
 			</div>
 
 			<div class="page">
@@ -45,6 +55,9 @@
 	<footer>
 	
 	</footer>
-
+	<!-- JAVASCRIPT -->
+	<script>
+  		var nav = responsiveNav(".nav-collapse");
+	</script>
 </body>
 </html>

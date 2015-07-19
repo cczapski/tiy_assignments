@@ -1,19 +1,25 @@
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 720px) {
+
+	.container {
+		margin: 2.5em;
+	}
 
 	.page {
 		overflow: hidden;
-		float: left;
-		width: 48%;
-		max-width: 1000px;
-
-		&:nth-child(even) {
-			margin-left: 4%;
+		max-width: 1200px;
+	
+		&:last-child {
+			display: none;
 		}
 	}
 
 	.portfolio-image, .blog-content {
-		max-width: 430px;
-	}
+		float: left;
+		width: 48%;
 
+		&:nth-child(odd) {
+			margin-left: 4%;
+		}
+	}
 
 } //end of media query

@@ -46,19 +46,19 @@ table {
   border-spacing: 0; }
 
 body {
-  font-family: iskra, Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 16px;
   font-size: 1em;
   line-height: 1.5; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Quando, Arial, sans-serif;
+  font-family: Arial, sans-serif;
   line-height: 1.8;
-  color: #031436; }
+  color: #000000; }
 
 h1 {
-  font-size: 48px;
-  font-size: 3em; }
+  font-size: 40px;
+  font-size: 2.5em; }
 
 h2 {
   font-size: 28.8px;
@@ -80,7 +80,7 @@ a {
   text-decoration: none; }
 
 .menu {
-  color: #031436; }
+  color: #000000; }
 
 html {
   box-sizing: border-box; }
@@ -94,76 +94,99 @@ html {
   margin: 1.5em;
   overflow: hidden; }
 
-header {
-  border-bottom: 2px solid #1FB5F3; }
+header, nav, ul {
+  overflow: hidden; }
+
+header h1, header nav {
+  display: inline-block; }
+header nav {
+  float: right; }
+
+li {
+  display: inline-block;
+  margin-left: 2em; }
 
 .content {
   margin: 0.3em auto;
-  overflow: hidden;
-  border-top: 2px solid #EDCB3A; }
+  overflow: hidden; }
 
 .page {
   padding-top: 1.8em;
   margin: 0 auto;
   overflow: hidden;
   max-width: 350px; }
+  .page button {
+    float: right;
+    margin-top: 1em;
+    padding: 1em; }
 
 .portfolio-image {
-  border: 1px solid #1FB5F3;
-  background-color: #A5E1FA;
+  border: 1px solid #333436;
+  background-color: #67686C;
   height: 200px;
   position: relative;
   margin: 0 auto;
   margin-top: 1em; }
 
 .blog-content {
-  border: 1px solid #EDCB3A;
-  background-color: #CDD0D7;
+  border: 1px solid #9A9CA1;
+  background-color: #9A9CA1;
   height: 200px;
   position: relative;
   margin: 0 auto;
   margin-top: 1em; }
 
 footer {
-  background: #1FB5F3;
+  background: #333436;
   height: 100px; }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 720px) {
+  .container {
+    margin: 2.5em; }
+
   .page {
     overflow: hidden;
-    float: left;
-    width: 48%;
-    max-width: 1000px; }
-    .page:nth-child(even) {
-      margin-left: 4%; }
+    max-width: 1200px; }
+    .page:last-child {
+      display: none; }
 
   .portfolio-image, .blog-content {
-    max-width: 430px; } }
-@media screen and (min-width: 1200px) {
-  .portfolio-image, .blog-content {
-    width: 48%;
-    float: left; }
+    float: left;
+    width: 48%; }
     .portfolio-image:nth-child(odd), .blog-content:nth-child(odd) {
       margin-left: 4%; } }
+@media screen and (min-width: 1200px) {
+  .container {
+    margin: 3.5em; }
+
+  .page {
+    max-width: 3000px; }
+
+  .portfolio-image, .blog-content {
+    width: 31%;
+    float: left;
+    margin-right: 3.5%; }
+    .portfolio-image:nth-child(4), .blog-content:nth-child(4) {
+      margin-right: 0; }
+    .portfolio-image:nth-child(odd), .blog-content:nth-child(odd) {
+      margin-left: 0; }
+    .portfolio-image:nth-child(5), .blog-content:nth-child(5) {
+      display: none; } }
 /*! responsive-nav.js 1.0.39 by @viljamis */
 .nav-collapse {
   display: inline;
-  width: 90%;
-  float: right; }
-  .nav-collapse ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    overflow: hidden; }
-  .nav-collapse li {
-    margin-bottom: .5em;
-    float: left;
-    margin-right: 7%; }
-  .nav-collapse li:last-child {
-    margin-right: 0; }
-  .nav-collapse a {
-    text-decoration: none;
-    color: white; }
+  margin-top: 1em; }
+
+.nav-collapse ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  overflow: hidden; }
+
+.nav-collapse a {
+  color: #000000;
+  text-decoration: none; }
 
 .js .nav-collapse {
   clip: rect(0 0 0 0);
@@ -184,15 +207,31 @@ footer {
   -ms-user-select: none;
   -o-user-select: none;
   user-select: none;
+  color: #000000;
+  display: block;
   text-decoration: none;
-  color: white;
-  font-size: 18px;
-  font-size: 1.125rem;
   float: right;
-  padding: 1rem;
-  margin: 0.5rem; }
+  padding-top: 1.5em;
+  width: 20%;
+  text-align: right;
+  font-size: 17.6px;
+  font-size: 1.1em; }
 
-@media screen and (min-width: 560px) {
+.nav-toggle span {
+  color: #000000;
+  font-size: 1.15em; }
+
+@media screen and (min-width: 605px) {
+  .nav-toggle {
+    width: 35%;
+    font-size: 24px;
+    font-size: 1.5em;
+    padding-top: 0.8em; }
+
+  .nav-collapse {
+    font-size: 24px;
+    font-size: 1.5em; } }
+@media screen and (min-width: 720px) {
   .js .nav-collapse {
     position: relative; }
 
@@ -203,9 +242,9 @@ footer {
     display: none; }
 
   .nav-collapse {
-    width: calc(100% - 130px); }
-    .nav-collapse ul {
-      margin: 0 auto;
-      padding: 1.5rem; } }
+    margin-top: 1em; }
+    .nav-collapse a {
+      font-size: 16px;
+      font-size: 1em; } }
 
 /*# sourceMappingURL=style.css.map */
