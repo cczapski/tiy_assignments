@@ -53,7 +53,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Quando, Arial, sans-serif;
-  line-height: 1.8; }
+  line-height: 1.8;
+  color: #031436; }
 
 h1 {
   font-size: 48px;
@@ -76,8 +77,10 @@ h5 {
   font-size: 1.3em; }
 
 a {
-  text-decoration: none;
-  color: #000000; }
+  text-decoration: none; }
+
+.menu {
+  color: #031436; }
 
 html {
   box-sizing: border-box; }
@@ -91,9 +94,13 @@ html {
   margin: 1.5em;
   overflow: hidden; }
 
+header {
+  border-bottom: 2px solid #1FB5F3; }
+
 .content {
-  margin: 0 auto;
-  overflow: hidden; }
+  margin: 0.3em auto;
+  overflow: hidden;
+  border-top: 2px solid #EDCB3A; }
 
 .page {
   padding-top: 1.8em;
@@ -102,23 +109,23 @@ html {
   max-width: 350px; }
 
 .portfolio-image {
-  border: 1px solid #000000;
-  background-color: #67686C;
+  border: 1px solid #1FB5F3;
+  background-color: #A5E1FA;
   height: 200px;
   position: relative;
   margin: 0 auto;
   margin-top: 1em; }
 
 .blog-content {
-  border: 1px solid #000000;
-  background-color: #9A9CA1;
+  border: 1px solid #EDCB3A;
+  background-color: #CDD0D7;
   height: 200px;
   position: relative;
   margin: 0 auto;
   margin-top: 1em; }
 
 footer {
-  background: #000000;
+  background: #1FB5F3;
   height: 100px; }
 
 @media screen and (min-width: 700px) {
@@ -138,5 +145,67 @@ footer {
     float: left; }
     .portfolio-image:nth-child(odd), .blog-content:nth-child(odd) {
       margin-left: 4%; } }
+/*! responsive-nav.js 1.0.39 by @viljamis */
+.nav-collapse {
+  display: inline;
+  width: 90%;
+  float: right; }
+  .nav-collapse ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden; }
+  .nav-collapse li {
+    margin-bottom: .5em;
+    float: left;
+    margin-right: 7%; }
+  .nav-collapse li:last-child {
+    margin-right: 0; }
+  .nav-collapse a {
+    text-decoration: none;
+    color: white; }
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1; }
+
+.nav-collapse.opened {
+  max-height: 9999px; }
+
+.nav-toggle {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-size: 1.125rem;
+  float: right;
+  padding: 1rem;
+  margin: 0.5rem; }
+
+@media screen and (min-width: 560px) {
+  .js .nav-collapse {
+    position: relative; }
+
+  .js .nav-collapse.closed {
+    max-height: none; }
+
+  .nav-toggle {
+    display: none; }
+
+  .nav-collapse {
+    width: calc(100% - 130px); }
+    .nav-collapse ul {
+      margin: 0 auto;
+      padding: 1.5rem; } }
 
 /*# sourceMappingURL=style.css.map */

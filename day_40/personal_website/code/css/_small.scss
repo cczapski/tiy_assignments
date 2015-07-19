@@ -15,14 +15,16 @@ html {
 
 // HEADER -------------------------------------------------------------
 
-
-
+header {
+	border-bottom: 2px solid $color2;
+}
 
 // PAGES -------------------------------------------------------------
 
 .content {
-	margin: 0 auto;
+	margin: 0.3em auto;
 	overflow: hidden;
+	border-top: 2px solid $color4;
 }
 
 .page {
@@ -33,8 +35,8 @@ html {
 }
 
 .portfolio-image {
-	border: 1px solid $black;
-	background-color: $mdgrey;
+	border: 1px solid $color2;
+	background-color: $color3;
 	height: 200px;
 	position: relative;
 	margin: 0 auto;
@@ -42,8 +44,8 @@ html {
 }
 
 .blog-content {
-	border: 1px solid $black;
-	background-color: $ltgrey;
+	border: 1px solid $color4;
+	background-color: $color5;
 	height: 200px;
 	position: relative;
 	margin: 0 auto;
@@ -53,6 +55,6 @@ html {
 // FOOTER -------------------------------------------------------------
 
 footer {
-	background: $black;
+	background: $color2;
 	height: 100px;
 }
