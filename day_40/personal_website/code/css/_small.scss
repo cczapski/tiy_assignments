@@ -99,12 +99,37 @@ li {
 
 
 .portfolio-image {
-	border: 1px solid $color2;
-	background-color: $color3;
+	background: url("http://lorempixel.com/400/200/nature");
+	background-size: cover;
+	background-position: center;
 	height: 200px;
 	position: relative;
 	margin: 0 auto;
 	margin-top: 1em;
+	overflow: hidden;
+
+	.portfolio-hover {
+		display: none;
+
+		 h3 {
+		 	color: white;
+		 }
+
+		 &:hover {
+		 	display: block;
+		 }
+	}
+
+	&:hover {
+		@include boxShadow();
+		background: 
+		linear-gradient(
+		   rgba(206,193,62,0.5),
+		   rgba(206,193,62,0.5)
+		),
+		url("http://lorempixel.com/400/200/nature");
+
+	}
 }
 
 .blog-content {

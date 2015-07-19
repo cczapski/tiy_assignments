@@ -170,12 +170,25 @@ li {
   padding-left: 0.5em; }
 
 .portfolio-image {
-  border: 1px solid #1FB5F3;
-  background-color: #99A8AE;
+  background: url("http://lorempixel.com/400/200/nature");
+  background-size: cover;
+  background-position: center;
   height: 200px;
   position: relative;
   margin: 0 auto;
-  margin-top: 1em; }
+  margin-top: 1em;
+  overflow: hidden; }
+  .portfolio-image .portfolio-hover {
+    display: none; }
+    .portfolio-image .portfolio-hover h3 {
+      color: white; }
+    .portfolio-image .portfolio-hover:hover {
+      display: block; }
+  .portfolio-image:hover {
+    -webkit-box-shadow: 0px 0px 15px 0px lightgray;
+    -moz-box-shadow: 0px 0px 15px 0px lightgray;
+    box-shadow: 0px 0px 15px 0px lightgray;
+    background: linear-gradient(rgba(206, 193, 62, 0.5), rgba(206, 193, 62, 0.5)), url("http://lorempixel.com/400/200/nature"); }
 
 .blog-content {
   position: relative;
