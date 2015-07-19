@@ -1,7 +1,7 @@
 @media screen and (min-width: 1200px) {
 	
 	.container {
-		margin: 3.5em;
+		
 	}
 
 	.page {
@@ -20,9 +20,9 @@
 		&:nth-child(odd) {
 			margin-left: 0;
 		}
+	}
 
-		&:nth-child(5) {
-			display: none;
-		}
+	.hide {
+		display: none;
 	}
 }

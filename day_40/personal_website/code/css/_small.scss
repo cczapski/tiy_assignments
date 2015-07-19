@@ -9,7 +9,6 @@ html {
 }
 
 .container {
-	margin: 1.5em;
 	overflow: hidden;
 }
 
@@ -20,12 +19,20 @@ header, nav, ul {
 }
 
 header {
+	@include borderBottom($color2);
+
 	h1, nav {
 		display: inline-block;
 	}
 
+	h1 {
+		margin-left: 1em;
+		margin-top: 0.3em;
+	}
+
 	nav {
 		float: right;
+		margin-right: 1.5em;
 	}
 
 }
@@ -33,12 +40,24 @@ header {
 li {
 	display: inline-block;
 	margin-left: 2em;
+
+	&:nth-child(1) {
+		@include borderRight($color4);
+	}
+
+	&:nth-child(2) {
+		@include borderRight($color5);
+	}
+
+	&:nth-child(3) {
+		@include borderRight($color2);
+	}
 }
 
 // PAGES -------------------------------------------------------------
 
 .content {
-	margin: 0.3em auto;
+	margin: 2em;
 	overflow: hidden;
 }
 
@@ -47,13 +66,37 @@ li {
 	margin: 0 auto;
 	overflow: hidden;
 	max-width: 350px;
+	margin-bottom: 1em;
 
 	button {
 		float: right;
 		margin-top: 1em;
 		padding: 1em;
+		font-family: 'alverata-pe', sans-serif;
+		background: $color2;
+		@include borderFull($color2);
+		color: white;
+		@include font(1);
+
+		&:hover {
+			background: white;
+			color: $color2;
+		}
 	}
 }
+
+#portfolio {
+	@include borderLeft($color4);
+}
+
+#blog {
+	@include borderLeft($color5);
+}
+
+#about {
+	@include borderLeft($color2);
+}
+
 
 .portfolio-image {
 	border: 1px solid $color2;
@@ -65,12 +108,19 @@ li {
 }
 
 .blog-content {
-	border: 1px solid $color4;
-	background-color: $color4;
-	height: 200px;
+	// @include borderFull($color7);
 	position: relative;
 	margin: 0 auto;
-	margin-top: 1em
+	margin-top: 1em;
+
+	&:hover {
+		@include borderFull($color5);
+		@include boxShadow();
+	}
+
+	h3 {
+		color: $color5;
+	}
 }
 
 // FOOTER -------------------------------------------------------------

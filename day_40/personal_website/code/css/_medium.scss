@@ -1,16 +1,12 @@
 @media screen and (min-width: 720px) {
 
 	.container {
-		margin: 2.5em;
+		
 	}
 
 	.page {
 		overflow: hidden;
 		max-width: 1200px;
-	
-		&:last-child {
-			display: none;
-		}
 	}
 
 	.portfolio-image, .blog-content {
