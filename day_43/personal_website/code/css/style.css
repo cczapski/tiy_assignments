@@ -1,0 +1,358 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-family: "ff-enzo-web", Arial, sans-serif;
+  font-size: 16px;
+  font-size: 1em;
+  line-height: 1.5;
+  color: #002534; }
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.8;
+  color: #002534; }
+
+h1 {
+  font-size: 40px;
+  font-size: 2.5em;
+  font-family: 'alverata-pe', sans-serif; }
+
+h2 {
+  font-size: 28.8px;
+  font-size: 1.8em;
+  font-family: 'ff-enzo-web', sans-serif; }
+
+h3 {
+  font-size: 24px;
+  font-size: 1.5em;
+  font-family: 'alverata-pe', sans-serif;
+  padding-top: 0.5em;
+  padding-left: 0.5em; }
+
+h4 {
+  font-size: 28.8px;
+  font-size: 1.8em; }
+
+h5 {
+  font-size: 20.8px;
+  font-size: 1.3em; }
+
+p {
+  padding: 0 1em 1em 1em; }
+
+a {
+  text-decoration: none; }
+
+.link {
+  color: #1FB5F3; }
+  .link:hover {
+    color: #6B1651; }
+
+.menu {
+  color: #002534; }
+
+html {
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+.container {
+  overflow: hidden; }
+
+header, nav, ul {
+  overflow: hidden; }
+
+header {
+  padding-bottom: 1em;
+  border-bottom: 2px solid #1FB5F3;
+  padding-bottom: 1em; }
+  header h1, header nav {
+    display: inline-block; }
+  header h1 {
+    margin-left: 1em;
+    margin-top: 0.3em; }
+  header nav {
+    float: right;
+    margin-right: 1.5em; }
+
+li {
+  display: inline-block;
+  margin-left: 2em; }
+  li:nth-child(1) {
+    border-right: 2px solid #CEC13E;
+    padding-right: 0.5em; }
+  li:nth-child(2) {
+    border-right: 2px solid #6B1651;
+    padding-right: 0.5em; }
+  li:nth-child(3) {
+    border-right: 2px solid #1FB5F3;
+    padding-right: 0.5em; }
+
+.content {
+  margin: 2em;
+  overflow: hidden; }
+
+.page {
+  padding-top: 1.8em;
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 350px;
+  margin-bottom: 1em; }
+  .page button {
+    float: right;
+    margin-top: 2em;
+    padding: 1em;
+    font-family: 'alverata-pe', sans-serif;
+    background: #1FB5F3;
+    border: 2px solid #1FB5F3;
+    color: white;
+    font-size: 16px;
+    font-size: 1em; }
+    .page button:hover {
+      background: white;
+      color: #1FB5F3; }
+
+#portfolio {
+  border-left: 2px solid #CEC13E;
+  padding-left: 0.5em; }
+
+#blog {
+  border-left: 2px solid #6B1651;
+  padding-left: 0.5em; }
+
+#about {
+  border-left: 2px solid #1FB5F3;
+  padding-left: 0.5em; }
+
+#radlibs {
+  background: url("../images/radlibs_large.png");
+  background-size: cover;
+  background-position: center; }
+  #radlibs:hover {
+    background: linear-gradient(rgba(206, 193, 62, 0.5), rgba(206, 193, 62, 0.5)), url("../images/radlibs_large.png");
+    background-size: cover;
+    background-position: center; }
+    #radlibs:hover .project-title {
+      opacity: 1; }
+
+#babyAs {
+  background: url("../images/babyA_large.png");
+  background-size: cover;
+  background-position: center; }
+  #babyAs:hover {
+    background: linear-gradient(rgba(206, 193, 62, 0.5), rgba(206, 193, 62, 0.5)), url("../images/babyA_large.png");
+    background-size: cover;
+    background-position: center; }
+    #babyAs:hover .project-title {
+      opacity: 1; }
+
+#csszen {
+  background: url("../images/css_zen_garden_large.png");
+  background-size: cover;
+  background-position: center; }
+  #csszen:hover {
+    background: linear-gradient(rgba(206, 193, 62, 0.5), rgba(206, 193, 62, 0.5)), url("../images/css_zen_garden_large.png");
+    background-size: cover;
+    background-position: center; }
+    #csszen:hover .project-title {
+      opacity: 1; }
+
+#goodreads {
+  background: url("../images/goodreads_large.png");
+  background-size: cover;
+  background-position: center; }
+  #goodreads:hover {
+    background: linear-gradient(rgba(206, 193, 62, 0.5), rgba(206, 193, 62, 0.5)), url("../images/goodreads_large.png");
+    background-size: cover;
+    background-position: center; }
+    #goodreads:hover .project-title {
+      opacity: 1; }
+
+.portfolio-image {
+  height: 250px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 2em;
+  overflow: hidden; }
+  .portfolio-image h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 64px;
+    font-size: 4em;
+    text-align: center;
+    text-shadow: 0px 2px 3px #99A8AE;
+    line-height: 1.3; }
+
+.project-title {
+  color: white;
+  width: 90%;
+  position: relative;
+  margin: 0 auto;
+  opacity: 0;
+  transition: opacity 700ms ease; }
+
+.blog-content {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 1em; }
+  .blog-content:hover {
+    border: 2px solid #6B1651;
+    -webkit-box-shadow: 0px 0px 15px 0px lightgray;
+    -moz-box-shadow: 0px 0px 15px 0px lightgray;
+    box-shadow: 0px 0px 15px 0px lightgray; }
+  .blog-content h3 {
+    color: #6B1651; }
+
+footer {
+  background: #1FB5F3;
+  height: 100px; }
+
+@media screen and (min-width: 720px) {
+  .page {
+    overflow: hidden;
+    max-width: 1200px; }
+
+  .portfolio-image, .blog-content {
+    float: left;
+    width: 48%; }
+    .portfolio-image:nth-child(odd), .blog-content:nth-child(odd) {
+      margin-left: 4%; } }
+@media screen and (min-width: 1200px) {
+  .page {
+    max-width: 3000px; }
+
+  .portfolio-image, .blog-content {
+    width: 31%;
+    float: left;
+    margin-right: 3.5%; }
+    .portfolio-image:nth-child(4), .blog-content:nth-child(4) {
+      margin-right: 0; }
+    .portfolio-image:nth-child(odd), .blog-content:nth-child(odd) {
+      margin-left: 0; }
+
+  .hide {
+    display: none; } }
+/*! responsive-nav.js 1.0.39 by @viljamis */
+.nav-collapse {
+  display: inline;
+  margin-top: 1.6em; }
+
+.nav-collapse ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  overflow: hidden; }
+
+.nav-collapse a {
+  color: #002534;
+  text-decoration: none; }
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1; }
+
+.nav-collapse.opened {
+  max-height: 9999px; }
+
+.nav-toggle {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  color: #002534;
+  display: block;
+  text-decoration: none;
+  float: right;
+  padding-top: 2.1em;
+  width: 20%;
+  text-align: right;
+  margin-right: 1em;
+  font-size: 17.6px;
+  font-size: 1.1em; }
+
+.nav-toggle span {
+  color: #002534;
+  font-size: 1.15em; }
+
+@media screen and (min-width: 605px) {
+  .nav-toggle {
+    width: 35%;
+    font-size: 24px;
+    font-size: 1.5em;
+    padding-top: 1.2em; }
+
+  .nav-collapse {
+    font-size: 24px;
+    font-size: 1.5em; } }
+@media screen and (min-width: 720px) {
+  .js .nav-collapse {
+    position: relative; }
+
+  .js .nav-collapse.closed {
+    max-height: none; }
+
+  .nav-toggle {
+    display: none; }
+
+  .nav-collapse {
+    margin-top: 1.4em; }
+    .nav-collapse a {
+      font-size: 16px;
+      font-size: 1em; } }
+
+/*# sourceMappingURL=style.css.map */
