@@ -15,6 +15,11 @@
 	- Sub
 	- Responsive drop down
 	- Footer
+- Elements
+	- Buttons
+	- Hovers
+		- Sub nav items
+		- Locations
 - Images
 - Logo & Icons
 	- Make logo...
@@ -22,11 +27,7 @@
 		- Spicy menu item
 		- Gluten free menu item
 		- Veggie menu item
-- Elements
-	- Buttons
-	- Hovers
-		- Sub nav items
-		- Locations
+
 
 ##The Goals of Baby A's Redesign
 
