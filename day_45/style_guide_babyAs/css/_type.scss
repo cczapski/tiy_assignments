@@ -1,0 +1,22 @@
+@mixin font($em){
+	font-size: ($em*16) + px;
+	font-size: ($em) + em;
+}
+
+$base-sg-font: 'Open Sans', sans-serif;
+
+body {
+	font-family: $base-sg-font;
+	@include font(1);
+	color: $main;
+	line-height: 1.4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	line-height: 1.6;
+}
+
+a {
+	text-decoration: none;
+}
