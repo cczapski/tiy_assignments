@@ -1,3 +1,57 @@
+//STYLING MIXINS
+@mixin greenTop {
+	border-top: solid 10px $green;
+}
+
+@mixin greenBottom {
+	border-bottom: solid 10px $green;
+}
+
+//HEADER
+
+header {
+	background: $purple;
+	color: white;
+	font-family: $babyA-font;
+	@include font(2.5);
+	padding: $sm-space;
+	@include greenTop;
+	@include greenBottom;
+}
+
+//NAV
+
+.main-nav {
+	// background: $blue;
+	padding: $md-space;
+	color: white;
+	@include font(1.675);
+
+	li {
+		padding-bottom: $md-space;
+	}
+}
+
+//CONTENT
 .content {
 	margin-right: 0;
+	padding: $md-space;
+	float: right;
+
+	ul {
+		list-style: disc;
+		padding-left: $lg-space;
+		padding-bottom: $sm-space;
+	}
+}
+
+.color-boxes {
+	overflow: hidden;
+}
+
+.color-box {
+	width: 100px;
+	height: 100px;
+	margin: $sm-space;
+	float: left;
 }

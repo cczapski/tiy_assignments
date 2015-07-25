@@ -13,3 +13,28 @@ $black: #191919;
 $ltgrey: #BAB8B8;
 
 $purp-grad: rgba(135,34,141,0.7);
+
+.purple {
+	background: $purple;
+}
+
+.pink {
+	background: $pink;
+}
+
+.blue {
+	background: $blue;
+}
+
+.green {
+	background: $green;
+}
+
+.black {
+	background: $black;
+}
+
+.white {
+	background: white;
+	border: 1px solid $ltgrey;
+}
