@@ -3,7 +3,7 @@
 	font-size: ($em) + em;
 }
 
-$base-sg-font: 'Hind', sans-serif;
+$base-sg-font: 'Lora', sans-serif;
 $babyA-font: ff-enzo-web, sans-serif;
 
 $medium: 400;
@@ -44,4 +44,9 @@ p {
 a {
 	text-decoration: none;
 	padding-bottom: $sm-space;
+	color: $purple;
+
+	&:visited {
+		color: $blue;
+	}
 }

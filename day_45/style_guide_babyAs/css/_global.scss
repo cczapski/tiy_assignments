@@ -65,17 +65,6 @@ header {
 	}
 }
 
-.color-boxes {
-	overflow: hidden;
-}
-
-.color-box {
-	width: 100px;
-	height: 100px;
-	margin: $sm-space;
-	float: left;
-}
-
 .btn {
 	background: $pink;
 	border: 2px solid $pink;
@@ -95,6 +84,88 @@ header {
 			color: $pink;
 		}
 	}
+}
+
+//TYPOGRAPHY
+
+.enzo {
+	font-family: $babyA-font;
+
+	h1, h2, h3, h4, h5, h6, p, a {
+		margin-bottom: $sm-space;
+		padding-left: $sm-space;
+		padding-right: $sm-space;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	
+	h1 {
+		@include font(4.25);
+		background: $purple;
+		line-height: 1.4;
+		text-shadow: 2px 2px 2px $blue;
+	}
+
+	h2 {
+		@include font(2);
+		font-weight: 300;
+		background: $blue;
+		color: white;
+	}
+
+	h3 {
+		@include font(1.375);
+		font-weight: 700;
+		color: white;
+		background: $pink;
+	}
+
+	h4 {
+		@include font(1.25);
+		font-weight: 700;
+		color: white;
+		text-shadow: 2px 2px 2px $blue;
+		background: $purple;
+	}
+
+	p {
+		font-weight: 600;
+		line-height: 1.5;
+	}
+
+	a {
+		color: $purple;
+  		border-bottom: 2px solid $green;
+  		padding-left: 0;
+  		padding-right: 0;
+  		margin-right: $sm-space;
+  		display: inline-block;
+	}
+
+	.price {
+		font-weight: 700;
+		padding-top: $sm-space;
+	}
+}
+
+//COLORS
+
+.color-boxes {
+	overflow: hidden;
+}
+
+.color-box {
+	width: 150px;
+	height: 150px;
+	margin: $sm-space;
+	float: left;
+	color: white;
+	padding: $md-space;
+	text-align: center;
+}
+
+.white {
+	color: $black;
 }
 
 //SMALL MEDIA QUERY

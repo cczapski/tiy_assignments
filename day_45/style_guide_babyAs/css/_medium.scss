@@ -19,15 +19,45 @@
 
 	.col8 {
 		@include col(8);
+		margin-left: 0;
+		margin-right: 0;
+		max-width: 1000px;
 	}
 
 //NAVIGATION CHANGE
-.links {
-	display: none;
-}
+	.links {
+		display: none;
+	}
 
-.main-nav ul {
-	display: block;
-}
+//STYLE CHANGES
+	.main-nav {
+		background: white;
+		max-width: 250px;
+
+		li {
+			padding-left: 0;
+		}
+	}
+
+	h2 {
+		padding-top: $md-space;
+	}
+
+	.wrapper {
+		max-width: 1250px;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+
+	.btn {
+		border: none;
+		background: white;
+		float: right;
+
+		a {
+			color: $pink;
+		}
+	}
+
 
 } //end of media query

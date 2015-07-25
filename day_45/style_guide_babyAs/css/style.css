@@ -73,7 +73,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  font-family: "Hind", sans-serif;
+  font-family: "Lora", sans-serif;
   font-size: 16px;
   font-size: 1em;
   color: #222222;
@@ -102,7 +102,10 @@ p {
 
 a {
   text-decoration: none;
-  padding-bottom: 0.5em; }
+  padding-bottom: 0.5em;
+  color: #87228D; }
+  a:visited {
+    color: #5EBFD0; }
 
 header {
   background: #87228D;
@@ -150,15 +153,6 @@ header {
     padding-left: 2em;
     padding-bottom: 0.5em; }
 
-.color-boxes {
-  overflow: hidden; }
-
-.color-box {
-  width: 100px;
-  height: 100px;
-  margin: 0.5em;
-  float: left; }
-
 .btn {
   background: #EE3A79;
   border: 2px solid #EE3A79;
@@ -172,6 +166,68 @@ header {
     background: white; }
     .btn:hover a {
       color: #EE3A79; }
+
+.enzo {
+  font-family: ff-enzo-web, sans-serif; }
+  .enzo h1, .enzo h2, .enzo h3, .enzo h4, .enzo h5, .enzo h6, .enzo p, .enzo a {
+    margin-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0;
+    padding-bottom: 0; }
+  .enzo h1 {
+    font-size: 68px;
+    font-size: 4.25em;
+    background: #87228D;
+    line-height: 1.4;
+    text-shadow: 2px 2px 2px #5EBFD0; }
+  .enzo h2 {
+    font-size: 32px;
+    font-size: 2em;
+    font-weight: 300;
+    background: #5EBFD0;
+    color: white; }
+  .enzo h3 {
+    font-size: 22px;
+    font-size: 1.375em;
+    font-weight: 700;
+    color: white;
+    background: #EE3A79; }
+  .enzo h4 {
+    font-size: 20px;
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    text-shadow: 2px 2px 2px #5EBFD0;
+    background: #87228D; }
+  .enzo p {
+    font-weight: 600;
+    line-height: 1.5; }
+  .enzo a {
+    color: #87228D;
+    border-bottom: 2px solid #BEDD1C;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0.5em;
+    display: inline-block; }
+  .enzo .price {
+    font-weight: 700;
+    padding-top: 0.5em; }
+
+.color-boxes {
+  overflow: hidden; }
+
+.color-box {
+  width: 150px;
+  height: 150px;
+  margin: 0.5em;
+  float: left;
+  color: white;
+  padding: 1em;
+  text-align: center; }
+
+.white {
+  color: #191919; }
 
 @media screen and (min-width: 350px) {
   .main-nav,
@@ -191,12 +247,33 @@ header {
   .col8 {
     width: 66%;
     margin-left: 0;
-    margin-right: 2%; }
+    margin-right: 2%;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 1000px; }
 
   .links {
     display: none; }
 
-  .main-nav ul {
-    display: block; } }
+  .main-nav {
+    background: white;
+    max-width: 250px; }
+    .main-nav li {
+      padding-left: 0; }
+
+  h2 {
+    padding-top: 1em; }
+
+  .wrapper {
+    max-width: 1250px;
+    margin: 0 auto;
+    overflow: hidden; }
+
+  .btn {
+    border: none;
+    background: white;
+    float: right; }
+    .btn a {
+      color: #EE3A79; } }
 
 /*# sourceMappingURL=style.css.map */
