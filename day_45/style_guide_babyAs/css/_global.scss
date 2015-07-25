@@ -25,6 +25,8 @@ header {
 .main-nav {
 	background: $blue;
 	padding: $md-space;
+	margin: $sm-space;
+	border-radius: 5px;
 	color: white;
 	@include font(1.675);
 
@@ -44,11 +46,11 @@ header {
 .arrow {
 	width: 0; 
 	height: 0; 
-	border-left: 15px solid transparent;
-	border-right: 15px solid transparent;
-	border-top: 15px solid $purple;
+	border-left: 18px solid transparent;
+	border-right: 18px solid transparent;
+	border-top: 18px solid white;
 	float: right;
-	margin-top: 10px;
+	margin-top: 15px;
 }
 
 //CONTENT
@@ -73,3 +75,36 @@ header {
 	margin: $sm-space;
 	float: left;
 }
+
+.btn {
+	background: $pink;
+	border: 2px solid $pink;
+	border-radius: 5px;
+	padding: $sm-space;
+	margin: $sm-space;
+	display: inline-block;
+
+	a {
+		color: white;
+	}
+
+	&:hover {
+		background: white;
+
+		a {
+			color: $pink;
+		}
+	}
+}
+
+//SMALL MEDIA QUERY
+
+@media screen and (min-width: 350px) {
+	.main-nav,
+	.content {
+		max-width: 350px;
+		margin: 0;
+		margin: 0.5em auto;
+	}
+
+} //end of media query

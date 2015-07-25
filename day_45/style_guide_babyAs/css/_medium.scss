@@ -1,5 +1,5 @@
 @media screen and (min-width: 600px) {
-	//12 COLUMN GRID
+//12 COLUMN GRID
 	$col-width: 6.5%;
 	$gut-width: 2%;
 
@@ -9,52 +9,25 @@
 		margin-right: $gut-width;
 	}
 
-	.col1 {
-		@include col(1);
-	}
-
-	.col2 {
-		@include col(2);
-	}
-
-	.col3 {
-		@include col(3);
+	.col4, .col8 {
+		float: left;
 	}
 
 	.col4 {
 		@include col(4);
 	}
 
-	.col5 {
-		@include col(5);
-	}
-
-	.col6 {
-		@include col(6);
-	}
-
-	.col7 {
-		@include col(7);
-	}
-
 	.col8 {
 		@include col(8);
 	}
 
-	.col9 {
-		@include col(9);
-	}
+//NAVIGATION CHANGE
+.links {
+	display: none;
+}
 
-	.col10 {
-		@include col(10);
-	}
+.main-nav ul {
+	display: block;
+}
 
-	.col11 {
-		@include col(11);
-	}
-
-	.col12 {
-		@include col(12);
-	}
-
-	} //end of media query
+} //end of media query

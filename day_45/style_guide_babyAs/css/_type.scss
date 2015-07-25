@@ -22,7 +22,6 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: $bold;
 	line-height: 1.6;
 	color: $purple;
-	margin-top: $md-space;
 }
 
 h1 {
@@ -45,8 +44,4 @@ p {
 a {
 	text-decoration: none;
 	padding-bottom: $sm-space;
-
-	&:visited {
-		color: $purple;
-	}
 }
