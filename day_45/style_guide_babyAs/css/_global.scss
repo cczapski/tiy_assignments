@@ -15,6 +15,7 @@ header {
 	font-family: $babyA-font;
 	@include font(2.5);
 	padding: $sm-space;
+	text-align: center;
 	@include greenTop;
 	@include greenBottom;
 }
@@ -22,21 +23,38 @@ header {
 //NAV
 
 .main-nav {
-	// background: $blue;
+	background: $blue;
 	padding: $md-space;
 	color: white;
 	@include font(1.675);
 
 	li {
 		padding-bottom: $md-space;
+		padding-left: $md-space;
 	}
+
+	h3 {
+		color: white;
+		@include font(1.125);
+		font-weight: 300;
+		margin-top: 0;
+	}
+}
+
+.arrow {
+	width: 0; 
+	height: 0; 
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 15px solid $purple;
+	float: right;
+	margin-top: 10px;
 }
 
 //CONTENT
 .content {
 	margin-right: 0;
 	padding: $md-space;
-	float: right;
 
 	ul {
 		list-style: disc;

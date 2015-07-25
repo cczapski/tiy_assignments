@@ -7,9 +7,9 @@
 - Typography
 	- Headers
 	- Body text
-	- Menu items (including price text)
+	- Price text
 	- Link text
-- Grid system
+- Grid 
 - Colors
 - Navigation
 	- Main
@@ -71,6 +71,22 @@ price text
 
 ##Grid
 
+The site has a basic 12 column grid system. 
+
+###Small
+
+For the smallest version, all sections take up 100% of the 12 columns.
+
+100% - 12 Columns
+
+###Medium
+
+For a medium sized device, 
+
+
+###Large 
+
+For large devices, the grid mirrors the medium grid system and sets a fixed width of ___.
 
 ##Colors
 
@@ -79,7 +95,7 @@ All of the Baby A's restaurants have their own slight variation in vibrance of c
 
 ##Navigation
 
-With a focus on accessibility, each different type provides a more easily accessible experience within the specific placement in the website.
+With a focus on accessibility, each different navigation provides a more easily accessible experience within the specific placement in the website.
 
 1. Main Navigation
 2. Sub Navigation
