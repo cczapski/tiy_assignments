@@ -1,4 +1,4 @@
-$(window).resize(function() {  
+ $(window).resize(function () {
   if ($(window).width() < 600) {
     //NAVIGATION ITEMS
     $('ul').hide();
@@ -10,7 +10,6 @@ $(window).resize(function() {
     $('#link-elements').hide();
     $('#link-images').hide();
     $('#link-logo_icons').hide();
-
 
     //CONTENT ITEMS
     $('.content-goals').show();
@@ -213,6 +212,6 @@ $(window).resize(function() {
     });
   }
   else {
-    $('ul').show();
+        $('ul').show();
   }
 });
