@@ -1,0 +1,53 @@
+@mixin font($em){
+	font-size: ($em*16) + px;
+	font-size: ($em) + em;
+}
+
+$base-sg-font: 'Lora', sans-serif;
+$babyA-font: ff-enzo-web, sans-serif;
+
+$medium: 400;
+$light: 300;
+$bold: 700;
+
+body {
+	font-family: $base-sg-font;
+	@include font(1);
+	color: $main;
+	line-height: 1.6;
+	font-weight: $medium;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: $bold;
+	line-height: 1.6;
+	color: $purple;
+}
+
+h1 {
+	color: white;
+	margin-top: 0;
+}
+
+h2 {
+	@include font(2);
+	padding-top: $lg-space;
+}
+
+h3 {
+	@include font(1.5);
+}
+
+p {
+	padding-bottom: $md-space;
+}
+
+a {
+	text-decoration: none;
+	padding-bottom: $sm-space;
+	color: $purple;
+
+	&:visited {
+		color: $purple;
+	}
+}

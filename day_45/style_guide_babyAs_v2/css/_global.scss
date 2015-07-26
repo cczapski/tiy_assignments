@@ -1,0 +1,364 @@
+//STYLING MIXINS
+@mixin greenTop {
+	border-top: solid 10px $green;
+}
+
+@mixin greenBottom {
+	border-bottom: solid 10px $green;
+}
+
+//HEADER
+
+header {
+	background: $purple;
+	color: white;
+	font-family: $babyA-font;
+	@include font(2.5);
+	padding: $sm-space;
+	text-align: center;
+	@include greenTop;
+	@include greenBottom;
+}
+
+//NAV
+
+.main-nav {
+	background: $blue;
+	padding: $md-space;
+	margin: $sm-space;
+	border-radius: 5px;
+	color: white;
+	@include font(1.675);
+
+	li {
+		padding-bottom: $md-space;
+		padding-left: $md-space;
+	}
+
+	h3 {
+		color: white;
+		@include font(1.125);
+		font-weight: 300;
+		margin-top: 0;
+	}
+}
+
+.arrow {
+	width: 0; 
+	height: 0; 
+	border-left: 18px solid transparent;
+	border-right: 18px solid transparent;
+	border-top: 18px solid white;
+	float: right;
+	margin-top: 15px;
+}
+
+//CONTENT
+.content {
+	margin-right: 0;
+	padding: $md-space;
+
+	ul {
+		list-style: disc;
+		padding-left: $lg-space;
+		padding-bottom: $sm-space;
+	}
+}
+
+.btn {
+	background: $pink;
+	border: 2px solid $pink;
+	border-radius: 5px;
+	padding: $sm-space;
+	margin: $sm-space;
+	display: inline-block;
+	float: right;
+
+	a {
+		color: white;
+	}
+
+	&:hover {
+		background: white;
+
+		a {
+			color: $pink;
+		}
+	}
+}
+
+.content-goals h2 {
+	padding-top: $sm-space;
+}
+
+.content-goals, .content-type, .content-colors, .content-grid, .content-grid, .content-nav, .content-images, .content-logo_icons {
+	overflow: hidden;
+}
+
+//TYPOGRAPHY
+
+.enzo {
+	font-family: $babyA-font;
+
+	h1, h2, h3, h4, h5, h6, p, a {
+		padding-left: $sm-space;
+		padding-right: $sm-space;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	
+	h1 {
+		@include font(4.25);
+		background: $purple;
+		line-height: 1.4;
+		text-shadow: 2px 2px 2px $blue;
+		margin-top: $sm-space;
+	}
+
+	h2 {
+		@include font(2);
+		line-height: 1.4;
+		font-weight: 300;
+		background: $blue;
+		color: white;
+	}
+
+	h3 {
+		@include font(1.375);
+		line-height: 1.4;
+		font-weight: 700;
+		color: white;
+		background: $pink;
+	}
+
+	h4 {
+		@include font(1.25);
+		line-height: 1.4;
+		font-weight: 700;
+		color: white;
+		text-shadow: 2px 2px 2px $blue;
+		background: $purple;
+	}
+
+	p {
+		font-weight: 600;
+		line-height: 1.6;
+	}
+
+	a {
+		color: $purple;
+  		border-bottom: 2px solid $green;
+  		padding-left: 0;
+  		padding-right: 0;
+  		margin-right: $sm-space;
+  		display: inline-block;
+  		font-weight: 600;
+	}
+
+	.price {
+		font-weight: 700;
+		padding-top: $sm-space;
+	}
+
+	.descriptor {
+		font-family: $base-sg-font;
+		font-weight: 300;
+		color: $ltgrey;
+		margin-top: $sm-space;
+		margin-bottom: $lg-space;
+	}
+}
+
+//COLORS
+
+.color-boxes {
+	overflow: hidden;
+}
+
+.color-box {
+	width: 150px;
+	height: 150px;
+	margin: $sm-space;
+	float: left;
+	color: white;
+	padding: $md-space;
+	text-align: center;
+}
+
+.white {
+	color: $black;
+}
+
+//GRID
+
+.grid-filler {
+	background: $blue;
+	padding: $sm-space;
+	margin: $md-space;
+	color: white;
+	text-align: center;
+}
+
+.small, .medium, .large {
+	background: lighten($blue, 20%);
+	overflow: hidden;
+	margin-bottom: $lg-space;
+}
+
+.small {
+	max-width: 560px;
+}
+
+.medium1, .medium2, .large1 {
+	float: left;
+}
+
+.medium1, .large1 {
+	width: 33%;
+}
+
+.medium2 {
+	width: 66%;
+}
+
+//NAVIGATION
+.nav-main, .nav-second, .nav-footer {
+	font-family: $babyA-font;
+	overflow: hidden;
+	margin-bottom: $lg-space;
+}
+
+.nav-main, .nav-footer, .nav-collapse {
+	background: $purple;
+	color: white;
+	font-weight: 600;
+
+	ul {
+		list-style: none;
+		padding: $md-space;
+		overflow: hidden;
+	}
+
+	li {
+		padding-right: $lg-space;
+		padding-top: $sm-space;
+		padding-bottom: $sm-space;
+
+		&:hover {
+			a {
+				color: $green;
+			}
+		}
+	}
+
+	a {
+		color: white;
+	}
+}
+
+.nav-main {
+
+	ul {
+		float: right;
+	}
+
+	li {
+		display: inline-block;
+		float: left;
+	}
+}
+
+.nav-second {
+	ul {
+		list-style: none;
+	}
+
+	li {
+		background: $blue;
+		width: 40%;
+		padding: $sm-space;
+		margin: $sm-space;
+		border-radius: 5px;
+
+		&:hover {
+			background: $pink;
+			
+
+			a {
+				font-weight: 700;
+			}
+		}
+	}
+
+	a {
+		color: white;
+		@include font(1.25);
+		font-weight: 300;
+	}
+
+}
+
+.left {
+	float: left;
+
+	ul {
+		padding-left: $lg-space;
+	}
+}
+
+.right {
+	float: right;
+}
+
+.bg-purple {
+	background: purple;
+}
+
+.nav-collapse {
+	ul {
+		overflow: hidden;
+	}
+}
+
+//IMAGES & IFRAMES
+
+.image-overlay {
+	height: 200px;
+	background: $purple;
+	background: -webkit-linear-gradient(
+		rgba(135, 34, 141, 0.3), 
+		rgba(135, 34, 141, 0.3)), 
+		url("/images/babyA_ceiling_hendrix.jpg");
+	background: -o-linear-gradient(
+		rgba(135, 34, 141, 0.3), 
+		rgba(135, 34, 141, 0.3)), 
+		url("/images/babyA_ceiling_hendrix.jpg");
+	background: linear-gradient(
+		rgba(135, 34, 141, 0.3), 
+		rgba(135, 34, 141, 0.3)), 
+		url("/images/babyA_ceiling_hendrix.jpg");
+	background-size: cover;
+	background-position: center;
+	margin-bottom: $lg-space;
+
+	p {
+		color: white;
+		@include font(2);
+		font-family: $babyA-font;
+		font-weight: bold;
+		text-align: center;
+		padding-top: 75px;
+	}
+}
+
+//SMALL MEDIA QUERY
+
+@media screen and (min-width: 350px) {
+	.main-nav,
+	.content {
+		max-width: 350px;
+		margin: 0;
+		margin: 0.5em auto;
+	}
+
+} //end of media query

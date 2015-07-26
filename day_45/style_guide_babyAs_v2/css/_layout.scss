@@ -1,0 +1,19 @@
+$sm-space: 0.5em;
+$md-space: 1em;
+$lg-space: 2em;
+
+html {
+	box-sizing: border-box;
+}
+
+*, 
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+.container {
+	// overflow: hidden;
+}
+
+

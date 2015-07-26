@@ -1,0 +1,59 @@
+@media screen and (min-width: 600px) {
+//12 COLUMN GRID
+	$col-width: 6.5%;
+	$gut-width: 2%;
+
+	@mixin col($col-num) {
+		width: ($col-width * $col-num ) + ($gut-width * (($col-num) - 1));
+		margin-left: 0;
+		margin-right: $gut-width;
+	}
+
+	.col4, .col8 {
+		float: left;
+	}
+
+	.col4 {
+		@include col(4);
+	}
+
+	.col8 {
+		@include col(8);
+		margin-left: 0;
+		margin-right: 0;
+		max-width: 1000px;
+	}
+
+//NAVIGATION CHANGE
+	.links {
+		display: none;
+	}
+
+//STYLE CHANGES
+	.main-nav {
+		background: white;
+		max-width: 250px;
+
+		li {
+			padding-left: 0;
+		}
+	}
+
+	.wrapper {
+		max-width: 1250px;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+
+	.btn {
+		border: none;
+		background: white;
+		float: right;
+
+		a {
+			color: $pink;
+		}
+	}
+
+
+} //end of media query
