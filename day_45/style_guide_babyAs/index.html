@@ -8,6 +8,7 @@
 	<script src="//use.typekit.net/raa7trw.js"></script>
 	<script>try{Typekit.load();}catch(e){}</script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="js/responsive-nav.min.js"></script>
 </head>
 <body>
 	<section class="container">
@@ -25,8 +26,7 @@
 					<h3 id="link-colors">Colors</h3>
 					<h3 id="link-grid">Grid</h3>
 					<h3 id="link-nav">Navigation</h3>
-					<h3 id="link-elements">Elements</h3>
-					<h3 id="link-images">Images</h3>
+					<h3 id="link-images">Images & iFrames</h3>
 					<h3 id="link-logo_icons">Logo & Icons</h3>
 				</div>
 				<ul>
@@ -35,8 +35,7 @@
 					<li id="li-colors"><a href="#colors">Colors</a></li>
 					<li id="li-grid"><a href="#grid">Grid</a></li>
 					<li id="li-nav"><a href="#nav">Navigation</a></li>
-					<li id="li-elements"><a href="#elements">Elements</a></li>
-					<li id="li-images"><a href="#images">Images</a></li>
+					<li id="li-images"><a href="#images">Images & iFrames</a></li>
 					<li id="li-logo_icons"><a href="#logo_icons">Logo & Icons</a></li>
 				</ul>
 			</nav>
@@ -68,12 +67,19 @@
 					<p>FF Enzo by FontFont through Adobe Typekit is the single typeface used in the redesign. This type was chosen in order to create a more modern and fun feel to the website with its san-serif and small, human-like characteristics. FF Enzo is also very versatile with its various weights and styles, providing the ability for variation in a single typeface.</p>
 					<div class="enzo">
 						<h1>h1 - Header One</h1>
+						<p class="descriptor">FF Enzo Bold, 68px/1.4</p>
 						<h2>h2 - Header Two</h2>
+						<p class="descriptor">FF Enzo Light, 32px/1.4</p>
 						<h3>h3 - Header Three</h3>
+						<p class="descriptor">FF Enzo Bold, 22px/1.4</p>
 						<h4>h4 - Header Four</h4>
+						<p class="descriptor">FF Enzo Bold, 20px/1.4</p>
 						<p>Paragraph text looks like this. For any page with menu items, the descriptions of the menu will also have this paragraph text styling.</p>
+						<p class="descriptor">FF Enzo Regular, 16px/1.6</p>
 						<a href="#">This is a link</a>
+						<p class="descriptor">FF Enzo Regular, 16px/1.6</p>
 						<p class="price">$6.99</p>
+						<p class="descriptor">FF Enzo Bold, 16px/1.6</p>
 					</div>
 					<div class="btn">
 						<a href="#top">Back to Top</a>
@@ -126,7 +132,43 @@
 			<!-- GRID -->
 				<div class="content-grid">
 					<h2 id="grid">Grid</h2>
-					<p>Here is placeholder content for the Grid</p>
+					<p>The site has a simple 12 column grid layout.</p>
+					<h3>Small</h3>
+					<p>For any device smaller than 560px, all elements on a page take up 100% width.</p>
+					<div class="small">
+						<p class="grid-filler">Width 100%, Margin 1em</p>
+					</div>
+					<h3>Medium</h3>
+					<p>For a medium sized device, the content follows the layout below with the focus content taking up the majority of the page. </p>
+					<div class="medium">
+						<div class="medium1">
+							<p class="grid-filler">Width 33%, Margin 1em</p>
+						</div>
+						<div class="medium2">
+							<p class="grid-filler">Width 66%, Margin 1em</p>
+						</div>
+					</div>
+					<h3>Large</h3>
+					<p>Any device with a width above 960px expands to a three-column grid option where possible (i.e. the menu pages) and maintains the medium grid layout when a third column isn't appropriate for the content on the page. To maintain readibility for very large screen sizes, a maximum width of 1300px is set.</p>
+					<div class="medium">
+						<div class="medium1">
+							<p class="grid-filler">Width 33%, Margin 1em</p>
+						</div>
+						<div class="medium2">
+							<p class="grid-filler">Width 66%, Margin 1em</p>
+						</div>
+					</div>
+					<div class="large">
+						<div class="large1">
+							<p class="grid-filler">Width 33%, Margin 1em</p>
+						</div>
+						<div class="large1">
+							<p class="grid-filler">Width 33%, Margin 1em</p>
+						</div>
+						<div class="large1">
+							<p class="grid-filler">Width 33%, Margin 1em</p>
+						</div>
+					</div>
 					<div class="btn">
 						<a href="#top">Back to Top</a>
 					</div>
@@ -134,29 +176,79 @@
 			<!-- NAVIGATION -->
 				<div class="content-nav">
 					<h2 id="nav">Navigation</h2>
-					<p>With a focus on accessibility, each different type provides a more easily accessible experience within the specific placement in the website.</p>
-					<ol>
-						<li>Main Navigation</li>
-						<li>Sub Navigation</li>
-						<li>Footer Navigation</li>
-						<li>Responsive Drop Down Navigation</li>
-					</ol>
-					<div class="btn">
-						<a href="#top">Back to Top</a>
+					<p>The site has four different types of navigation to aid in accessibility across different areas in the site.</p>
+					<h3>Main Navigation</h3>
+					<p>The main navigation appears across the top right of the page for medium to large sized devices. This location was chosen to maintain a level of familiarity on navigating the main sections of the website.</p>
+					<div class="nav-main">
+						<nav>
+							<ul>
+								<li><a href="#">Food + Drink</a></li>
+								<li><a href="#">Locations</a></li>
+								<li><a href="#">Events</a></li>
+								<li><a href="#">Catering/Parties</a></li>
+							</ul>
+						</nav>
 					</div>
-				</div>
-			<!-- ELEMENTS -->
-				<div class="content-elements">
-					<h2 id="elements">Elements</h2>
-					<p>Here is placeholder content for Elements</p>
+					<h3>Secondary Navigation</h3>
+					<p>The secondary navigation appears on the home page and each of the menu sections of the website. With such a large amount of menu content, this navigation allows easier accessiblity to the different food genres without having to navigate to another page.</p>
+					<div class="nav-second">
+						<nav>
+							<ul>
+								<li><a href="#">Happy Hour</a></li>
+								<li><a href="#">Drinks</a></li>
+								<li><a href="#">Lunch Specials</a></li>
+								<li><a href="#">Appetizers</a></li>
+							</ul>
+						</nav>
+					</div>
+					<h3>Footer Navigation</h3>
+					<p>The footer navigation appears within the footer of the website on every page, consistent with common footer navigation practices. The main navigation pages are included, as well as the less frequented pages not accessible anywhere else in the site.</p>
+					<div class="nav-footer">
+						<nav class="left">
+							<ul>
+								<li><a href="#">Food + Drink</a></li>
+								<li><a href="#">Locations</a></li>
+								<li><a href="#">Events</a></li>
+								<li><a href="#">Catering/Parties</a></li>
+							</ul>
+						</nav>
+						<nav class="right">
+							<ul>
+								<li><a href="#">About</a></li>
+								<li><a href="#">Gift Cards</a></li>
+								<li><a href="#">Jobs</a></li>
+							</ul>
+						</nav>
+					</div>
+					<h3>Responsive Drop Down Navigation</h3>
+					<p>The responsive drop down navigation combines both the work "Menu" and the three-lined hamburger icon to ensure clarity of function. Upon clicking or touching, a menu drops down mirroring the main navigation for medium and large device sizes.</p>
+					<div class="bg-purple">
+						<div class="nav-collapse">
+							<nav>
+								<ul>
+									<li><a href="#">Food + Drink</a></li>
+									<li><a href="#">Locations</a></li>
+									<li><a href="#">Events</a></li>
+									<li><a href="#">Catering/Parties</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
 					<div class="btn">
 						<a href="#top">Back to Top</a>
 					</div>
 				</div>
 			<!-- IMAGES -->
 				<div class="content-images">
-					<h2 id="images">Images</h2>
-					<p>Here is placeholder content for Images</p>
+					<h2 id="images">Images & iFrames</h2>
+					<h3>Images</h3>
+					<p>Images are saved for web in Photoshop at their maximum viewing size to optimize load time across all devices.</p>
+					<p>Background images with any text on top of the image have a purple cover overlay at 30% opacity.</p>
+					<div class="image-overlay">
+						<p>Example Text</p>
+					</div>
+					<h3>iFrames</h3>
+					<p>The map on the Locations page is an embedded iFrame from Google Maps. The map has responsive capabilities for viewing accessibility with any device.</p>
 					<div class="btn">
 						<a href="#top">Back to Top</a>
 					</div>
@@ -164,7 +256,7 @@
 			<!-- LOGO & ICONS -->
 				<div class="content-logo_icons">
 					<h2 id="logo_icons">Logo & Icons</h2>
-					<p>Here is placeholder content for Logo & Icons</p>
+					<p>The new logo and menu icons (spicy, gluten free and vegetarian) are currently under development.</p>
 					<div class="btn">
 						<a href="#top">Back to Top</a>
 					</div>
@@ -176,6 +268,8 @@
 <!-- JAVASCRIPT -->
 	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 	<script src="js/index.js"></script>
-
+	<script>
+  		var nav = responsiveNav(".nav-collapse");
+	</script>
 </body>
 </html>

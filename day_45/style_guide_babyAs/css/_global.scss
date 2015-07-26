@@ -86,13 +86,20 @@ header {
 	}
 }
 
+.content-goals h2 {
+	padding-top: $sm-space;
+}
+
+.content-goals, .content-type, .content-colors, .content-grid, .content-grid, .content-nav, .content-images, .content-logo_icons {
+	overflow: hidden;
+}
+
 //TYPOGRAPHY
 
 .enzo {
 	font-family: $babyA-font;
 
 	h1, h2, h3, h4, h5, h6, p, a {
-		margin-bottom: $sm-space;
 		padding-left: $sm-space;
 		padding-right: $sm-space;
 		padding-top: 0;
@@ -104,10 +111,12 @@ header {
 		background: $purple;
 		line-height: 1.4;
 		text-shadow: 2px 2px 2px $blue;
+		margin-top: $sm-space;
 	}
 
 	h2 {
 		@include font(2);
+		line-height: 1.4;
 		font-weight: 300;
 		background: $blue;
 		color: white;
@@ -115,6 +124,7 @@ header {
 
 	h3 {
 		@include font(1.375);
+		line-height: 1.4;
 		font-weight: 700;
 		color: white;
 		background: $pink;
@@ -122,6 +132,7 @@ header {
 
 	h4 {
 		@include font(1.25);
+		line-height: 1.4;
 		font-weight: 700;
 		color: white;
 		text-shadow: 2px 2px 2px $blue;
@@ -130,7 +141,7 @@ header {
 
 	p {
 		font-weight: 600;
-		line-height: 1.5;
+		line-height: 1.6;
 	}
 
 	a {
@@ -140,11 +151,20 @@ header {
   		padding-right: 0;
   		margin-right: $sm-space;
   		display: inline-block;
+  		font-weight: 600;
 	}
 
 	.price {
 		font-weight: 700;
 		padding-top: $sm-space;
+	}
+
+	.descriptor {
+		font-family: $base-sg-font;
+		font-weight: 300;
+		color: $ltgrey;
+		margin-top: $sm-space;
+		margin-bottom: $lg-space;
 	}
 }
 
@@ -166,6 +186,168 @@ header {
 
 .white {
 	color: $black;
+}
+
+//GRID
+
+.grid-filler {
+	background: $blue;
+	padding: $sm-space;
+	margin: $md-space;
+	color: white;
+	text-align: center;
+}
+
+.small, .medium, .large {
+	background: lighten($blue, 20%);
+	overflow: hidden;
+	margin-bottom: $lg-space;
+}
+
+.small {
+	max-width: 560px;
+}
+
+.medium1, .medium2, .large1 {
+	float: left;
+}
+
+.medium1, .large1 {
+	width: 33%;
+}
+
+.medium2 {
+	width: 66%;
+}
+
+//NAVIGATION
+.nav-main, .nav-second, .nav-footer {
+	font-family: $babyA-font;
+	overflow: hidden;
+	margin-bottom: $lg-space;
+}
+
+.nav-main, .nav-footer, .nav-collapse {
+	background: $purple;
+	color: white;
+	font-weight: 600;
+
+	ul {
+		list-style: none;
+		padding: $md-space;
+		overflow: hidden;
+	}
+
+	li {
+		padding-right: $lg-space;
+		padding-top: $sm-space;
+		padding-bottom: $sm-space;
+
+		&:hover {
+			a {
+				color: $green;
+			}
+		}
+	}
+
+	a {
+		color: white;
+	}
+}
+
+.nav-main {
+
+	ul {
+		float: right;
+	}
+
+	li {
+		display: inline-block;
+		float: left;
+	}
+}
+
+.nav-second {
+	ul {
+		list-style: none;
+	}
+
+	li {
+		background: $blue;
+		width: 40%;
+		padding: $sm-space;
+		margin: $sm-space;
+		border-radius: 5px;
+
+		&:hover {
+			background: $pink;
+			
+
+			a {
+				font-weight: 700;
+			}
+		}
+	}
+
+	a {
+		color: white;
+		@include font(1.25);
+		font-weight: 300;
+	}
+
+}
+
+.left {
+	float: left;
+
+	ul {
+		padding-left: $lg-space;
+	}
+}
+
+.right {
+	float: right;
+}
+
+.bg-purple {
+	background: purple;
+}
+
+.nav-collapse {
+	ul {
+		overflow: hidden;
+	}
+}
+
+//IMAGES & IFRAMES
+
+.image-overlay {
+	height: 200px;
+	background: $purple;
+	background: -webkit-linear-gradient(
+		rgba(135, 34, 141, 0.3), 
+		rgba(135, 34, 141, 0.3)), 
+		url("/images/babyA_ceiling_hendrix.jpg");
+	background: -o-linear-gradient(
+		rgba(135, 34, 141, 0.3), 
+		rgba(135, 34, 141, 0.3)), 
+		url("/images/babyA_ceiling_hendrix.jpg");
+	background: linear-gradient(
+		rgba(135, 34, 141, 0.3), 
+		rgba(135, 34, 141, 0.3)), 
+		url("/images/babyA_ceiling_hendrix.jpg");
+	background-size: cover;
+	background-position: center;
+	margin-bottom: $lg-space;
+
+	p {
+		color: white;
+		@include font(2);
+		font-family: $babyA-font;
+		font-weight: bold;
+		text-align: center;
+		padding-top: 75px;
+	}
 }
 
 //SMALL MEDIA QUERY

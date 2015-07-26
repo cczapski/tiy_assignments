@@ -16,12 +16,7 @@
 	- Sub
 	- Responsive drop down
 	- Footer
-- Elements
-	- Buttons
-	- Hovers
-		- Sub nav items
-		- Locations
-- Images
+- Images & iFrames
 - Logo & Icons
 	- Make logo...
 	- Make icons...

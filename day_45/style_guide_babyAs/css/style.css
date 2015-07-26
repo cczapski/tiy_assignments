@@ -77,7 +77,7 @@ body {
   font-size: 16px;
   font-size: 1em;
   color: #222222;
-  line-height: 1.4;
+  line-height: 1.6;
   font-weight: 400; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -91,7 +91,8 @@ h1 {
 
 h2 {
   font-size: 32px;
-  font-size: 2em; }
+  font-size: 2em;
+  padding-top: 2em; }
 
 h3 {
   font-size: 24px;
@@ -167,10 +168,15 @@ header {
     .btn:hover a {
       color: #EE3A79; }
 
+.content-goals h2 {
+  padding-top: 0.5em; }
+
+.content-goals, .content-type, .content-colors, .content-grid, .content-grid, .content-nav, .content-images, .content-logo_icons {
+  overflow: hidden; }
+
 .enzo {
   font-family: ff-enzo-web, sans-serif; }
   .enzo h1, .enzo h2, .enzo h3, .enzo h4, .enzo h5, .enzo h6, .enzo p, .enzo a {
-    margin-bottom: 0.5em;
     padding-left: 0.5em;
     padding-right: 0.5em;
     padding-top: 0;
@@ -180,39 +186,50 @@ header {
     font-size: 4.25em;
     background: #87228D;
     line-height: 1.4;
-    text-shadow: 2px 2px 2px #5EBFD0; }
+    text-shadow: 2px 2px 2px #5EBFD0;
+    margin-top: 0.5em; }
   .enzo h2 {
     font-size: 32px;
     font-size: 2em;
+    line-height: 1.4;
     font-weight: 300;
     background: #5EBFD0;
     color: white; }
   .enzo h3 {
     font-size: 22px;
     font-size: 1.375em;
+    line-height: 1.4;
     font-weight: 700;
     color: white;
     background: #EE3A79; }
   .enzo h4 {
     font-size: 20px;
     font-size: 1.25em;
+    line-height: 1.4;
     font-weight: 700;
     color: white;
     text-shadow: 2px 2px 2px #5EBFD0;
     background: #87228D; }
   .enzo p {
     font-weight: 600;
-    line-height: 1.5; }
+    line-height: 1.6; }
   .enzo a {
     color: #87228D;
     border-bottom: 2px solid #BEDD1C;
     padding-left: 0;
     padding-right: 0;
     margin-right: 0.5em;
-    display: inline-block; }
+    display: inline-block;
+    font-weight: 600; }
   .enzo .price {
     font-weight: 700;
     padding-top: 0.5em; }
+  .enzo .descriptor {
+    font-family: "Lora", sans-serif;
+    font-weight: 300;
+    color: #BAB8B8;
+    margin-top: 0.5em;
+    margin-bottom: 2em; }
 
 .color-boxes {
   overflow: hidden; }
@@ -228,6 +245,108 @@ header {
 
 .white {
   color: #191919; }
+
+.grid-filler {
+  background: #5EBFD0;
+  padding: 0.5em;
+  margin: 1em;
+  color: white;
+  text-align: center; }
+
+.small, .medium, .large {
+  background: #addee7;
+  overflow: hidden;
+  margin-bottom: 2em; }
+
+.small {
+  max-width: 560px; }
+
+.medium1, .medium2, .large1 {
+  float: left; }
+
+.medium1, .large1 {
+  width: 33%; }
+
+.medium2 {
+  width: 66%; }
+
+.nav-main, .nav-second, .nav-footer {
+  font-family: ff-enzo-web, sans-serif;
+  overflow: hidden;
+  margin-bottom: 2em; }
+
+.nav-main, .nav-footer, .nav-collapse {
+  background: #87228D;
+  color: white;
+  font-weight: 600; }
+  .nav-main ul, .nav-footer ul, .nav-collapse ul {
+    list-style: none;
+    padding: 1em;
+    overflow: hidden; }
+  .nav-main li, .nav-footer li, .nav-collapse li {
+    padding-right: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em; }
+    .nav-main li:hover a, .nav-footer li:hover a, .nav-collapse li:hover a {
+      color: #BEDD1C; }
+  .nav-main a, .nav-footer a, .nav-collapse a {
+    color: white; }
+
+.nav-main ul {
+  float: right; }
+.nav-main li {
+  display: inline-block;
+  float: left; }
+
+.nav-second ul {
+  list-style: none; }
+.nav-second li {
+  background: #5EBFD0;
+  width: 40%;
+  padding: 0.5em;
+  margin: 0.5em;
+  border-radius: 5px; }
+  .nav-second li:hover {
+    background: #EE3A79; }
+    .nav-second li:hover a {
+      font-weight: 700; }
+.nav-second a {
+  color: white;
+  font-size: 20px;
+  font-size: 1.25em;
+  font-weight: 300; }
+
+.left {
+  float: left; }
+  .left ul {
+    padding-left: 2em; }
+
+.right {
+  float: right; }
+
+.bg-purple {
+  background: purple; }
+
+.nav-collapse ul {
+  overflow: hidden; }
+
+.image-overlay {
+  height: 200px;
+  background: #87228D;
+  background: -webkit-linear-gradient(rgba(135, 34, 141, 0.3), rgba(135, 34, 141, 0.3)), url("/images/babyA_ceiling_hendrix.jpg");
+  background: -o-linear-gradient(rgba(135, 34, 141, 0.3), rgba(135, 34, 141, 0.3)), url("/images/babyA_ceiling_hendrix.jpg");
+  background: linear-gradient(rgba(135, 34, 141, 0.3), rgba(135, 34, 141, 0.3)), url("/images/babyA_ceiling_hendrix.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 2em; }
+  .image-overlay p {
+    color: white;
+    font-size: 32px;
+    font-size: 2em;
+    font-family: ff-enzo-web, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 75px; }
 
 @media screen and (min-width: 350px) {
   .main-nav,
@@ -261,9 +380,6 @@ header {
     .main-nav li {
       padding-left: 0; }
 
-  h2 {
-    padding-top: 1em; }
-
   .wrapper {
     max-width: 1250px;
     margin: 0 auto;
@@ -275,5 +391,72 @@ header {
     float: right; }
     .btn a {
       color: #EE3A79; } }
+/*! responsive-nav.js 1.0.39 by @viljamis */
+.nav-collapse {
+  padding-left: 1em;
+  text-align: right; }
+
+.nav-collapse ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none;
+  overflow: hidden; }
+
+.nav-collapse li {
+  margin-bottom: .5em;
+  float: left;
+  margin-right: 2%; }
+
+.nav-collapse a {
+  color: white;
+  text-decoration: none;
+  font-family: ff-enzo-web, sans-serif; }
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1; }
+
+.nav-collapse.opened {
+  max-height: 9999px; }
+
+.nav-toggle {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  color: white;
+  border: 1px solid white;
+  padding: 20px 2em;
+  display: block;
+  text-decoration: none;
+  font-family: ff-enzo-web, sans-serif;
+  background: #87228D;
+  text-align: right;
+  width: 100%; }
+  .nav-toggle:visited {
+    color: white; }
+
+.nav-toggle span {
+  color: white;
+  font-size: 1.15em; }
+
+@media screen and (min-width: 1000px) {
+  .js .nav-collapse {
+    position: relative; }
+
+  .js .nav-collapse.closed {
+    max-height: none; }
+
+  .nav-toggle {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */
