@@ -147,6 +147,8 @@ WorldTeach's strengths, weaknesses, opportunities and threats are detailed below
 
 <img src="http://www.bodylanguageuniversity.com/public/images/229.gif" alt="Trustworthy" width="275" /> <img src="http://t3.gstatic.com/images?q=tbn:ANd9GcR89kyzCwjE6rDgKIrOeQ3o7A8zp22pubOvbsQezsMgebHPCMN-" alt="Dishonest" width="275" />
 
+<img src="http://nistmep.blogs.govdelivery.com/wp-content/uploads/2013/01/Challenging-Times.jpg" alt="Challenging" width="275" /> <img src="http://www.feedbackz.com/blog/wp-content/uploads/2015/02/easy-rank-amazon-product.png" alt="Easy" width="275" />
+
 ## Game Plan
 
 * Day 1: Initial Research (about, user interviews, competitive market analysis, SWOT), Proposal
