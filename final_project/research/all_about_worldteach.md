@@ -11,9 +11,7 @@ A group of Harvard students founded the organization in 1986 to address the need
 ##What do they do?
 
 * Recruit, select and place volunteer teachers from the US to their best country of fit who:
-    * Are native or native-level English speakers
-    * Are at least 18 or older
-    * Have a bachelor's degree by the date of the program's departure (for year-long and semester programs only)
+        \\  
 
 * Work with governments across the world to organize all aspects of a volunteer's time in country, including:
     * Visas or government requirements for duration of volunteer time
