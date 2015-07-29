@@ -141,6 +141,8 @@ WorldTeach's strengths, weaknesses, opportunities and threats are detailed below
 
 <img src="http://www.abcmm.org/img/civic/13.big.jpg" alt="Teaching" width="275" /> <img src="http://t1.gstatic.com/images?q=tbn:ANd9GcQs4A1Ehe2_R3yT7KUFMZjM7a3DTwJoEbPcS8BuqkpZbXbOJ6iR" alt="Other Volunteer Activities" width="275" />
 
+<img src="http://freedesignfile.com/upload/2014/01/Different-professions-design-elements-vector-02.jpg" alt="Any Profession or Experience" width="300" /> <img src="http://www.cliparthut.com/clip-arts/133/school-teacher-clip-art-133891.jpg" alt="Teachers Only" />
+
 ## Game Plan
 
 * Day 1: Initial Research (about, user interviews, competitive market analysis, SWOT), Proposal
