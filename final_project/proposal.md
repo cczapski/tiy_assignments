@@ -129,7 +129,7 @@ WorldTeach's strengths, weaknesses, opportunities and threats are detailed below
 
 ### People & Places
 
-![WorldTeach People & Places Wordlist](../images/worldteach_keywords_people_places.jpg)
+![WorldTeach People & Places Wordlist](/cczapski/tiy_assignments/final_project/images/worldteach_keywords_people_places.jpg)
 
 ### Things, Adjectives & Colors
 
