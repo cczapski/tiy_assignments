@@ -139,6 +139,8 @@ WorldTeach's strengths, weaknesses, opportunities and threats are detailed below
 
 <img src="http://www.ethnologue.com/sites/default/files/maps/wor_web_1.png" alt="World" width="275" /> ![US](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSBtVmyE289r-VbZTCxFyDEBDtTMZ7U0EuQ_NB08OR-rEppeI4Geg)
 
+<img src="http://www.abcmm.org/img/civic/13.big.jpg" alt="Teaching" width="275" /> <img src="http://t1.gstatic.com/images?q=tbn:ANd9GcQs4A1Ehe2_R3yT7KUFMZjM7a3DTwJoEbPcS8BuqkpZbXbOJ6iR" alt="Other Volunteer Activities" width="275" />
+
 ## Game Plan
 
 * Day 1: Initial Research (about, user interviews, competitive market analysis, SWOT), Proposal
