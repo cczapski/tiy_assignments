@@ -133,7 +133,7 @@ WorldTeach's strengths, weaknesses, opportunities and threats are detailed below
 
 ### Things, Adjectives & Colors
 
-![WorldTeach Things, Adjectives & Colors Wordlist](../images/worldteach_keywords_things_adj.jpg)
+![WorldTeach Things, Adjectives & Colors Wordlist](images/worldteach_keywords_things_adj.jpg)
 
 ## "This not that"
 
