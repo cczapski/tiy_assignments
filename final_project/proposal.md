@@ -53,7 +53,9 @@ Personal preferences on country, language of country, price, etc. will all vary 
 
 ## Competitive Market Study
 
-Any Google search for volunteer abroad opens up a world of seemingly endless opportunities. With that range of endless opportunties also comes a range of volunteer types, locations, missions and overall purposes. WorldTeach has a dedicated focus for teaching in 3 to 12 month durations across 15+ countries. Main competitors in this market study focus on organizations that have similar core purposes surrounding education in developing locations. Competitors outside of WorldTeach's more focused scope (i.e. organizations with limited volunteer locations or with various types of volunteer opportunities) are listed as Other Competitors.
+Any Google search for volunteer abroad opens up a world of seemingly endless opportunities. With that range of endless opportunties also comes a range of volunteer types, locations, missions and overall purposes. WorldTeach has a dedicated focus for teaching in 3 to 12 month durations across 15+ countries for any individual meeting 3 minimum requirements. 
+
+Main competitors in this market study focus on organizations that have similar core purposes surrounding education in developing locations. Competitors outside of WorldTeach's more focused scope (i.e. organizations with limited volunteer locations, with various types of volunteer opportunities or with more strict volunteer qualifications for teaching) are listed as Other Competitors.
 
 ### Main Competitors
 
@@ -80,6 +82,7 @@ Any Google search for volunteer abroad opens up a world of seemingly endless opp
 
 * More specific personal experience and background requirements
 * More thorough application process
+* Less focused mission with multiple volunteer types outside of education
 
 ### How does WorldTeach stand out against these competitors?
 
@@ -87,6 +90,7 @@ Any Google search for volunteer abroad opens up a world of seemingly endless opp
 * Almost 30 years experience
 * Specific and selective application process for placement in countries
 * Thorough information surrounding entire process
+* Choice in placement location
 
 ## SWOT Analysis
 
@@ -94,8 +98,42 @@ WorldTeach's strengths, weaknesses, opportunities and threats are detailed below
 
 ### Strengths
 
+* Single, targeted focus on education abroad for any American that meets 3 basic requirements
+* Almost 30 years experience
+* Specific application process for placement in countries centered around volunteer choice
+* 17 countries of placement
+* Large alumni network
+
+### Weaknesses
+
+* Organization not highly recognized
+* Two, strict time spans for volunteer activity
+* Bachelor's degree required for year-long volunteers limiting number of applicants to those programs
+* Only 17 countries of placement
+
+### Opportunities
+
+* Large market of volunteers interested in abroad work
+* Improvements in commmunication and awareness about WorldTeach
+* Higher alumni involvement
+* Additional countries to partner with
+
+### Threats
+
+* Unpredictable in country accidents
+* Unpredictable volunteer challenges unrelated to WorldTeach
+* Partner countries unwilling or unable to continue parnterships
+* Competitor education branch with stronger marketing effectiveness, decreasing overall cost of program
 
 ## Keywords
+
+### People & Places
+
+![WorldTeach People & Places Wordlist](/images/worldteach_keywords_people_places.jpg)
+
+### Things, Adjectives & Colors
+
+![WorldTeach Things, Adjectives & Colors Wordlist](/images/worldteach_keywords_things_adj.jpg)
 
 ## "This not that"
 
