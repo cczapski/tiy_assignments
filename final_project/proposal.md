@@ -137,7 +137,7 @@ WorldTeach's strengths, weaknesses, opportunities and threats are detailed below
 
 ## "This not that"
 
-![World](http://www.ethnologue.com/sites/default/files/maps/wor_web_1.png){:width="275px"}. not ![US](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSBtVmyE289r-VbZTCxFyDEBDtTMZ7U0EuQ_NB08OR-rEppeI4Geg)
+![World](http://www.ethnologue.com/sites/default/files/maps/wor_web_1.png){:width="275px"} not ![US](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSBtVmyE289r-VbZTCxFyDEBDtTMZ7U0EuQ_NB08OR-rEppeI4Geg)
 
 ## Game Plan
 
