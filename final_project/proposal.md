@@ -1,7 +1,9 @@
 # WorldTeach Proposal
 
-## History & Intro (Include Brand Positioning)
+## History & Intro 
 WorldTeach is a non-profit organization that pairs volunteers with partner countries throughout the world to teach for summer, semester, and year-long teaching sessions that cater towards the needs of the local community and promote responsible global citizenship.
+
+WorldTeach's volunteer teach abroad programs are the only of their kind open to adults with no education background that offer the level of commitment and time towards promoting cross-cultural social responsibility in education.
 
 For a more in-depth analysis of WorldTeach, check out [All About WorldTeach](https://github.com/cczapski/tiy_assignments/blob/master/final_project/research/all_about_worldteach.md)`.
 
@@ -147,7 +149,7 @@ WorldTeach's strengths, weaknesses, opportunities and threats are detailed below
 
 <img src="http://www.bodylanguageuniversity.com/public/images/229.gif" alt="Trustworthy" width="275" /> <img src="http://t3.gstatic.com/images?q=tbn:ANd9GcR89kyzCwjE6rDgKIrOeQ3o7A8zp22pubOvbsQezsMgebHPCMN-" alt="Dishonest" width="275" />
 
-<img src="http://nistmep.blogs.govdelivery.com/wp-content/uploads/2013/01/Challenging-Times.jpg" alt="Challenging" width="275" /> <img src="http://www.feedbackz.com/blog/wp-content/uploads/2015/02/easy-rank-amazon-product.png" alt="Easy" width="275" />
+<img src="http://nistmep.blogs.govdelivery.com/wp-content/uploads/2013/01/Challenging-Times.jpg" alt="Challenging" width="275" /> <img src="http://www.feedbackz.com/blog/wp-content/uploads/2015/02/easy-rank-amazon-product.png" alt="Easy " width="275" />
 
 ## Game Plan
 

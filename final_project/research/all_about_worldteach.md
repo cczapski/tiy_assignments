@@ -1,6 +1,6 @@
 #All About WorldTeach
 
-##Our _ is the only _ that _.
+## Our volunteer teach abroad programs are the only of their kind open to adults with no education background that offer the level of commitment and time towards promoting cross-cultural social responsibility in education.
 
 ##Who are they?
 
