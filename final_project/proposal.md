@@ -9,11 +9,30 @@ For a more in-depth analysis of WorldTeach, check out [All About WorldTeach](htt
 
 [View the current WorldTeach website](http://www.worldteach.org/).
 
+## WorldTeach Beliefs
+
+We believe *all* people are equal.
+
+We believe *all* people have a right to education.
+
+We believe people of this world can make education accessible to *all*.
+
+We believe *you* can help make the difference with us.
+
+Where in the World do you want to Teach?
+
 ## Project Issues and Goals
 
-<!-- * With endless competitors across the globe, what makes WorldTeach stand out as an international teaching volunteer organization?
-* How are they found?
-* How can the website most effectively portray the wealth of information a user considers in a concise and inspiring way? -->
+### Main Goal
+
+* Inspire people with the same beliefs as WorldTeach to take action towards expanding accessibility of global education with them
+
+### Issues & Challenges
+
+* Motivating the appropriate audience to participate through the website
+* Effectively communicating the Why of WorldTeach
+* Providing as much necessary information to users in the most concise and effective manner
+* Telling WorldTeach's story and the story of their volunteers
 
 ## Audience
 
