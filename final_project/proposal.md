@@ -145,6 +145,8 @@ WorldTeach's strengths, weaknesses, opportunities and threats are detailed below
 
 <img src="http://anderscpa.com/wp-content/uploads/2014/04/Non-profit-Clouds-960x645.jpg" alt="Non-profit" width="275" /> <img src="http://www.associationexecutiveservices.com.au/profit.jpg" alt="For profit" width="275" />
 
+<img src="http://www.bodylanguageuniversity.com/public/images/229.gif" alt="Trustworthy" width="275" /> <img src="http://t3.gstatic.com/images?q=tbn:ANd9GcR89kyzCwjE6rDgKIrOeQ3o7A8zp22pubOvbsQezsMgebHPCMN-" alt="Dishonest" width="275" />
+
 ## Game Plan
 
 * Day 1: Initial Research (about, user interviews, competitive market analysis, SWOT), Proposal
