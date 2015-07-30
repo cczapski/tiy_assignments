@@ -43,3 +43,31 @@ I appreciate any help you can provide!
 1. Visit http://www.worldteach.org/ and take 5 - 10 minutes perusing the website
 2. Take a few minutes to answer the questions below
 3. Private message me, or email me at casieczapski@gmail.com, with your responses
+
+##User Interview Responses - Observations
+
+###Users with Previous Experience on the Website
+
+* Reasons visited: to donate, to explore a daughter participating in the program, to research and decide on the program as a volunteer
+* All provided clear and similar responses on the purpose of the website, mostly inline with WT's goals
+* Most responses say the site is geared towards college age people (not actually the case, although the large majority of users are of the college age)
+* A lot of good information exists on the site, but it's difficult to find
+* The purpose of the website is not clear from the home page
+* Love the pictures and videos - want to see more, slide shows of pictures, more visuals of the locations
+* More information on how the program helps the children
+
+###First Time Visitors of the Website
+
+* All described the purpose of the site as an opportunity for people to teach English and travel abroad, but mentioned they had to search the site in order to figure that out
+* Found all information were looking for, but had to click on links and jump from page to page
+* Like the amount of information on the page, and photos (want to see more!)
+* Could be easier to navigate, colors and layout make the website difficult to read
+* Change the home page to add more information about WT and what they do
+
+##Conclusions for Redesign
+
+* Use more photos and videos of the locations, volunteers, and students
+* Make the home page tell the story of WT at the very beginning
+* Logically guide users through the site from an easier to read and understand navigation
+* Make the font and text layout easier to read, perhaps with less paragraphs and more bulleted/tabled forms of communication
+* Show that volunteers don't have to be young adults, but can be up to the age of 75 in most countries (clearly missing a huge population)

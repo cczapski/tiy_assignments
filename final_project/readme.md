@@ -39,7 +39,7 @@ Where in the World do you want to Teach?
 ### Who are they?
 
 * Native or native-level English speakers
-* Age 18 or older
+* Age 18 to 75 (in most countries)
 * Bachelor's degree holders by the date of the program's departure (for year-long and semester programs only)
 * Volunteers interested in teaching as the main type of volunteer activity
 * Current teachers or people interested in exploring teaching 
@@ -71,6 +71,13 @@ Personal preferences on country, language of country, price, etc. will all vary 
 * Can I speak with past volunteers in the program?
 * What do reviews say?
 * Do I have any special needs that must be met while abroad (i.e. food, medical)?
+
+## Research and Discovery
+
+The majority of the proposal details out key elements of the research and discovery phase. This section links to additional elements of the research and discovery phase.
+
+* [User Interviews](https://github.com/cczapski/tiy_assignments/blob/master/final_project/research/user_interviews.md)
+* [Site Map and Content Analysis Planning](https://github.com/cczapski/tiy_assignments/blob/master/final_project/sitemap.md)
 
 ## Competitive Market Study
 
