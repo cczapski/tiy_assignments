@@ -1,14 +1,15 @@
 ## Page 1: Home
 
 ### Header
+
 Logo
 
-Main Nav
-    * Apply
-    * Donate
-    * Log In
-    * Blog
-    * About
+Main Nav:
+* Apply
+* Donate
+* Log In
+* Blog
+* About
 
 Main Header Content:
     We believe *all* people are equal.
@@ -24,9 +25,9 @@ Main Header Content:
 ### Page Content
 
 Links to:
-    * For Future + Current Volunteers
-    * For Supporters + Donors
-    * For Alumni
+* For Future + Current Volunteers
+* For Supporters + Donors
+* For Alumni
 
 Latest Blog Post Summaries
 
@@ -34,27 +35,27 @@ Reviews from GoOverseas Summaries
 
 ### Footer
 
-Let's Get Social
-    * Subscribe to Newsletter
-    * Reviews on GoOverseas
-    * Social Media links to:
-        * Facebook
-        * YouTube
-        * Twitter
-        * Instagram
+Let's Get Social:
+* Subscribe to Newsletter
+* Reviews on GoOverseas
+* Social Media links to:
+    * Facebook
+    * YouTube
+    * Twitter
+    * Instagram
 
-Helpful Links
-    * Apply
-    * Donate
-    * Log In
-    * About
-    * Blog
-    * FAQs
-    * Contact Us
-    * Careers
-    * Financials
+Helpful Links:
+* Apply
+* Donate
+* Log In
+* About
+* Blog
+* FAQs
+* Contact Us
+* Careers
+* Financials
 
-Information For
-    * Future + Current Volunteeres
-    * Supporters + Donors
-    * Alumni
+Information For:
+* Future + Current Volunteeres
+* Supporters + Donors
+* Alumni
