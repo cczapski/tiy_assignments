@@ -11,16 +11,17 @@ Main Nav:
 * Blog
 * About
 
-Main Header Content:
-    We believe *all* people are equal.
+#### Main Header Content:
 
-    We believe *all* people have a right to education.
+We believe *all* people are equal.
 
-    We believe people of this world can make education accessible to *all*.
+We believe *all* people have a right to education.
 
-    We believe *you* can help make the difference with us.
+We believe people of this world can make education accessible to *all*.
 
-    Where in the World do you want to Teach?
+We believe *you* can help make the difference with us.
+
+Where in the World do you want to Teach?
 
 ### Page Content
 
@@ -29,9 +30,9 @@ Links to:
 * For Supporters + Donors
 * For Alumni
 
-Latest Blog Post Summaries
+#### Latest Blog Post Summaries
 
-Reviews from GoOverseas Summaries
+#### Reviews from GoOverseas Summaries
 
 ### Footer
 
