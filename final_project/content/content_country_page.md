@@ -41,6 +41,12 @@ Section Nav:
     * South Africa (summer)
     * Thailand (year-long)
 
+##### Sections as Sub Nav to Section Nav?
+* Day in the Life
+* Year-long Program Profile
+* Summer Program Profile
+* Costa Rica Country Info
+
 ### Costa Rica
 
 #### Quick Country Facts! 
@@ -147,6 +153,74 @@ Many volunteers are able to successfully fundraise all or a significant portion 
 
 Read more about costs and services here. 
 
+#### Summer Program
+
+##### Quick Facts
+
+* Departs late May 2016
+* Volunteer commitment: 3 months
+* Volunteer cost: $3,990
+    * Why do you pay, and what does it cover?
+* Applications due: April 15, 2016
+
+APPLY NOW!
+
+* Prep for planning a community project, in coordination with community members
+* Number of volunteers each year: approximately 20
+* Monthly stipend: yes
+* Orientation: 1 month
+* Students: grades 1st through 6th
+* Teaching: English (and in limited bilingual placements, math and science)
+
+###### Your Role as a Volunteer
+WorldTeach works with the Costa Rican Ministry of Education to place volunteers in schools where students would otherwise go without English language instruction. You and your fellow volunteers will be placed in primary schools throughout the country, working with students between the grades of 1-6. You will give your students the opportunity to learn conversational English and basic grammar. Student love any opportunity to weave they lyrics of a cheesy American pop song into their knowledge of English grammar. Class sizes will vary, ranging from groups as small as 5 up to classrooms of 30 students. As one of the few foreigners passing through the pueblo, you have the opportunity to become a valuable member of your community as a dedicated teacher during the day, and practicing your Spanish over cafecitos with neighbors in the afternoon.
+
+As a volunteer, you will live with two different host families over the course of the summer. Your first will help you adjust to Costa Rica as you spend your initial days in Orosi for Orientation, and your second family in your placement town will take you in and teach you everything Tico for the duration of your time in Costa Rica. WorldTeach has long-standing relationships with many host families who are excited to receive a volunteer year after year. Not only will they provide you with a furnished room and meals, but this is a wonderful opportunity for you to fine tune those conversational Spanish skills. You may be surprised by how close you become with your host family over the course of the summer. Volunteers often stay in contact with their Costa Rican families after they leave, and some have even gone back for a visit!
+
+###### Explore Costa Rica + Mid-Service Conference
+For two weeks in July, Costa Rican schools will be closed to celebrate Quince Dias. WorldTeach uses this a time to bring you all back together for a two day Mid-Service conference. This is a great opportunity to learn about the experience of your cohort, revisit some of the teacher training sessions from Orientation, and spend time with the friends you made in the beginning of the summer. This two week break will begin with your two-day Mid-Service conference, allowing you some time for reflection on your experience thus far, while nestled in a quaint town outside the larger coastal city of Manuel Antonio. You will then travel the remaining distance to the coast and spend the rest of the week in Manuel Antonio. There you will have the opportunity to picnic in one of the country’s most popular national parks, zip line through the jungle, or simply relax on the beaches of this tropical paradise. In 2011, Manuel Antonio was voted one of the World’s Top 12 Most Beautiful Beaches and you will experience its beauty firsthand!
+
+The second week of the Quince Dias break, you will travel back to your site to undertake your community project. The community project is discussed at great length during Orientation, and you can use the first few weeks at your site to listen and get the pulse on what kind of activity would benefit your students and community. We don’t doubt you will be able to find something that works with the need of your community but also fits with your skills and knowledge as a volunteer! In the past, community projects have included week-long soccer camps, soccer tournaments, English camp and the painting of a local church. This past summer, one volunteer made a movie with all of her students and fellow teachers, with a script that was entirely in English!
+
+###### The Costs
+The cost of the Costa Rica Summer program is $3,990. This covers pre-departure information and preparation, supplemental overseas medical and emergency evacuation insurance, one week in-country orientation as well as a mid-service and end-of-service conference, a small stipend to cover teaching-related expenses, 24-hour field staff support, room and board, and alumni support.
+
+Many volunteers are able to successfully fundraise all or a significant portion of their volunteer commitment. Please refer to our fundraising webpage for more information about fundraising possibilities.
+
+Read more about costs and services here. 
+
+#### Cost Rica Country Info
+Rich in ecological diversity and known for its hospitality, Costa Rica has become a favorite vacation spot for American and European travelers over the past two decades. About the size of West Virginia and with a population of roughly four million, Costa Rica has a wealth of natural resources. Its distinctive microclimates feature beautiful beaches, active volcanoes, rainforests filled with monkeys and colorful birds, the hot "cowboy country" of Guanacaste, and more. Additionally, it is also regarded as one of the most peaceful countries in Central America. Costa Rica does not maintain a standing army, and one of its presidents, Oscar Arias, was awarded the Nobel Peace Prize in 1987. The philosophy of the country can be summed up in the catch phrase "pura vida," ("pure life") which tourists find emblazoned on mugs and t-shirts throughout the country.
+
+Costa Ricans take pride in the high educational level of the country. Free and obligatory elementary school, provided for in the country’s constitution, has led to a high literacy rate among adults. The country boasts a 96% literacy rate and has recently implemented new educational schemes designed to extend opportunities for learning to all its citizens. Students who wish to continue their post-secondary education can choose among four different state-funded universities.
+
+Although Costa Rica dawns over 1,000 miles of coastline, most volunteer placements are in rural inland communities. Volunteers are placed individually as the sole volunteer in their town. While there is no "typical placement" in Costa Rica, most placements have some combination of a plaza (a grassy area about the size of a soccer field), a church, a school and a pulpería (small convenience store). Communication is primarily done through landline phones however cell phone use and reception is increasing daily.
+However, what these communities lack in amenities, they make up for with a tremendous amount of heart and soul. Each volunteer is placed with a host family during their service who inevitably become more than just hosts, but true familia.
+
+>I think I have learned to slow down. Life here just moves at a different pace and I have learned that you do not have to be connected to the internet, cell phone or the TV to listen and learn. Life moves at a different pace here and all of the things that have seemed so important in the past matter so very little.
+*Meryl Greenblatt, Costa Rica 2010*
+
+###### UNIQUE CHALLENGES FOR COSTA RICA VOLUNTEERS
+**Isolation**: Most placements in Costa Rica are quite spread out and can be several hours from a big city. Some also have very limited bus service, so it can be hard to get out of town or see another volunteer. Feelings of isolation are common, especially in the adjustment phase when volunteers are still learning the language and meeting people in the community. Costa Ricans are very welcoming and most volunteers report truly feeling like a part of the community by the end of their service, but it takes time, patience, and the courage to put yourself out there on the part of the volunteer.
+
+**Family**: All Costa Rica volunteers live with host families, which contribute to the sentiment that volunteers are truly part of the community. Living with a host family can be a very rewarding experience. Families range from grandparents with grown children, to couples with school aged children, to single mothers. As volunteers are certainly, independent individuals (as proven by their choice to embark upon international service), there are many challenges posed to volunteers as they adapt to living in the home of someone else and navigating through cultural norms that may translate into less privacy.
+
+**Chisme**: Placements in Costa Rica are in extremely small towns, usually consisting of about 150-200 people. Most members of the community are related and have lived in the same community for their whole lives, many for generations. Most women pass the time in the home and thus, gossip is common. The new volunteer will more than likely be the focus of gossip and no topic is off the table. Volunteers have found that they are talked about for who they spend their time with, their teaching techniques, and even their weight. The validity of what is said is typically not scrutinized, either. Usually not used maliciously, this type of gossip is a part of daily life in rural Costa Rica.
+
+**Pura Vida**: The Costa Rican saying, meaning “Pure Life,” signifies the beauty and tranquility that defines the country. However, the “take things as they come” mentality can also be very frustrating for volunteers, with class being cancelled often, sometimes without notice, unreliable schedules, and struggling to get anything done on time. The laid back lifestyle is very different from the fast-paced, connected lifestyle to which most volunteers are accustomed.
+
+###### WEB RESOURCES FOR COSTA RICA
+Government of Costa Rica | Official Site (in Spanish)
+Costa Rican Embassy | Official Site
+US State Department | Costa Rica profile
+Ministry of Education | Official Site (in Spanish)
+The Tico Times | English-language newspaper
+La Nacion | Daily national newspaper
+Online newspapers | Extensive list of other Costa Rican news portals
+BBC News Country Profile | In-depth profile of Costa Rica
+Centers for Disease Control & Prevention |  Health Information
+CANATUR  |  Costa Rican Bureau of Tourism
+The Economist |  Archive of the magazine's articles on Costa Rica
 
 ### Footer
 
