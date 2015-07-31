@@ -1,5 +1,46 @@
 # WorldTeach Proposal
 
+## Project Deliverables
+
+* Final website that meets these technical capabilities:
+    * 4+ HTML, 1+ compiled CSS file (with Bourbon & Sass)
+    * Reset CSS coding
+    * Responsive site capabilities with:
+        * 3+ views
+        * Percentage based-width on divs
+        * Max-width in pixels
+        * Em-based typography
+        * Flexible images and alt tags
+    * 1+ JS or jQuery dependent plug-in adding to the user experience
+    * Modernizr.js for progressive enhancement and graceful fall-back
+* Coded Style Guide (HTML and CSS) that includes the typography, colors, buttons, icons and other documentation for the design
+* Icon set of 3 - 5 icons custom designed
+* 10+ Responsive Sketches showing 3+ breakpoints
+* 3+ Style Tiles and their written concepts
+* 2+ Rapid Wireframes of 3 concepts in Illustrator
+* All work, including sketches, wireframes, etc, uploaded to Github and GH-pages within its own repository that includes a readme file detailing the concept and process (up to 400 words)
+* Final 5-minute presentation
+* Time-sheet with all hours logged
+
+## Game Plan
+
+* Day 1: Initial Research (about, user interviews, competitive market analysis, SWOT), Proposal
+* Day 2: Finalzing Research (keywords/wordlists, this not that), Evaluating Research, Content Analysis, Site Map, 4 Page Selection
+* Day 3: Icons Workshop, Content Collection
+* Day 4: Logo/Icon Start, Content Strategy, Paper Prototyping, Sketches
+* Day 5: Wireframes, Exploring Color and Type, Starting Style Tiles
+* Day 6: Finalize Style Tiles, Starting Mock Ups
+* Day 7: Mock Ups, Exploring CMS Options
+* Day 8: Style Guide, Learning CMS
+* Day 9: Starting to Code (setting up basic HTML and layouts)
+* Day 10: Coding
+* Day 11: Coding
+* Day 12: Coding
+* Day 13: Coding
+* Day 14: Presentation Prep
+
+Presenation: Tuesday, August 11th @ 9 am
+
 ## History & Intro 
 WorldTeach is a non-profit organization that pairs volunteers with partner countries throughout the world to teach for summer, semester, and year-long teaching sessions that cater towards the needs of the local community and promote responsible global citizenship.
 
@@ -177,43 +218,4 @@ WorldTeach's strengths, weaknesses, opportunities and threats are detailed below
 
 <img src="http://nistmep.blogs.govdelivery.com/wp-content/uploads/2013/01/Challenging-Times.jpg" alt="Challenging" width="275" /> <img src="http://www.feedbackz.com/blog/wp-content/uploads/2015/02/easy-rank-amazon-product.png" alt="Easy " width="275" />
 
-## Game Plan
 
-* Day 1: Initial Research (about, user interviews, competitive market analysis, SWOT), Proposal
-* Day 2: Finalzing Research (keywords/wordlists, this not that), Evaluating Research, Content Analysis, Site Map, 4 Page Selection
-* Day 3: Icons Workshop, Content Collection
-* Day 4: Logo/Icon Start, Content Strategy, Paper Prototyping, Sketches
-* Day 5: Wireframes, Exploring Color and Type, Starting Style Tiles
-* Day 6: Finalize Style Tiles, Starting Mock Ups
-* Day 7: Mock Ups, Exploring CMS Options
-* Day 8: Style Guide, Learning CMS
-* Day 9: Starting to Code (setting up basic HTML and layouts)
-* Day 10: Coding
-* Day 11: Coding
-* Day 12: Coding
-* Day 13: Coding
-* Day 14: Presentation Prep
-
-Presenation: Tuesday, August 11th @ 9 am
-
-## Project Deliverables
-
-* Final website that meets these technical capabilities:
-    * 4+ HTML, 1+ compiled CSS file (with Bourbon & Sass)
-    * Reset CSS coding
-    * Responsive site capabilities with:
-        * 3+ views
-        * Percentage based-width on divs
-        * Max-width in pixels
-        * Em-based typography
-        * Flexible images and alt tags
-    * 1+ JS or jQuery dependent plug-in adding to the user experience
-    * Modernizr.js for progressive enhancement and graceful fall-back
-* Coded Style Guide (HTML and CSS) that includes the typography, colors, buttons, icons and other documentation for the design
-* Icon set of 3 - 5 icons custom designed
-* 10+ Responsive Sketches showing 3+ breakpoints
-* 3+ Style Tiles and their written concepts
-* 2+ Rapid Wireframes of 3 concepts in Illustrator
-* All work, including sketches, wireframes, etc, uploaded to Github and GH-pages within its own repository that includes a readme file detailing the concept and process (up to 400 words)
-* Final 5-minute presentation
-* Time-sheet with all hours logged

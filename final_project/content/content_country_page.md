@@ -144,6 +144,8 @@ The host families are chosen by the WorldTeach Field Staff and take part because
 
 View current Costa Rica year long placements. Please note that placements vary from year to year, depending on school and regional needs.
 
+###### Explore Costa Rica + Mid-Service Conference
+
 ###### The Costs
 The cost of the Costa Rica year long program is $4,590. This includes pre-departure information and preparation, supplemental overseas health and emergency evacuation insurance, 3-week long in-country orientation, transportation to your site, meals and housing during orientation and throughout your teaching service, and 24-hour field support. 
 
@@ -167,8 +169,6 @@ APPLY NOW!
 
 * Prep for planning a community project, in coordination with community members
 * Number of volunteers each year: approximately 20
-* Monthly stipend: yes
-* Orientation: 1 month
 * Students: grades 1st through 6th
 * Teaching: English (and in limited bilingual placements, math and science)
 
