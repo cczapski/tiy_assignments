@@ -180,10 +180,10 @@ WorldTeach's strengths, weaknesses, opportunities and threats are detailed below
 ## Game Plan
 
 * Day 1: Initial Research (about, user interviews, competitive market analysis, SWOT), Proposal
-* Day 2: Finalzing Research (keywords/wordlists, this not that), Evaluating Research, Content Analysis, Site Map, 4 Page Selection, Initial Sketches
-* Day 3: Icons & Logo
-* Day 4: Content Strategy, Paper Prototyping, Wireframes
-* Day 5: Exploring Color and Type, Starting Style Tiles
+* Day 2: Finalzing Research (keywords/wordlists, this not that), Evaluating Research, Content Analysis, Site Map, 4 Page Selection
+* Day 3: Icons Workshop, Content Collection
+* Day 4: Logo/Icon Start, Content Strategy, Paper Prototyping, Sketches
+* Day 5: Wireframes, Exploring Color and Type, Starting Style Tiles
 * Day 6: Finalize Style Tiles, Starting Mock Ups
 * Day 7: Mock Ups, Exploring CMS Options
 * Day 8: Style Guide, Learning CMS

@@ -210,17 +210,16 @@ However, what these communities lack in amenities, they make up for with a treme
 **Pura Vida**: The Costa Rican saying, meaning “Pure Life,” signifies the beauty and tranquility that defines the country. However, the “take things as they come” mentality can also be very frustrating for volunteers, with class being cancelled often, sometimes without notice, unreliable schedules, and struggling to get anything done on time. The laid back lifestyle is very different from the fast-paced, connected lifestyle to which most volunteers are accustomed.
 
 ###### WEB RESOURCES FOR COSTA RICA
-Government of Costa Rica | Official Site (in Spanish)
-Costa Rican Embassy | Official Site
-US State Department | Costa Rica profile
-Ministry of Education | Official Site (in Spanish)
-The Tico Times | English-language newspaper
-La Nacion | Daily national newspaper
-Online newspapers | Extensive list of other Costa Rican news portals
-BBC News Country Profile | In-depth profile of Costa Rica
-Centers for Disease Control & Prevention |  Health Information
-CANATUR  |  Costa Rican Bureau of Tourism
-The Economist |  Archive of the magazine's articles on Costa Rica
+[Costa Rican Embassy](http://www.embassy-worldwide.com/embassies-of-costa-rica-in-united-states/) | Official Site
+[US State Department](http://www.state.gov/r/pa/ei/bgn/2019.htm) | Costa Rica profile
+[Ministry of Education](http://www.mep.go.cr/DesarrolloCurricular/informacion.aspx)| Official Site (in Spanish)
+[The Tico Times](http://www.ticotimes.net/) | English-language newspaper
+[La Nacion](http://www.nacion.com/) | Daily national newspaper
+[Online newspapers](http://www.onlinenewspapers.com/costaric.htm) | Extensive list of other Costa Rican news portals
+[BBC News Country Profile](http://news.bbc.co.uk/2/hi/americas/country_profiles/1166587.stm) | In-depth profile of Costa Rica
+[Centers for Disease Control & Prevention](http://wwwnc.cdc.gov/travel/destinations/traveler/none/costa-rica) |  Health Information
+[CANATUR](http://www.canatur.org/)  |  Costa Rican Bureau of Tourism
+[The Economist](http://www.economist.com/topics/costa-rica) |  Archive of the magazine's articles on Costa Rica
 
 ### Footer
 
