@@ -7,7 +7,6 @@ Logo
 Main Nav:
 * Apply
 * Donate
-* Log In
 * Blog
 * About
 

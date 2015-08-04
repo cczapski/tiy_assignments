@@ -31,7 +31,7 @@ Section Nav:
     * Cost Rica (year-long, summer)
     * Ecuador (year-long, summer)
     * Guyana (year-long)
-    * Haita (summer)
+    * Haiti (summer)
     * Marshall Islands (year-long)
     * Micronesia (year-long, summer)
     * Morocco (summer)
