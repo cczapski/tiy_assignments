@@ -90,4 +90,12 @@ a {
     color: #7A7B8C;
     border-bottom: 2px solid #98E0D8; }
 
+.center {
+  margin: 0 auto;
+  width: 90%; }
+
+.logo {
+  width: 75%;
+  margin: 0 auto; }
+
 /*# sourceMappingURL=style.css.map */
