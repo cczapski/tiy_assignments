@@ -1,7 +1,8 @@
-@import "bourbon/bourbon";
-@import "reset";
-
-h1 {
-	font-family: rinse;
-	font-size: 60px;
-}
+@import 'reset';
+@import 'bourbon/bourbon';
+@import 'colors';
+@import 'base';
+@import 'layout';
+@import 'global';
+@import 'medium';
+@import 'large';
