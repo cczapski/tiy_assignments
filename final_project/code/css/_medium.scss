@@ -1,0 +1,32 @@
+@media screen and (min-width: 550px) {
+	.you-help, .where {
+		min-height: 290px;
+	}
+
+	.you-help {
+		width: 37.5%;
+		float: left;
+	}
+
+	.where {
+		width: 62.5%;
+		float: left;
+	}
+
+	@media screen and (min-width: 708px) {
+		.you-help, .where {
+			min-height: 0;
+			height: 260px;
+		}
+	}
+
+	.users {
+		overflow: hidden;
+
+		li {
+			width: 33.333%;
+			float: left;
+		}
+	}
+
+} //end of media query
