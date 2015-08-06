@@ -1,4 +1,4 @@
-//TYPOGRAPHY -----------------------------------------------------
+//TYPE -----------------------------------------------------
 @mixin font($em){
 	font-size: ($em*18) + px;
 	font-size: ($em) + em;
@@ -11,10 +11,14 @@ $base-font-family: "alverata-informal-pe", Helvetica, sans-serif;
 $base-line-height: 1.6;
 $base-font-weight: 400;
 $bold: 700;
+$regular: 400;
 
 $base-header-font: "signo", Helvetica, sans-serif;
 $base-header-lheight: 1.8;
 $base-header-weight: 700;
+
+$signo: "signo", Helvetica, sans-serif;
+$alverata: "alverata-informal-pe", Helvetica, sans-serif;  
 
 body {
 	@include font(1);
@@ -63,14 +67,45 @@ p {
 a {
 	text-decoration: none;
 	color: $base-font-color;
-	border-bottom: 2px solid $aqua;
+}
 
-	&:hover {
-		border-bottom: 2px solid $lt-red;
-	}
+//SEGMENT STYLE -----------------------------------------------------
 
-	&:visited {
-		color: $md-blue;
-		border-bottom: 2px solid $lt-aqua;
+.dots {
+  font-size: 1em;
+  color: #53CBB3;
+}
+
+//BUTTONS -----------------------------------------------------
+
+button {
+	border-radius: 10px;
+	border: 0;
+	font-family: $signo;
+	font-weight: $bold;
+	@include font(1.111);
+	padding: 10px 15px;
+}
+
+//FOOTER
+
+.social-btn1, .social-btn2 {
+	font-family: $alverata;
+	font-weight: $regular;
+	@include font(1.111);
+	margin-bottom: 15px;
+	text-align: center;	
+
+	a {
+		border-bottom: 0;
 	}
 }
+
+.social-btn1 {
+	background: url(../assets/images/texture_aqua1.png) $gold;
+}
+
+.social-btn2 {
+	background: url(../assets/images/texture_aqua2.png) $gold;
+}
+

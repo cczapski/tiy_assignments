@@ -82,20 +82,110 @@ p {
 
 a {
   text-decoration: none;
-  color: #20253F;
-  border-bottom: 2px solid #53CBBE; }
-  a:hover {
-    border-bottom: 2px solid #F36674; }
-  a:visited {
-    color: #7A7B8C;
-    border-bottom: 2px solid #98E0D8; }
+  color: #20253F; }
 
-.center {
-  margin: 0 auto;
-  width: 90%; }
+.dots {
+  font-size: 1em;
+  color: #53CBB3; }
+
+button {
+  border-radius: 10px;
+  border: 0;
+  font-family: "signo", Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 19.998px;
+  font-size: 1.111em;
+  padding: 10px 15px; }
+
+.social-btn1, .social-btn2 {
+  font-family: "alverata-informal-pe", Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 19.998px;
+  font-size: 1.111em;
+  margin-bottom: 15px;
+  text-align: center; }
+  .social-btn1 a, .social-btn2 a {
+    border-bottom: 0; }
+
+.social-btn1 {
+  background: url(../assets/images/texture_aqua1.png) #F9AB3C; }
+
+.social-btn2 {
+  background: url(../assets/images/texture_aqua2.png) #F9AB3C; }
+
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+.container {
+  overflow: hidden; }
+
+.wrapper {
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 0 3%; }
+
+.col3,
+.col8 {
+  float: left;
+  width: 94%;
+  margin: 5% 3%; }
+
+.main-nav {
+  text-align: right; }
+  .main-nav a {
+    font-family: "signo", Helvetica, sans-serif;
+    font-size: 19.998px;
+    font-size: 1.111em; }
+  .main-nav li {
+    display: inline-block;
+    margin: 5% 0 5% 5%; }
+  .main-nav .apply, .main-nav .donate {
+    border-radius: 100px/50px; }
+    .main-nav .apply a, .main-nav .donate a {
+      color: white; }
+  .main-nav .apply {
+    background: url(../assets/images/texture_white1.png) #F9AB3C;
+    padding: 10px 17px; }
+  .main-nav .donate {
+    background: url(../assets/images/texture_white2.png) #F36674;
+    padding: 10px; }
 
 .logo {
-  width: 75%;
-  margin: 0 auto; }
+  width: 80%;
+  max-width: 530px;
+  margin: 2%; }
+
+@media screen and (max-width: 380px) {
+  .logo {
+    width: 95%; } }
+footer {
+  background: #53CBBE; }
+  footer h5 {
+    color: white;
+    margin-bottom: 15px; }
+  footer li {
+    margin-bottom: 15px; }
+  footer a {
+    color: white;
+    font-size: 19.998px;
+    font-size: 1.111em; }
+    footer a:hover {
+      border-bottom: 3px solid #F36674; }
+
+.social-icons {
+  width: 270px; }
+  .social-icons li {
+    display: inline-block;
+    margin: 0 6px; }
+
+.helpful-links {
+  overflow: hidden; }
+  .helpful-links ul {
+    float: left; }
+    .helpful-links ul:last-of-type {
+      padding-left: 30%; }
 
 /*# sourceMappingURL=style.css.map */

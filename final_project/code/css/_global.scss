@@ -1,4 +1,90 @@
+//HEADER ----------------------------------------------------
+.main-nav {
+	text-align: right;
+
+	a {
+		font-family: $base-header-font;
+		@include font(1.111);
+	}
+
+	li {
+		display: inline-block;
+		margin: 5% 0 5% 5%;
+	}
+
+	.apply, .donate {
+		border-radius: 100px/50px;
+
+  		a {
+  			color: white;
+  		}
+	}
+
+	.apply {
+		background: url(../assets/images/texture_white1.png) $gold;
+		padding: 10px 17px;
+	}
+
+	.donate {
+		background: url(../assets/images/texture_white2.png) $lt-red;
+		padding: 10px;
+	}
+} //end of main-nav
+
 .logo {
-	width: 75%;
-	margin: 0 auto;
+  width: 80%;
+  max-width: 530px;
+  margin: 2%;
+}
+
+@media screen and (max-width: 380px) {
+	.logo {
+		width: 95%;
+	}
+}
+
+//FOOTER ----------------------------------------------------
+footer {
+	background: $aqua;
+
+	h5 {
+		color: white;
+		margin-bottom: 15px;
+	}
+
+	li {
+		margin-bottom: 15px;
+	}
+
+	a {
+		color: white;
+		@include font(1.111);
+
+		&:hover {
+			border-bottom: 3px solid $lt-red;
+		}
+	}
+}
+
+.social-icons {
+	width: 270px;
+
+	li {
+		display: inline-block;
+		margin: 0 6px;
+	}
+}
+
+.helpful-links {
+	overflow: hidden;
+
+	ul {
+		float: left;
+
+		
+
+		&:last-of-type {
+			padding-left: 30%;
+		}
+	}
 }

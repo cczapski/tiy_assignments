@@ -1,4 +1,34 @@
-.center {
-	margin: 0 auto;
-	width: 90%;
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+.container {
+	overflow: hidden;
+}
+
+.wrapper {
+	overflow: hidden;
+	max-width: 1200px;
+	margin: 0 3%;
+}
+
+//16 COLUMN GRID 
+// $col: 4.375%;
+// $gut: 2%;
+
+// @mixin col($col-num) {
+//       width: ($col * $col-num ) + ($gut * (($col-num) - 1));
+//       margin-left: $gut;
+//       margin-right: 0;
+// }
+
+.col3, 
+.col8 {
+	float: left;
+	width: 94%;
+	margin: 5% 3%;
 }
