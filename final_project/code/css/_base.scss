@@ -1,3 +1,5 @@
+$border: 2px dashed red;
+
 //TYPE -----------------------------------------------------
 @mixin font($em){
 	font-size: ($em*18) + px;
@@ -96,8 +98,8 @@ button {
 	margin-bottom: 15px;
 	text-align: center;	
 
-	a {
-		border-bottom: 0;
+	&:hover {
+		background: url(../assets/images/texture_aqua1.png) $lt-red;
 	}
 }
 
