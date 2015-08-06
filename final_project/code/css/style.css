@@ -229,10 +229,10 @@ footer {
   display: block; }
 
 #cssmenu > ul > li.has-sub > a span {
-  background: url(/menu_images/icon_plus.png) 96% center no-repeat; }
+  background: url(../menu_images/icon_plus.png) 96% center no-repeat; }
 
 #cssmenu > ul > li.has-sub.active > a span {
-  background: url(/menu_images/icon_minus.png) 96% center no-repeat; }
+  background: url(../menu_images/icon_minus.png) 96% center no-repeat; }
 
 #cssmenu ul ul {
   display: none;
