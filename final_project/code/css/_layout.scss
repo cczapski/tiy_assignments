@@ -16,19 +16,12 @@ html {
 	margin: 0 3%;
 }
 
-//16 COLUMN GRID 
-// $col: 4.375%;
-// $gut: 2%;
-
-// @mixin col($col-num) {
-//       width: ($col * $col-num ) + ($gut * (($col-num) - 1));
-//       margin-left: $gut;
-//       margin-right: 0;
-// }
+//16 COLUMN GRID
 
 .col3,
-.col6 
-.col8
+.col5, 
+.col6, 
+.col8,
 .col10 {
 	width: 94%;
 	margin: 5% auto;
@@ -45,18 +38,37 @@ html {
 	}
 
 	.col3,
-	.col6 
-	.col8
+	.col5, 
+	.col6, 
+	.col8,
 	.col10 {
+		float: left;
 	}
 
 	.col3 {
 		@include col(3);
 	}
+
+	.col5 {
+		@include col(5);
+	}
+
+	.users {
+	overflow: hidden;
+	
+	.col5 {
+		margin-left: 5%;
+		text-align: center;
+
+		&:first-of-type {
+			margin-left: 0;
+		}
+	}
+}
 	
 	.col6 {
 		@include col(6);
-		float: left;
+		// float: left;
 	}
 
 	.col8 {
@@ -65,7 +77,7 @@ html {
 
 	.col10 {
 		@include col(10);
-		float: left;
+		// float: left;
 	}
 
 	.first {

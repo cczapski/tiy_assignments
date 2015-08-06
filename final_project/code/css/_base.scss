@@ -1,5 +1,9 @@
 $border: 2px dashed red;
 
+img {
+	max-width: 100%;
+}
+
 //TYPE -----------------------------------------------------
 @mixin font($em){
 	font-size: ($em*18) + px;
@@ -16,7 +20,7 @@ $bold: 700;
 $regular: 400;
 
 $base-header-font: "signo", Helvetica, sans-serif;
-$base-header-lheight: 1.8;
+$base-header-lheight: 1.5;
 $base-header-weight: 700;
 
 $signo: "signo", Helvetica, sans-serif;
@@ -40,6 +44,7 @@ h1, h2, h3, h4, h5 {
 
 h1 {
 	@include font(3.889);
+	color: white;
 }
 
 h2 {
@@ -74,8 +79,8 @@ a {
 //SEGMENT STYLE -----------------------------------------------------
 
 .dots {
-  font-size: 1em;
-  color: #53CBB3;
+  width: 100%;
+  border: 4px dotted $aqua;
 }
 
 //BUTTONS -----------------------------------------------------

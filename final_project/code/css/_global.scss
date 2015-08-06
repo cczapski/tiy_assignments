@@ -1,7 +1,7 @@
 //HEADER ----------------------------------------------------
 .main-nav {
 	text-align: right;
-	margin: 0 3%;
+	padding: 15px;
 
 	a {
 		font-family: $base-header-font;
@@ -10,7 +10,11 @@
 
 	li {
 		display: inline-block;
-		margin: 5% 0 5% 5%;
+		margin: 15px 0 15px 15px;
+
+		&:first-of-type {
+			margin-left: 0;
+		}
 	}
 
 	.apply, .donate {
@@ -35,7 +39,7 @@
 .logo {
   width: 80%;
   max-width: 530px;
-  margin: 2%;
+  margin: 30px 2%;
 }
 
 @media screen and (max-width: 380px) {
@@ -46,8 +50,46 @@
 
 //HOME CONTENT
 
-.hero, .col6, .col10 {
-	border: $border;
+// .hero, .col6, .col10, .col5, .col8, .wrapper {
+// 	border: $border;
+// }
+
+.hero, .you-help, .where {
+}
+
+.hero {
+	overflow: hidden;
+	background: url('http://lorempixel.com/output/people-q-c-1204-480-4.jpg') no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 400px;
+	padding-top: 6em;
+	text-shadow: 1px 3px 5px $dk-blue;
+	position: relative;
+
+	.overlay {
+		background: $aqua;
+		background: linear-gradient(rgba(83, 203, 190, 0.5), rgba(83, 203, 190, 0.5));
+	}
+
+	.wrapper {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		
+	}
+
+}
+
+.you-help {
+	background: $aqua;
+}
+
+.where {
+	overflow: hidden;
+
+	background: url(../assets/images/sky.jpg) no-repeat;
+	background-position: center;
 }
 
 //FOOTER ----------------------------------------------------
