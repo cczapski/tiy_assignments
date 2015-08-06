@@ -129,9 +129,8 @@ html {
 
 .col3,
 .col8 {
-  float: left;
   width: 94%;
-  margin: 5% 3%; }
+  margin: 5% auto; }
 
 .main-nav {
   text-align: right; }
@@ -175,8 +174,12 @@ footer {
     footer a:hover {
       border-bottom: 3px solid #F36674; }
 
+.ftcolumn-center {
+  width: 300px;
+  margin: 0 auto; }
+
 .social-icons {
-  width: 270px; }
+  text-align: center; }
   .social-icons li {
     display: inline-block;
     margin: 0 6px; }

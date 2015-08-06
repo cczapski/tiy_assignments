@@ -66,8 +66,13 @@ footer {
 	}
 }
 
+.ftcolumn-center {
+	width: 300px;
+	margin: 0 auto;
+}
+
 .social-icons {
-	width: 270px;
+	text-align: center;
 
 	li {
 		display: inline-block;
