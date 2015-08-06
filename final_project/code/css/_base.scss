@@ -14,7 +14,7 @@ $base-font-size: 1;
 $base-font-color: $dk-blue;
 
 $base-font-family: "alverata-informal-pe", Helvetica, sans-serif;
-$base-line-height: 1.6;
+$base-line-height: 1.7;
 $base-font-weight: 400;
 $bold: 700;
 $regular: 400;
@@ -53,10 +53,12 @@ h2 {
 
 h3, h4 {
 	@include font(1.333);
+	margin-top: 30px;
 }
 
 h4 {
 	font-style: italic;
+	margin-bottom: 10px;
 }
 
 h5 {
@@ -68,7 +70,8 @@ h5 {
 // }
 
 p {
-	margin-bottom: 0.875em;
+	margin-bottom: 10px;
+	padding-right: 15px;
 }
 
 a {
@@ -76,11 +79,30 @@ a {
 	color: $base-font-color;
 }
 
-//SEGMENT STYLE -----------------------------------------------------
+//STYLES -----------------------------------------------------
 
 .dots {
   width: 100%;
   border: 4px dotted $aqua;
+}
+
+.author {
+	color: $md-blue;
+}
+
+.date {
+	color: $aqua;
+}
+
+.link {
+	border-bottom: 3px solid $aqua;
+	font-weight: $bold;
+	color: $md-blue;
+
+	&:hover {
+		border-bottom: 3px solid $lt-red;
+		color: $lt-red;
+	}
 }
 
 //BUTTONS -----------------------------------------------------
@@ -90,8 +112,22 @@ button {
 	border: 0;
 	font-family: $signo;
 	font-weight: $bold;
+	text-transform: uppercase;
 	@include font(1.111);
 	padding: 10px 15px;
+}
+
+.btn1:hover,
+.btn2:hover {
+	background: url(../assets/images/texture_white1.png) $lt-red;
+}
+
+.btn1 {
+	background: url(../assets/images/texture_white1.png) $aqua;
+}
+
+.btn2 {
+	background: url(../assets/images/texture_white2.png) $aqua;
 }
 
 //FOOTER
@@ -99,6 +135,7 @@ button {
 .social-btn1, .social-btn2 {
 	font-family: $alverata;
 	font-weight: $regular;
+	text-transform: none;
 	@include font(1.111);
 	margin-bottom: 15px;
 	text-align: center;	

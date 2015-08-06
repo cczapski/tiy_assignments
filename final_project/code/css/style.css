@@ -52,7 +52,7 @@ body {
   font-size: 18px;
   font-size: 1em;
   font-family: "alverata-informal-pe", Helvetica, sans-serif;
-  line-height: 1.6;
+  line-height: 1.7;
   color: #20253F; }
 
 h1, h2, h3, h4, h5 {
@@ -72,17 +72,20 @@ h2 {
 
 h3, h4 {
   font-size: 23.994px;
-  font-size: 1.333em; }
+  font-size: 1.333em;
+  margin-top: 30px; }
 
 h4 {
-  font-style: italic; }
+  font-style: italic;
+  margin-bottom: 10px; }
 
 h5 {
   font-size: 21.996px;
   font-size: 1.222em; }
 
 p {
-  margin-bottom: 0.875em; }
+  margin-bottom: 10px;
+  padding-right: 15px; }
 
 a {
   text-decoration: none;
@@ -92,18 +95,44 @@ a {
   width: 100%;
   border: 4px dotted #53CBBE; }
 
+.author {
+  color: #7A7B8C; }
+
+.date {
+  color: #53CBBE; }
+
+.link {
+  border-bottom: 3px solid #53CBBE;
+  font-weight: 700;
+  color: #7A7B8C; }
+  .link:hover {
+    border-bottom: 3px solid #F36674;
+    color: #F36674; }
+
 button {
   border-radius: 10px;
   border: 0;
   font-family: "signo", Helvetica, sans-serif;
   font-weight: 700;
+  text-transform: uppercase;
   font-size: 19.998px;
   font-size: 1.111em;
   padding: 10px 15px; }
 
+.btn1:hover,
+.btn2:hover {
+  background: url(../assets/images/texture_white1.png) #F36674; }
+
+.btn1 {
+  background: url(../assets/images/texture_white1.png) #53CBBE; }
+
+.btn2 {
+  background: url(../assets/images/texture_white2.png) #53CBBE; }
+
 .social-btn1, .social-btn2 {
   font-family: "alverata-informal-pe", Helvetica, sans-serif;
   font-weight: 400;
+  text-transform: none;
   font-size: 19.998px;
   font-size: 1.111em;
   margin-bottom: 15px;
@@ -162,6 +191,22 @@ html {
 @media screen and (max-width: 380px) {
   .logo {
     width: 95%; } }
+.volunteers-nav {
+  background: #53CBBE; }
+  .volunteers-nav ul {
+    text-align: center; }
+  .volunteers-nav li {
+    display: inline-block;
+    text-align: center;
+    max-width: 160px;
+    padding: 15px; }
+  .volunteers-nav a {
+    color: white;
+    font-size: 18px;
+    font-size: 1em;
+    font-family: "signo", Helvetica, sans-serif;
+    font-weight: 400; }
+
 .hero {
   overflow: hidden;
   background: url("http://lorempixel.com/output/people-q-c-1204-480-4.jpg") no-repeat;
@@ -192,7 +237,7 @@ html {
   padding: 30px; }
 
 .you-help {
-  background: #F36674;
+  background: #20253F;
   overflow: hidden;
   color: white; }
   .you-help h2 {
@@ -206,6 +251,29 @@ html {
   text-shadow: 1px 3px 5px #20253F;
   background: url(../assets/images/sky.jpg) no-repeat;
   background-position: center; }
+
+.users {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+  .users li {
+    padding: 15px;
+    margin: 3%;
+    border-radius: 10px;
+    text-align: center; }
+    .users li a {
+      font-size: 27px;
+      font-size: 1.5em; }
+    .users li:nth-child(odd) {
+      background: url(../assets/images/texture_white1.png) #F9AB3C; }
+    .users li:nth-child(even) {
+      background: url(../assets/images/texture_white2.png) #F9AB3C; }
+    .users li:hover {
+      background: url(../assets/images/texture_white2.png) #F36674; }
+      .users li:hover a {
+        color: white; }
+
+.blogs {
+  margin: 0 30px 30px 30px; }
 
 footer {
   background: #53CBBE; }
@@ -276,7 +344,14 @@ footer {
   .users {
     overflow: hidden; }
     .users li {
-      width: 33.333%;
-      float: left; } }
+      width: 27.333%;
+      float: left; }
+
+  .blogs {
+    overflow: hidden; }
+    .blogs div {
+      width: 50%;
+      float: left;
+      padding-right: 30px; } }
 
 /*# sourceMappingURL=style.css.map */

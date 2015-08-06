@@ -24,8 +24,18 @@
 		overflow: hidden;
 
 		li {
-			width: 33.333%;
+			width: 27.333%;
 			float: left;
+		}
+	}
+
+	.blogs {
+		overflow: hidden; 
+
+		div {
+			width: 50%;
+			float: left;
+			padding-right: 30px;
 		}
 	}
 
