@@ -60,17 +60,23 @@
 		text-align: center;
 		max-width: 160px;
 		padding: 15px;
+
+		&:hover {
+			background: $dk-aqua;
+		}
 	}
 
 	a {
 		color: white;
 		@include font(1);
-		font-family: $signo;
-		font-weight: $regular;
 	}
 }
 
-//HOME CONTENT
+.breadcrumbs {
+	padding: 15px;
+}
+
+//HOME CONTENT ---------------------------------------------
 
 .hero {
 	overflow: hidden;
@@ -79,7 +85,6 @@
 	width: 100%;
 	height: 400px;
 	padding-top: 6em;
-	text-shadow: 1px 3px 5px $dk-blue;
 	position: relative;
 
 	.overlay {
@@ -163,6 +168,72 @@
 
 .blogs {
 	margin: 0 30px 30px 30px;
+}
+
+//VOLUNTEERS CONTENT ---------------------------------------------
+section {
+	overflow: hidden;
+}
+
+.hd-volunteers {
+	background: url(../assets/images/volunteers_header.jpg) no-repeat;
+	background-position: center;
+	width: 100%;
+	padding: 6em;
+	position: relative;
+
+}
+
+.vol-reqs {
+
+	h4 {
+		margin-top: 0;
+	}
+
+	ul {
+		list-style: disc inside;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+.volunteers-img {
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.research {
+	width: 100%;
+	max-width: 600px;
+	padding-right: 30px;
+
+	li {
+		padding: 15px;
+		margin: 3%;
+		border-radius: 10px;
+		text-align: center;
+
+		a {
+			@include font(1.5);
+		}
+
+		&:nth-child(odd) {
+			background: url(../assets/images/texture_white1.png) $gold;
+		}
+
+		&:nth-child(even) {
+			background: url(../assets/images/texture_white2.png) $gold;
+		}
+
+		&:hover {
+			background: url(../assets/images/texture_white2.png) $lt-red;
+			a {
+				color: white;
+			}
+		}
+	}
 }
 
 //FOOTER ----------------------------------------------------

@@ -62,9 +62,11 @@ h1, h2, h3, h4, h5 {
   text-transform: uppercase; }
 
 h1 {
-  font-size: 70.002px;
-  font-size: 3.889em;
-  color: white; }
+  font-size: 54px;
+  font-size: 3em;
+  color: white;
+  text-shadow: 1px 3px 5px #20253F;
+  text-align: center; }
 
 h2 {
   font-size: 39.996px;
@@ -108,6 +110,15 @@ a {
   .link:hover {
     border-bottom: 3px solid #F36674;
     color: #F36674; }
+
+.photo-description {
+  font-size: 16.182px;
+  font-size: 0.899em;
+  text-align: center;
+  color: #7A7B8C; }
+
+.bc-current {
+  color: #7A7B8C; }
 
 button {
   border-radius: 10px;
@@ -200,12 +211,15 @@ html {
     text-align: center;
     max-width: 160px;
     padding: 15px; }
+    .volunteers-nav li:hover {
+      background: #3E988F; }
   .volunteers-nav a {
     color: white;
     font-size: 18px;
-    font-size: 1em;
-    font-family: "signo", Helvetica, sans-serif;
-    font-weight: 400; }
+    font-size: 1em; }
+
+.breadcrumbs {
+  padding: 15px; }
 
 .hero {
   overflow: hidden;
@@ -214,7 +228,6 @@ html {
   width: 100%;
   height: 400px;
   padding-top: 6em;
-  text-shadow: 1px 3px 5px #20253F;
   position: relative; }
   .hero .overlay {
     position: absolute;
@@ -274,6 +287,50 @@ html {
 
 .blogs {
   margin: 0 30px 30px 30px; }
+
+section {
+  overflow: hidden; }
+
+.hd-volunteers {
+  background: url(../assets/images/volunteers_header.jpg) no-repeat;
+  background-position: center;
+  width: 100%;
+  padding: 6em;
+  position: relative; }
+
+.vol-reqs h4 {
+  margin-top: 0; }
+.vol-reqs ul {
+  list-style: disc inside;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.volunteers-img {
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 10px; }
+
+.research {
+  width: 100%;
+  max-width: 600px;
+  padding-right: 30px; }
+  .research li {
+    padding: 15px;
+    margin: 3%;
+    border-radius: 10px;
+    text-align: center; }
+    .research li a {
+      font-size: 27px;
+      font-size: 1.5em; }
+    .research li:nth-child(odd) {
+      background: url(../assets/images/texture_white1.png) #F9AB3C; }
+    .research li:nth-child(even) {
+      background: url(../assets/images/texture_white2.png) #F9AB3C; }
+    .research li:hover {
+      background: url(../assets/images/texture_white2.png) #F36674; }
+      .research li:hover a {
+        color: white; }
 
 footer {
   background: #53CBBE; }
@@ -352,6 +409,12 @@ footer {
     .blogs div {
       width: 50%;
       float: left;
-      padding-right: 30px; } }
+      padding-right: 30px; }
+
+  .vol-reqs, .volunteers-img {
+    float: left; }
+
+  .vol-reqs {
+    width: 50%; } }
 
 /*# sourceMappingURL=style.css.map */
