@@ -47,4 +47,13 @@
 		width: 50%;
 	}
 
+	.country-buttons {
+		overflow: hidden;
+
+		li {
+			width: 44%;
+			float: left;
+		}
+	}
+
 } //end of media query

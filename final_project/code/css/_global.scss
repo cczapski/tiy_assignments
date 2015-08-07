@@ -74,6 +74,10 @@
 
 .breadcrumbs {
 	padding: 15px;
+
+	li {
+		display: inline-block;
+	}
 }
 
 //HOME CONTENT ---------------------------------------------
@@ -209,6 +213,37 @@ section {
 	max-width: 600px;
 	padding-right: 30px;
 
+	li {
+		padding: 15px;
+		margin: 3%;
+		border-radius: 10px;
+		text-align: center;
+
+		a {
+			@include font(1.5);
+		}
+
+		&:nth-child(odd) {
+			background: url(../assets/images/texture_white1.png) $gold;
+		}
+
+		&:nth-child(even) {
+			background: url(../assets/images/texture_white2.png) $gold;
+		}
+
+		&:hover {
+			background: url(../assets/images/texture_white2.png) $lt-red;
+			a {
+				color: white;
+			}
+		}
+	}
+}
+
+//DESTINATION CONTENT ---------------------------------------------
+
+.country-buttons {
+	
 	li {
 		padding: 15px;
 		margin: 3%;

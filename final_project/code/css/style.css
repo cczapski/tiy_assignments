@@ -220,6 +220,8 @@ html {
 
 .breadcrumbs {
   padding: 15px; }
+  .breadcrumbs li {
+    display: inline-block; }
 
 .hero {
   overflow: hidden;
@@ -332,6 +334,23 @@ section {
       .research li:hover a {
         color: white; }
 
+.country-buttons li {
+  padding: 15px;
+  margin: 3%;
+  border-radius: 10px;
+  text-align: center; }
+  .country-buttons li a {
+    font-size: 27px;
+    font-size: 1.5em; }
+  .country-buttons li:nth-child(odd) {
+    background: url(../assets/images/texture_white1.png) #F9AB3C; }
+  .country-buttons li:nth-child(even) {
+    background: url(../assets/images/texture_white2.png) #F9AB3C; }
+  .country-buttons li:hover {
+    background: url(../assets/images/texture_white2.png) #F36674; }
+    .country-buttons li:hover a {
+      color: white; }
+
 footer {
   background: #53CBBE; }
   footer h5 {
@@ -415,6 +434,12 @@ footer {
     float: left; }
 
   .vol-reqs {
-    width: 50%; } }
+    width: 50%; }
+
+  .country-buttons {
+    overflow: hidden; }
+    .country-buttons li {
+      width: 44%;
+      float: left; } }
 
 /*# sourceMappingURL=style.css.map */
