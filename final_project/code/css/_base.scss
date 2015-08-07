@@ -13,18 +13,19 @@ img {
 $base-font-size: 1;
 $base-font-color: $dk-blue;
 
-$base-font-family: "alverata-informal-pe", Helvetica, sans-serif;
+$base-font-family: "signo", Helvetica, sans-serif;
 $base-line-height: 1.7;
-$base-font-weight: 400;
+$base-font-weight: 300;
 $bold: 700;
-$regular: 400;
+$regular: 300;
+$light: 200;
 
 $base-header-font: "signo", Helvetica, sans-serif;
 $base-header-lheight: 1.5;
 $base-header-weight: 700;
 
 $signo: "signo", Helvetica, sans-serif;
-$alverata: "alverata-informal-pe", Helvetica, sans-serif;  
+// $alverata: "alverata-informal-pe", Helvetica, sans-serif;  
 
 body {
 	@include font(1);
@@ -145,8 +146,8 @@ button {
 //FOOTER
 
 .social-btn1, .social-btn2 {
-	font-family: $alverata;
-	font-weight: $regular;
+	font-family: $signo;
+	font-weight: $light;
 	text-transform: none;
 	@include font(1.111);
 	margin-bottom: 15px;

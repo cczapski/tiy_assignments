@@ -51,7 +51,7 @@ img {
 body {
   font-size: 18px;
   font-size: 1em;
-  font-family: "alverata-informal-pe", Helvetica, sans-serif;
+  font-family: "signo", Helvetica, sans-serif;
   line-height: 1.7;
   color: #20253F; }
 
@@ -141,8 +141,8 @@ button {
   background: url(../assets/images/texture_white2.png) #53CBBE; }
 
 .social-btn1, .social-btn2 {
-  font-family: "alverata-informal-pe", Helvetica, sans-serif;
-  font-weight: 400;
+  font-family: "signo", Helvetica, sans-serif;
+  font-weight: 200;
   text-transform: none;
   font-size: 19.998px;
   font-size: 1.111em;
@@ -176,6 +176,7 @@ html {
   padding: 15px; }
   .main-nav a {
     font-family: "signo", Helvetica, sans-serif;
+    font-weight: 700;
     font-size: 19.998px;
     font-size: 1.111em; }
   .main-nav li {
@@ -243,7 +244,8 @@ html {
       margin-left: 3%; }
     .hero .overlay h1 {
       font-size: 54px;
-      font-size: 3em; }
+      font-size: 3em;
+      text-align: left; }
     .hero .overlay p {
       color: white;
       max-width: 500px; }
@@ -277,7 +279,8 @@ html {
     text-align: center; }
     .users li a {
       font-size: 27px;
-      font-size: 1.5em; }
+      font-size: 1.5em;
+      font-weight: 700; }
     .users li:nth-child(odd) {
       background: url(../assets/images/texture_white1.png) #F9AB3C; }
     .users li:nth-child(even) {

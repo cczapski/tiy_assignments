@@ -5,6 +5,7 @@
 
 	a {
 		font-family: $base-header-font;
+		font-weight: $bold;
 		@include font(1.111);
 	}
 
@@ -106,6 +107,7 @@
 
 		h1 {
 			@include font(3);
+			text-align: left;
 		}
 
 		p {
@@ -151,6 +153,7 @@
 
 		a {
 			@include font(1.5);
+			font-weight: $bold;
 		}
 
 		&:nth-child(odd) {
