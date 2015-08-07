@@ -95,8 +95,11 @@ a {
   color: #20253F; }
 
 .dots {
-  width: 100%;
-  border: 4px dotted #53CBBE; }
+  display: inline-block;
+  padding-bottom: 4px;
+  color: #53CBBE;
+  border-width: 10px;
+  border-image: url("/assets/images/border_image_aqua.png") 0 0 50 repeat; }
 
 .author {
   color: #7A7B8C; }
@@ -204,30 +207,48 @@ section {
 .wrapper {
   overflow: hidden;
   max-width: 1200px;
-  margin: 0 3%; }
+  margin: 0 auto;
+  position: relative; }
+
+.login {
+  float: left;
+  color: white;
+  background: url(../assets/images/texture_white1.png) #98E0D8;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 15px;
+  margin-left: 15px; }
+  .login:hover {
+    background: url(../assets/images/texture_white1.png) #F36674; }
+
+.main-nav-wrapper {
+  min-height: 90px; }
 
 .main-nav {
   text-align: right;
-  padding: 15px; }
+  width: 100%; }
   .main-nav a {
     font-family: "signo", Helvetica, sans-serif;
     font-weight: 300;
-    font-size: 19.998px;
-    font-size: 1.111em; }
+    font-size: 18px;
+    font-size: 1em; }
   .main-nav li {
     display: inline-block;
-    margin: 15px 0 15px 15px; }
+    margin: 0 0 15px 15px; }
     .main-nav li:first-of-type {
       margin-left: 0; }
 
-.logo {
-  width: 80%;
+@media screen and (min-width: 500px) {
+  .main-nav {
+    position: absolute;
+    top: 0;
+    right: 0; } }
+.logo-wrapper {
+  width: 90%;
   max-width: 530px;
-  margin: 30px 2%; }
+  padding: 30px 30px 15px 30px;
+  margin: 0 auto; }
 
-@media screen and (max-width: 380px) {
-  .logo {
-    width: 95%; } }
 .volunteers-nav {
   background: #53CBBE; }
   .volunteers-nav ul {
@@ -235,8 +256,10 @@ section {
   .volunteers-nav li {
     display: inline-block;
     text-align: center;
+    padding: 15px;
     max-width: 160px;
-    padding: 15px; }
+    height: 84px;
+    vertical-align: middle; }
     .volunteers-nav li:hover {
       background: #F36674; }
   .volunteers-nav a {
@@ -260,7 +283,7 @@ section {
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 400px;
+  height: 450px;
   padding-top: 6em;
   position: relative; }
   .hero .overlay {
@@ -375,7 +398,8 @@ section {
 
 .map h1 {
   color: #20253F;
-  text-shadow: none; }
+  text-shadow: none;
+  padding: 15px 0; }
 
 .country-buttons li {
   padding: 15px;

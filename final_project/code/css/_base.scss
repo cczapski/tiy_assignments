@@ -89,17 +89,14 @@ a {
 
 //STYLES -----------------------------------------------------
 
-// @mixin linear-gradient($x, $y, $z, $opacity) {
-// 	-webkit-linear-gradient(rgba($x, $y, $z, $opacity), rgba($x, $y, $z, $opacity));
-//     -moz-linear-gradient(rgba($x, $y, $z, $opacity), rgba($x, $y, $z, $opacity);
-//     -ms-linear-gradient(rgba($x, $y, $z, $opacity), rgba($x, $y, $z, $opacity);
-//     -o-linear-gradient(rgba($x, $y, $z, $opacity), rgba($x, $y, $z, $opacity));
-//     linear-gradient(rgba($x, $y, $z, $opacity), rgba($x, $y, $z, $opacity));
-// }
-
 .dots {
-  width: 100%;
-  border: 4px dotted $aqua;
+  // width: 100%;
+  // border: 4px dotted $aqua;
+  display: inline-block;
+  padding-bottom: 4px;
+  color: $aqua;
+  border-width: 10px;
+  border-image: url("/assets/images/border_image_aqua.png") 0 0 50 repeat;
 }
 
 .author {
