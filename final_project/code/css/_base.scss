@@ -90,13 +90,10 @@ a {
 //STYLES -----------------------------------------------------
 
 .dots {
-  // width: 100%;
-  // border: 4px dotted $aqua;
   display: inline-block;
   padding-bottom: 4px;
-  color: $aqua;
   border-width: 10px;
-  border-image: url("/assets/images/border_image_aqua.png") 0 0 50 repeat;
+  border-image: url("../assets/images/border_image_aqua.png") 0 0 50 repeat;
 }
 
 .author {

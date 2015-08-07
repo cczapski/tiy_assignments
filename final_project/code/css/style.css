@@ -97,9 +97,8 @@ a {
 .dots {
   display: inline-block;
   padding-bottom: 4px;
-  color: #53CBBE;
   border-width: 10px;
-  border-image: url("/assets/images/border_image_aqua.png") 0 0 50 repeat; }
+  border-image: url("../assets/images/border_image_aqua.png") 0 0 50 repeat; }
 
 .author {
   color: #7A7B8C; }
@@ -217,7 +216,9 @@ section {
   border-radius: 10px;
   padding: 5px;
   margin-top: 15px;
-  margin-left: 15px; }
+  margin-left: 15px;
+  z-index: 1000;
+  cursor: pointer; }
   .login:hover {
     background: url(../assets/images/texture_white1.png) #F36674; }
 
@@ -226,7 +227,8 @@ section {
 
 .main-nav {
   text-align: right;
-  width: 100%; }
+  width: 100%;
+  z-index: 1; }
   .main-nav a {
     font-family: "signo", Helvetica, sans-serif;
     font-weight: 300;
