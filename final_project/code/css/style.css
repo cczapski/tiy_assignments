@@ -70,7 +70,8 @@ h1 {
 
 h2 {
   font-size: 39.996px;
-  font-size: 2.222em; }
+  font-size: 2.222em;
+  margin-top: 30px; }
 
 h3, h4 {
   font-size: 23.994px;
@@ -111,6 +112,15 @@ a {
     border-bottom: 3px solid #F36674;
     color: #F36674; }
 
+.link-photo {
+  border-bottom: 3px solid #53CBBE;
+  font-weight: 300;
+  color: white;
+  text-shadow: 1px 3px 5px #20253F; }
+  .link-photo:hover {
+    border-bottom: 3px solid #F36674;
+    color: #F36674; }
+
 .photo-description {
   font-size: 16.182px;
   font-size: 0.899em;
@@ -119,6 +129,19 @@ a {
 
 .bc-current {
   color: #7A7B8C; }
+
+.apply, .donate {
+  border-radius: 100px/50px; }
+  .apply a, .donate a {
+    color: white; }
+
+.apply {
+  background: url(../assets/images/texture_white1.png) #F9AB3C;
+  padding: 10px 17px; }
+
+.donate {
+  background: url(../assets/images/texture_white2.png) #F36674;
+  padding: 10px; }
 
 button {
   border-radius: 10px;
@@ -129,6 +152,8 @@ button {
   font-size: 19.998px;
   font-size: 1.111em;
   padding: 10px 15px; }
+  button a {
+    color: white; }
 
 .btn1:hover,
 .btn2:hover {
@@ -166,6 +191,9 @@ html {
 .container {
   overflow: hidden; }
 
+section {
+  overflow: hidden; }
+
 .wrapper {
   overflow: hidden;
   max-width: 1200px;
@@ -184,16 +212,6 @@ html {
     margin: 15px 0 15px 15px; }
     .main-nav li:first-of-type {
       margin-left: 0; }
-  .main-nav .apply, .main-nav .donate {
-    border-radius: 100px/50px; }
-    .main-nav .apply a, .main-nav .donate a {
-      color: white; }
-  .main-nav .apply {
-    background: url(../assets/images/texture_white1.png) #F9AB3C;
-    padding: 10px 17px; }
-  .main-nav .donate {
-    background: url(../assets/images/texture_white2.png) #F36674;
-    padding: 10px; }
 
 .logo {
   width: 80%;
@@ -228,6 +246,7 @@ html {
   overflow: hidden;
   background: url("http://lorempixel.com/output/people-q-c-1204-480-4.jpg") no-repeat;
   background-position: center;
+  background-size: cover;
   width: 100%;
   height: 400px;
   padding-top: 6em;
@@ -237,6 +256,7 @@ html {
     left: 0;
     bottom: 0;
     width: 100%;
+    background: #53CBBE;
     background-color: rgba(83, 203, 190, 0.5);
     background-image: -webkit-linear-gradient(rgba(83, 203, 190, 0.5), rgba(83, 203, 190, 0.5));
     background-image: linear-gradient(rgba(83, 203, 190, 0.5), rgba(83, 203, 190, 0.5)); }
@@ -267,7 +287,8 @@ html {
   color: white;
   text-shadow: 1px 3px 5px #20253F;
   background: url(../assets/images/sky.jpg) no-repeat;
-  background-position: center; }
+  background-position: center;
+  background-size: cover; }
 
 .users {
   margin-top: 30px;
@@ -293,11 +314,9 @@ html {
 .blogs {
   margin: 0 30px 30px 30px; }
 
-section {
-  overflow: hidden; }
-
 .hd-volunteers {
   background: url(../assets/images/volunteers_header.jpg) no-repeat;
+  background-size: cover;
   background-position: center;
   width: 100%;
   padding: 6em;
@@ -357,6 +376,33 @@ section {
     background: url(../assets/images/texture_white2.png) #F36674; }
     .country-buttons li:hover a {
       color: white; }
+
+.country-nav {
+  display: none; }
+
+.country-section ul {
+  list-style: disc inside;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.country-header-img {
+  background: url(../assets/images/costa_rica_header.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 6em; }
+
+.country-content {
+  margin: 3%; }
+
+.country-block {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.video {
+  margin-top: 15px;
+  margin-bottom: 15px; }
 
 footer {
   background: #53CBBE; }
@@ -447,6 +493,17 @@ footer {
     overflow: hidden; }
     .country-buttons li {
       width: 44%;
-      float: left; } }
+      float: left; }
+
+  .country-nav {
+    display: block;
+    margin-left: 3%;
+    width: 23.5%;
+    float: left; }
+
+  .country-content {
+    width: 70.5%;
+    float: left;
+    margin-right: 3%; } }
 
 /*# sourceMappingURL=style.css.map */

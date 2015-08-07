@@ -56,4 +56,17 @@
 		}
 	}
 
+	.country-nav {
+		display: block;
+		margin-left: 3%;
+		width: 23.5%;
+		float: left;
+	}
+
+	.country-content {
+		width: 70.5%;
+		float: left;
+		margin-right: 3%;
+	}
+
 } //end of media query

@@ -25,7 +25,11 @@ $base-header-lheight: 1.5;
 $base-header-weight: 700;
 
 $signo: "signo", Helvetica, sans-serif;
-// $alverata: "alverata-informal-pe", Helvetica, sans-serif;  
+// $alverata: "alverata-informal-pe", Helvetica, sans-serif; 
+
+@mixin shadow($color) {
+	text-shadow: 1px 3px 5px $color;
+} 
 
 body {
 	@include font(1);
@@ -46,12 +50,13 @@ h1, h2, h3, h4, h5 {
 h1 {
 	@include font(3);
 	color: white;
-	text-shadow: 1px 3px 5px $dk-blue;
+	@include shadow($dk-blue);
 	text-align: center;
 }
 
 h2 {
 	@include font(2.222);
+	margin-top: 30px;
 }
 
 h3, h4 {
@@ -84,6 +89,14 @@ a {
 
 //STYLES -----------------------------------------------------
 
+// @mixin linear-gradient($x, $y, $z, $opacity) {
+// 	-webkit-linear-gradient(rgba($x, $y, $z, $opacity), rgba($x, $y, $z, $opacity));
+//     -moz-linear-gradient(rgba($x, $y, $z, $opacity), rgba($x, $y, $z, $opacity);
+//     -ms-linear-gradient(rgba($x, $y, $z, $opacity), rgba($x, $y, $z, $opacity);
+//     -o-linear-gradient(rgba($x, $y, $z, $opacity), rgba($x, $y, $z, $opacity));
+//     linear-gradient(rgba($x, $y, $z, $opacity), rgba($x, $y, $z, $opacity));
+// }
+
 .dots {
   width: 100%;
   border: 4px dotted $aqua;
@@ -108,6 +121,18 @@ a {
 	}
 }
 
+.link-photo {
+	border-bottom: 3px solid $aqua;
+	font-weight: $regular;
+	color: white;
+	@include shadow($dk-blue);
+
+	&:hover {
+		border-bottom: 3px solid $lt-red;
+		color: $lt-red;
+	}
+}
+
 .photo-description {
 	@include font(0.899);
 	text-align: center;
@@ -119,6 +144,23 @@ a {
 }
 
 //BUTTONS -----------------------------------------------------
+.apply, .donate {
+	border-radius: 100px/50px;
+
+		a {
+			color: white;
+		}
+}
+
+.apply {
+	background: url(../assets/images/texture_white1.png) $gold;
+	padding: 10px 17px;
+}
+
+.donate {
+	background: url(../assets/images/texture_white2.png) $lt-red;
+	padding: 10px;
+}
 
 button {
 	border-radius: 10px;
@@ -128,6 +170,10 @@ button {
 	text-transform: uppercase;
 	@include font(1.111);
 	padding: 10px 15px;
+
+	a {
+		color: white;
+	}
 }
 
 .btn1:hover,
