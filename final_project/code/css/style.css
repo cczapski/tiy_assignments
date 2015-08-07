@@ -130,10 +130,17 @@ a {
 .bc-current {
   color: #7A7B8C; }
 
+.arrow {
+  font-size: 21.6px;
+  font-size: 1.2em; }
+
 .apply, .donate {
-  border-radius: 100px/50px; }
+  border-radius: 100px/50px;
+  font-weight: 700; }
   .apply a, .donate a {
     color: white; }
+  .apply:hover, .donate:hover {
+    background: url(../assets/images/texture_white1.png) #53CBBE; }
 
 .apply {
   background: url(../assets/images/texture_white1.png) #F9AB3C;
@@ -204,7 +211,7 @@ section {
   padding: 15px; }
   .main-nav a {
     font-family: "signo", Helvetica, sans-serif;
-    font-weight: 700;
+    font-weight: 300;
     font-size: 19.998px;
     font-size: 1.111em; }
   .main-nav li {
@@ -231,16 +238,21 @@ section {
     max-width: 160px;
     padding: 15px; }
     .volunteers-nav li:hover {
-      background: #3E988F; }
+      background: #F36674; }
   .volunteers-nav a {
     color: white;
     font-size: 18px;
     font-size: 1em; }
 
+.selected-nav {
+  background: url(../assets/images/texture_white1.png) #3E988F; }
+
 .breadcrumbs {
-  padding: 15px; }
+  padding: 10px; }
   .breadcrumbs li {
     display: inline-block; }
+    .breadcrumbs li:hover a {
+      color: #F36674; }
 
 .hero {
   overflow: hidden;
@@ -263,8 +275,9 @@ section {
     .hero .overlay h1, .hero .overlay p {
       margin-left: 3%; }
     .hero .overlay h1 {
-      font-size: 54px;
-      font-size: 3em;
+      font-size: 41.4px;
+      font-size: 2.3em;
+      line-height: 1.4;
       text-align: left; }
     .hero .overlay p {
       color: white;
@@ -280,7 +293,8 @@ section {
   .you-help h2 {
     font-size: 36px;
     font-size: 2em;
-    text-transform: none; }
+    text-transform: none;
+    margin-top: 0; }
 
 .where {
   overflow: hidden;
@@ -289,14 +303,16 @@ section {
   background: url(../assets/images/sky.jpg) no-repeat;
   background-position: center;
   background-size: cover; }
+  .where h2 {
+    margin-top: 0; }
 
 .users {
   margin-top: 30px;
   margin-bottom: 30px; }
   .users li {
-    padding: 15px;
+    padding: 30px;
     margin: 3%;
-    border-radius: 10px;
+    border-radius: 50%;
     text-align: center; }
     .users li a {
       font-size: 27px;
@@ -313,6 +329,9 @@ section {
 
 .blogs {
   margin: 0 30px 30px 30px; }
+  .blogs button {
+    margin-top: 15px;
+    color: white; }
 
 .hd-volunteers {
   background: url(../assets/images/volunteers_header.jpg) no-repeat;
@@ -322,8 +341,6 @@ section {
   padding: 6em;
   position: relative; }
 
-.vol-reqs h4 {
-  margin-top: 0; }
 .vol-reqs ul {
   list-style: disc inside;
   padding-left: 15px;
@@ -378,14 +395,20 @@ section {
       color: white; }
 
 .country-nav {
-  display: none; }
+  display: none;
+  background: url(../assets/images/texture_white1.png) #F9AB3C; }
 
-.country-section ul {
-  list-style: disc inside;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-top: 15px;
-  margin-bottom: 15px; }
+.country-section {
+  overflow: hidden; }
+  .country-section ul {
+    list-style: disc inside;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px; }
+
+.country-content {
+  overflow: hidden; }
 
 .country-header-img {
   background: url(../assets/images/costa_rica_header.jpg);
@@ -393,16 +416,22 @@ section {
   background-position: center;
   padding: 6em; }
 
-.country-content {
-  margin: 3%; }
-
 .country-block {
-  margin-top: 30px;
-  margin-bottom: 30px; }
+  margin: 30px; }
 
 .video {
   margin-top: 15px;
   margin-bottom: 15px; }
+
+.back {
+  text-align: center;
+  margin: 30px; }
+  .back a {
+    font-size: 27px;
+    font-size: 1.5em;
+    font-weight: 700; }
+    .back a:hover {
+      color: #F36674; }
 
 footer {
   background: #53CBBE; }
@@ -455,6 +484,11 @@ footer {
   display: block; }
 
 @media screen and (min-width: 550px) {
+  .hero .overlay h1 {
+    font-size: 54px;
+    font-size: 3em;
+    line-height: 1.5; }
+
   .you-help, .where {
     min-height: 290px; }
 
@@ -497,13 +531,26 @@ footer {
 
   .country-nav {
     display: block;
-    margin-left: 3%;
-    width: 23.5%;
-    float: left; }
-
-  .country-content {
-    width: 70.5%;
+    padding-left: 3%;
+    padding-bottom: 30px;
+    width: 25%;
     float: left;
-    margin-right: 3%; } }
+    border-radius: 0 0 10px 0; }
+    .country-nav li {
+      padding: 10px;
+      border-radius: 10px 0 0 10px; }
+      .country-nav li:hover {
+        background: #F36674; }
+        .country-nav li:hover a {
+          color: white;
+          font-weight: 300; }
+    .country-nav a {
+      font-weight: 700; }
+      .country-nav a:hover {
+        color: white; }
+
+  .country-section {
+    width: 75%;
+    float: left; } }
 
 /*# sourceMappingURL=style.css.map */

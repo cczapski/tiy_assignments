@@ -1,4 +1,13 @@
 @media screen and (min-width: 550px) {
+	.hero {
+		.overlay {
+			h1 {
+				@include font(3);
+				line-height: $base-header-lheight;
+			}
+		}
+	}
+
 	.you-help, .where {
 		min-height: 290px;
 	}
@@ -58,15 +67,39 @@
 
 	.country-nav {
 		display: block;
-		margin-left: 3%;
-		width: 23.5%;
+		padding-left: 3%;
+		padding-bottom: 30px;
+		width: 25%;
 		float: left;
+		border-radius: 0 0 10px 0;
+
+		li {
+			padding: 10px;
+			border-radius: 10px 0 0 10px;
+
+			&:hover {
+				background: $lt-red;
+
+				a {
+					color: white;
+					font-weight: $regular;
+				}
+			}
+		}
+
+		a {
+			font-weight: $bold;
+
+			&:hover {
+				color: white;
+			}
+		}
 	}
 
-	.country-content {
-		width: 70.5%;
+	.country-section {
+		width: 75%;
 		float: left;
-		margin-right: 3%;
+		// margin-right: 3%;
 	}
 
 } //end of media query

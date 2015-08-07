@@ -143,13 +143,22 @@ a {
 	color: $md-blue;
 }
 
+.arrow {
+	@include font(1.2);
+}
+
 //BUTTONS -----------------------------------------------------
 .apply, .donate {
 	border-radius: 100px/50px;
+	font-weight: $bold;	
 
-		a {
-			color: white;
-		}
+	a {
+		color: white;
+	}
+
+	&:hover {
+		background: url(../assets/images/texture_white1.png) $aqua;
+	}
 }
 
 .apply {
