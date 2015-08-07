@@ -1,9 +1,17 @@
-@media screen and (min-width: 550px) {
-	.hero {
-		.overlay {
-			h1 {
-				@include font(3);
-				line-height: $base-header-lheight;
+@media screen and (min-width: 665px) {
+	.main-nav {
+		li {
+			margin-left: 20px;
+		}
+	}
+
+	@media screen and (min-width: 790px) {
+		.hero {
+			.overlay {
+				h1 {
+					@include font(2.85);
+					line-height: $base-header-lheight;
+				}
 			}
 		}
 	}
@@ -35,17 +43,46 @@
 		li {
 			width: 27.333%;
 			float: left;
+			min-height: 180px;
 		}
 	}
 
+	@media screen and (min-width: 805px) {
+		.users {
+			li:last-of-type {
+				padding-top: 20px;
+			}
+		}
+	} //end of media query
+
+	@media screen and (min-width: 857px) {
+		.users {
+			li:nth-child(2) {
+				padding-top: 20px;
+			}
+		}
+	} //end of media query
+	
+	@media screen and (min-width: 1033px) {
+		.users {
+			li:nth-child(1) {
+				padding-top: 20px;
+			}
+		}
+	} //end of media query
+
 	.blogs {
 		overflow: hidden; 
+	}
 
-		div {
-			width: 50%;
-			float: left;
-			padding-right: 30px;
-		}
+
+	.post {
+		width: 45%;
+		float: left;
+	}
+
+	.post1 {
+		margin-right: 10%;
 	}
 
 	.vol-reqs, .volunteers-img {

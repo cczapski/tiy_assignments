@@ -97,8 +97,13 @@ a {
 .dots {
   display: inline-block;
   padding-bottom: 4px;
-  border-width: 10px;
+  border-width: 7px;
   border-image: url("../assets/images/border_image_aqua.png") 0 0 50 repeat; }
+
+.dots-above {
+  padding-bottom: 4px;
+  border-width: 7px;
+  border-image-top: url("../assets/images/border_image_aqua.png") 0 0 50 repeat; }
 
 .author {
   color: #7A7B8C; }
@@ -159,10 +164,11 @@ button {
   font-weight: 700;
   text-transform: uppercase;
   font-size: 19.998px;
-  font-size: 1.111em;
-  padding: 10px 15px; }
+  font-size: 1.111em; }
   button a {
-    color: white; }
+    color: white;
+    padding: 10px 15px;
+    display: block; }
 
 .btn1:hover,
 .btn2:hover {
@@ -215,10 +221,8 @@ section {
   background: url(../assets/images/texture_white1.png) #98E0D8;
   border-radius: 10px;
   padding: 5px;
-  margin-top: 15px;
-  margin-left: 15px;
-  z-index: 1000;
-  cursor: pointer; }
+  margin-top: 10px;
+  margin-left: 15px; }
   .login:hover {
     background: url(../assets/images/texture_white1.png) #F36674; }
 
@@ -227,29 +231,36 @@ section {
 
 .main-nav {
   text-align: right;
-  width: 100%;
-  z-index: 1; }
+  width: 100%; }
+  .main-nav ul {
+    float: right;
+    margin-top: 10px;
+    margin-right: 15px;
+    padding-bottom: 15px; }
   .main-nav a {
     font-family: "signo", Helvetica, sans-serif;
-    font-weight: 300;
+    font-weight: 700;
+    padding: 10px;
     font-size: 18px;
     font-size: 1em; }
   .main-nav li {
-    display: inline-block;
-    margin: 0 0 15px 15px; }
+    display: inline-block; }
     .main-nav li:first-of-type {
       margin-left: 0; }
 
-@media screen and (min-width: 500px) {
-  .main-nav {
-    position: absolute;
-    top: 0;
-    right: 0; } }
 .logo-wrapper {
   width: 90%;
   max-width: 530px;
-  padding: 30px 30px 15px 30px;
+  padding: 20px 30px 15px 30px;
   margin: 0 auto; }
+
+.btn-center {
+  max-width: 180px;
+  margin: 0 auto; }
+  .btn-center button {
+    background: url(../assets/images/texture_white1.png) #F36674; }
+    .btn-center button:hover {
+      background: url(../assets/images/texture_white1.png) #F9AB3C; }
 
 .volunteers-nav {
   background: #53CBBE; }
@@ -285,7 +296,7 @@ section {
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 450px;
+  height: 400px;
   padding-top: 6em;
   position: relative; }
   .hero .overlay {
@@ -298,7 +309,8 @@ section {
     background-image: -webkit-linear-gradient(rgba(83, 203, 190, 0.5), rgba(83, 203, 190, 0.5));
     background-image: linear-gradient(rgba(83, 203, 190, 0.5), rgba(83, 203, 190, 0.5)); }
     .hero .overlay h1, .hero .overlay p {
-      margin-left: 3%; }
+      padding-left: 30px;
+      padding-right: 30px; }
     .hero .overlay h1 {
       font-size: 41.4px;
       font-size: 2.3em;
@@ -306,8 +318,12 @@ section {
       text-align: left; }
     .hero .overlay p {
       color: white;
-      max-width: 500px; }
+      max-width: 500px;
+      display: none; }
 
+@media screen and (min-width: 427px) {
+  .hero .overlay p {
+    display: block; } }
 .you-help, .where {
   padding: 30px; }
 
@@ -329,20 +345,22 @@ section {
   background-position: center;
   background-size: cover; }
   .where h2 {
-    margin-top: 0; }
+    margin-top: 0;
+    max-width: 650px; }
 
 .users {
   margin-top: 30px;
   margin-bottom: 30px; }
   .users li {
-    padding: 30px;
     margin: 3%;
-    border-radius: 50%;
+    border-radius: 10px;
     text-align: center; }
     .users li a {
       font-size: 27px;
       font-size: 1.5em;
-      font-weight: 700; }
+      font-weight: 700;
+      padding: 30px;
+      display: block; }
     .users li:nth-child(odd) {
       background: url(../assets/images/texture_white1.png) #F9AB3C; }
     .users li:nth-child(even) {
@@ -357,6 +375,14 @@ section {
   .blogs button {
     margin-top: 15px;
     color: white; }
+
+.two-posts {
+  padding: 0 15px 15px 15px;
+  overflow: hidden; }
+
+.post {
+  max-width: 500px;
+  margin: 0 auto; }
 
 .hd-volunteers {
   background: url(../assets/images/volunteers_header.jpg) no-repeat;
@@ -509,12 +535,15 @@ footer {
 #cssmenu ul ul a {
   display: block; }
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 665px) {
+  .main-nav li {
+    margin-left: 20px; } }
+@media screen and (min-width: 665px) and (min-width: 790px) {
   .hero .overlay h1 {
-    font-size: 54px;
-    font-size: 3em;
-    line-height: 1.5; }
-
+    font-size: 51.3px;
+    font-size: 2.85em;
+    line-height: 1.5; } }
+@media screen and (min-width: 665px) {
   .you-help, .where {
     min-height: 290px; }
 
@@ -525,23 +554,36 @@ footer {
   .where {
     width: 62.5%;
     float: left; } }
-@media screen and (min-width: 550px) and (min-width: 708px) {
+@media screen and (min-width: 665px) and (min-width: 708px) {
   .you-help, .where {
     min-height: 0;
     height: 260px; } }
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 665px) {
   .users {
     overflow: hidden; }
     .users li {
       width: 27.333%;
-      float: left; }
-
+      float: left;
+      min-height: 180px; } }
+@media screen and (min-width: 665px) and (min-width: 805px) {
+  .users li:last-of-type {
+    padding-top: 20px; } }
+@media screen and (min-width: 665px) and (min-width: 857px) {
+  .users li:nth-child(2) {
+    padding-top: 20px; } }
+@media screen and (min-width: 665px) and (min-width: 1033px) {
+  .users li:nth-child(1) {
+    padding-top: 20px; } }
+@media screen and (min-width: 665px) {
   .blogs {
     overflow: hidden; }
-    .blogs div {
-      width: 50%;
-      float: left;
-      padding-right: 30px; }
+
+  .post {
+    width: 45%;
+    float: left; }
+
+  .post1 {
+    margin-right: 10%; }
 
   .vol-reqs, .volunteers-img {
     float: left; }

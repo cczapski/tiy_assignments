@@ -92,8 +92,14 @@ a {
 .dots {
   display: inline-block;
   padding-bottom: 4px;
-  border-width: 10px;
+  border-width: 7px;
   border-image: url("../assets/images/border_image_aqua.png") 0 0 50 repeat;
+}
+
+.dots-above {
+  padding-bottom: 4px;
+  border-width: 7px;
+  border-image-top: url("../assets/images/border_image_aqua.png") 0 0 50 repeat;
 }
 
 .author {
@@ -172,10 +178,11 @@ button {
 	font-weight: $bold;
 	text-transform: uppercase;
 	@include font(1.111);
-	padding: 10px 15px;
 
 	a {
 		color: white;
+		padding: 10px 15px;
+		display: block;
 	}
 }
 
