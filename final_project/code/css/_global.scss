@@ -243,7 +243,10 @@ section {
 //DESTINATION CONTENT ---------------------------------------------
 
 .map {
-	
+	h1 {
+		color: $dk-blue;
+		text-shadow: none;
+	}
 }
 
 .country-buttons {

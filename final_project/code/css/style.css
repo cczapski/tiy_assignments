@@ -334,6 +334,10 @@ section {
       .research li:hover a {
         color: white; }
 
+.map h1 {
+  color: #20253F;
+  text-shadow: none; }
+
 .country-buttons li {
   padding: 15px;
   margin: 3%;
