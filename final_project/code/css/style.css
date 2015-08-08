@@ -456,7 +456,7 @@ section {
   .country-photo {
     margin: 15px auto; } }
 .american-samoa-img {
-  background: url(../assets/images/american_samoa_ctry.jpg) no-repeat; }
+  background: url(../assets/images/american_samoa_ctry.jpg); }
 
 .bangladesh-img {
   background: url(../assets/images/bangladesh_ctry.jpg); }
@@ -465,7 +465,46 @@ section {
   background: url(../assets/images/chile_ctry.jpg); }
 
 .china-img {
-  background: url(../assets/images/china_ctry.jpg); }
+  background: url(../assets/images/china_ctry.JPG); }
+
+.colombia-img {
+  background: url(../assets/images/colombia_ctry.jpg); }
+
+.costa-rica-img {
+  background: url(../assets/images/costa_rica_ctry.jpg); }
+
+.ecuador-img {
+  background: url(../assets/images/ecuador_ctry.jpg); }
+
+.guyana-img {
+  background: url(../assets/images/guyana_ctry.JPG); }
+
+.haiti-img {
+  background: url(../assets/images/haiti_ctry.jpg); }
+
+.marshall-islands-img {
+  background: url(../assets/images/marshall_islands_ctry.jpg); }
+
+.micronesia-img {
+  background: url(../assets/images/micronesia_ctry.JPG); }
+
+.morocco-img {
+  background: url(../assets/images/morocco_ctry.jpg); }
+
+.namibia-img {
+  background: url(../assets/images/namibia_ctry.JPG); }
+
+.nepal-img {
+  background: url(../assets/images/nepal_ctry.jpg); }
+
+.poland-img {
+  background: url(../assets/images/poland_ctry.jpg); }
+
+.south-africa-img {
+  background: url(../assets/images/south_africa_ctry.jpg); }
+
+.thailand-img {
+  background: url(../assets/images/thailand_ctry.jpg); }
 
 .country-nav {
   display: none;
