@@ -271,11 +271,14 @@
 }
 
 .research {
-	max-width: 600px;
 	padding-left: 30px;
 	padding-bottom: 30px;
 	padding-right: 30px;
-	float: left;
+	width: 100%;
+
+	h5 {
+		@include font(1.1);
+	}
 
 	li {
 		padding: 15px;
@@ -301,6 +304,19 @@
 				color: white;
 			}
 		}
+	}
+}
+
+.research-block {
+	width: 90%;
+	margin: 0 auto;
+
+	button {
+		background: url(../assets/images/texture_white1.png) $lt-aqua;
+		cursor: pointer;
+		margin-bottom: 30px;
+		text-transform: none;
+		font-weight: $regular;
 	}
 }
 
