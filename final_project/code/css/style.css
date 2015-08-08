@@ -110,7 +110,8 @@ a {
 .link {
   border-bottom: 3px solid #53CBBE;
   font-weight: 700;
-  color: #7A7B8C; }
+  color: #7A7B8C;
+  cursor: pointer; }
   .link:hover {
     border-bottom: 3px solid #F36674;
     color: #F36674; }
@@ -244,6 +245,10 @@ section {
     .main-nav li:first-of-type {
       margin-left: 0; }
 
+@media screen and (max-width: 386px) {
+  .main-nav a {
+    font-size: 13.5px;
+    font-size: 0.75em; } }
 .logo-wrapper {
   width: 90%;
   max-width: 530px;
@@ -264,8 +269,8 @@ section {
     text-align: center; }
   .volunteers-nav a {
     color: white;
-    font-size: 18px;
-    font-size: 1em; }
+    font-size: 27px;
+    font-size: 1.5em; }
 
 .selected-nav {
   background: url(../assets/images/texture_white1.png) #3E988F; }
@@ -376,24 +381,30 @@ section {
   background-size: cover;
   background-position: center;
   width: 100%;
-  padding: 6em;
   position: relative; }
+  .hd-volunteers h1 {
+    font-size: 49.5px;
+    font-size: 2.75em;
+    padding: 60px 30px; }
 
-.vol-reqs ul {
-  list-style: disc inside;
-  padding-left: 15px;
-  padding-right: 15px; }
+.vol-reqs {
+  margin: 0 30px; }
+  .vol-reqs ul {
+    list-style: disc inside; }
+    .vol-reqs ul li {
+      padding-bottom: 10px; }
 
 .volunteers-img {
-  border-radius: 10px;
-  margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 10px; }
+  margin: 30px; }
+  .volunteers-img img {
+    border-radius: 10px; }
 
 .research {
-  width: 100%;
   max-width: 600px;
-  padding-right: 30px; }
+  padding-left: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  float: left; }
   .research li {
     padding: 15px;
     margin: 3%;
@@ -572,11 +583,18 @@ footer {
   .post1 {
     margin-right: 10%; }
 
-  .vol-reqs, .volunteers-img {
-    float: left; }
+  .hd-volunteers h1 {
+    font-size: 54px;
+    font-size: 3em;
+    padding: 70px; }
 
-  .vol-reqs {
-    width: 50%; }
+  .vol-reqs, .volunteers-img {
+    float: left;
+    width: 40%;
+    margin: 0 5%; }
+
+  .volunteers-img {
+    margin-top: 30px; }
 
   .country-buttons {
     overflow: hidden; }
@@ -626,7 +644,12 @@ footer {
     .volunteers-nav li:nth-child(5) {
       padding-top: 30px; }
   .volunteers-nav a {
-    text-align: center; } }
+    text-align: center;
+    font-size: 18px;
+    font-size: 1em; } }
+@media screen and (min-width: 1020px) {
+  .hd-volunteers h1 {
+    padding: 150px; } }
 /*! responsive-nav.js 1.0.39 by @viljamis */
 .nav-collapse ul {
   max-width: 817px;

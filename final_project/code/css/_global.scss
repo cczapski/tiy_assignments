@@ -44,6 +44,14 @@
 	}
 } //end of main-nav
 
+@media screen and (max-width: 386px) {
+	.main-nav {
+		a {
+			@include font(0.75);
+		}
+	}
+}
+
 .logo-wrapper {
 	width: 90%;
 	max-width: 530px;
@@ -73,7 +81,7 @@
 
 	a {
 		color: white;
-		@include font(1);
+		@include font(1.5);
 		
 	}
 }
@@ -233,31 +241,41 @@
 	background-size: cover;
 	background-position: center;
 	width: 100%;
-	padding: 6em;
 	position: relative;
-
+	
+	h1 {
+		@include font(2.75);
+		padding: 60px 30px;
+	}
 }
 
 .vol-reqs {
+	
+	margin: 0 30px;
 
 	ul {
 		list-style: disc inside;
-		padding-left: 15px;
-		padding-right: 15px;
+
+		li {
+			padding-bottom: 10px;
+		}
 	}
 }
 
 .volunteers-img {
-	border-radius: 10px;
-	margin: 0 auto;
-	margin-top: 30px;
-	margin-bottom: 10px;
+	margin: 30px;
+
+	img {
+		border-radius: 10px;
+	}
 }
 
 .research {
-	width: 100%;
 	max-width: 600px;
+	padding-left: 30px;
+	padding-bottom: 30px;
 	padding-right: 30px;
+	float: left;
 
 	li {
 		padding: 15px;

@@ -109,6 +109,7 @@ a {
 	border-bottom: 3px solid $aqua;
 	font-weight: $bold;
 	color: $md-blue;
+	cursor: pointer;
 
 	&:hover {
 		border-bottom: 3px solid $lt-red;
