@@ -133,15 +133,31 @@
 	}
 
 	//destinations page --------------------------------------------
-	.country-buttons {
+	.countries {
 		overflow: hidden;
+		margin-left: 15px;
+		margin-right: 15px;
 
-		li {
-			width: 44%;
+		.country-photo {
 			float: left;
+			width: 47%;
+			margin-left: 6%;
+		}
+
+		.first {
+			margin-left: 0;
 		}
 	}
 
+	@media screen and (min-width: 1095px) {
+		.countries {
+			margin: 0 auto;
+			width: 90%;
+		}
+	}
+
+	//country page --------------------------------------------
+	
 	.country-nav {
 		display: block;
 		padding-left: 3%;

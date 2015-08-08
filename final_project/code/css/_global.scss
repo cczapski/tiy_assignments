@@ -315,33 +315,44 @@
 	}
 }
 
-.country-buttons {
-	
-	ul {
-		overflow: hidden;
-		margin: 0 auto;
-	}
+.country-photo {
+	border-radius: 10px;
+	min-height: 250px;
+	max-width: 500px;
+	background-size: cover;
+	background-position: center;
+	margin: 15px;
+	text-align: center;
+	padding-top: 100px;
 
-	li {
-		padding: 15px;
-		margin: 3%;
-		border-radius: 10px;
-
-		a {
-			display: inline-block;
-			vertical-align: middle;
-			font-weight: $bold;
-			@include font(1.2);
-		}
+	a {
+		color: white;
+		@include shadow($dk-blue);
+		@include font(1.5);
+		padding: 100px 15px;
 	}
 }
 
-.country-img {
-	width: 30%;
-	margin-right: 10px;
-	display: inline-block;
-	vertical-align: middle;
-	border-radius: 10px;
+@media screen and (min-width: 530px) {
+	.country-photo {
+		margin: 15px auto;
+	}
+}
+
+.american-samoa-img {
+	background: url(../assets/images/american_samoa_ctry.jpg) no-repeat;
+}
+
+.bangladesh-img {
+	background: url(../assets/images/bangladesh_ctry.jpg);
+}
+
+.chile-img {
+	background: url(../assets/images/chile_ctry.jpg);
+}
+
+.china-img {
+	background: url(../assets/images/china_ctry.jpg);
 }
 
 //COSTA RICA CONTENT ---------------------------------------------
