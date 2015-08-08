@@ -90,16 +90,11 @@ a {
 //STYLES -----------------------------------------------------
 
 .dots {
+  width: 100%;
   display: inline-block;
   padding-bottom: 4px;
   border-width: 7px;
   border-image: url("../assets/images/border_image_aqua.png") 0 0 50 repeat;
-}
-
-.dots-above {
-  padding-bottom: 4px;
-  border-width: 7px;
-  border-image-top: url("../assets/images/border_image_aqua.png") 0 0 50 repeat;
 }
 
 .author {

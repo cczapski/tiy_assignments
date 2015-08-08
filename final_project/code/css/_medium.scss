@@ -140,3 +140,39 @@
 	}
 
 } //end of media query
+
+@media screen and (min-width: 815px) {
+	.dots:nth-of-type(2) {
+		border: none;
+	}
+
+	.volunteers-nav {
+		ul {
+			text-align: center;
+		}
+
+		li {
+			display: inline-block;
+			padding: 15px;
+			max-width: 160px;
+			height: 84px;
+			vertical-align: middle;
+
+			&:hover {
+				background: $lt-red;
+			}
+
+			&:nth-child(4) {
+				padding-top: 30px;
+			}
+
+			&:nth-child(5) {
+				padding-top: 30px;
+			}
+		}
+
+		a {
+			text-align: center;
+		}
+	}
+} //end of media query

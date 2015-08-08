@@ -1,0 +1,45 @@
+body {
+	background:red;
+	background: rgba(0,0,0,0.5);
+	font-family: Arial;
+}
+
+h1 {
+	color: white;
+	font-family: sans-serif;
+}
+
+h2 {
+	margin-bottom:5px;
+}
+
+p {
+	color:white;
+}
+
+.intro {
+	font-size:25px;
+	color:cyan;
+}
+
+a {
+	color:white;
+}
+
+.green {
+	width:33.333%;
+	min-height:100px;
+	background-color:green;
+	margin-bottom: 10px;
+/*	display:inline-block;*/
+	float:right;
+}
+
+
+.headline {
+	background-color:white;
+	width:50%;
+	min-height:200px;
+}
+
+

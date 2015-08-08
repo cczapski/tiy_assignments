@@ -71,19 +71,6 @@
 		text-align: center;
 	}
 
-	li {
-		display: inline-block;
-		text-align: center;
-		padding: 15px;
-		max-width: 160px;
-		height: 84px;
-		vertical-align: middle;
-
-		&:hover {
-			background: $lt-red;
-		}
-	}
-
 	a {
 		color: white;
 		@include font(1);

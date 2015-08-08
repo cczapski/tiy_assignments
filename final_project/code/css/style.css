@@ -95,15 +95,11 @@ a {
   color: #20253F; }
 
 .dots {
+  width: 100%;
   display: inline-block;
   padding-bottom: 4px;
   border-width: 7px;
   border-image: url("../assets/images/border_image_aqua.png") 0 0 50 repeat; }
-
-.dots-above {
-  padding-bottom: 4px;
-  border-width: 7px;
-  border-image-top: url("../assets/images/border_image_aqua.png") 0 0 50 repeat; }
 
 .author {
   color: #7A7B8C; }
@@ -266,15 +262,6 @@ section {
   background: #53CBBE; }
   .volunteers-nav ul {
     text-align: center; }
-  .volunteers-nav li {
-    display: inline-block;
-    text-align: center;
-    padding: 15px;
-    max-width: 160px;
-    height: 84px;
-    vertical-align: middle; }
-    .volunteers-nav li:hover {
-      background: #F36674; }
   .volunteers-nav a {
     color: white;
     font-size: 18px;
@@ -620,5 +607,88 @@ footer {
   .country-section {
     width: 75%;
     float: left; } }
+@media screen and (min-width: 815px) {
+  .dots:nth-of-type(2) {
+    border: none; }
+
+  .volunteers-nav ul {
+    text-align: center; }
+  .volunteers-nav li {
+    display: inline-block;
+    padding: 15px;
+    max-width: 160px;
+    height: 84px;
+    vertical-align: middle; }
+    .volunteers-nav li:hover {
+      background: #F36674; }
+    .volunteers-nav li:nth-child(4) {
+      padding-top: 30px; }
+    .volunteers-nav li:nth-child(5) {
+      padding-top: 30px; }
+  .volunteers-nav a {
+    text-align: center; } }
+/*! responsive-nav.js 1.0.39 by @viljamis */
+.nav-collapse ul {
+  max-width: 817px;
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+  list-style: none;
+  overflow: hidden; }
+
+.nav-collapse li {
+  text-align: right;
+  padding: 15px 30px; }
+
+@media screen and (min-width: 815px) {
+  .nav-collapse li {
+    text-align: center; } }
+.nav-collapse a {
+  color: white;
+  text-decoration: none; }
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1; }
+
+.nav-collapse.opened {
+  max-height: 9999px; }
+
+.nav-toggle {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  text-align: right; }
+
+.nav-toggle span {
+  color: #F36674;
+  font-size: 36px;
+  font-size: 2em;
+  border: 3px solid #F36674;
+  border-radius: 10px;
+  padding: 0 5px; }
+
+@media screen and (min-width: 815px) {
+  .js .nav-collapse {
+    position: relative; }
+
+  .js .nav-collapse.closed {
+    max-height: none; }
+
+  .nav-toggle {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */
