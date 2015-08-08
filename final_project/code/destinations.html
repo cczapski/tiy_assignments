@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="//use.typekit.net/zbt7djb.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
-
+	<script src="js/responsive-nav.min.js"></script>
 </head>
 
 <body>
@@ -32,7 +32,7 @@
 		</div>
 	</header>
 <!-- SECTION NAV -->
-	<nav class="volunteers-nav">
+	<nav class="volunteers-nav nav-collapse">
 		<ul>
 			<li><a href="#">Why WorldTeach?</a></li>
 			<li class="selected-nav"><a href="destinations.html">Choose Your Destination</a></li>
@@ -131,6 +131,9 @@
 		</footer>
 	</div>
 	<!-- JAVASCRIPT -->
+	<script>
+		var nav = responsiveNav(".nav-collapse");
+	</script>
 	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 
