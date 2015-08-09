@@ -188,6 +188,10 @@ a {
 	font-weight: $bold;
 }
 
+.margin-top {
+		margin-top: 30px;
+	}
+
 //BUTTONS -----------------------------------------------------
 .apply, .donate {
 	@include border-radius(50%);

@@ -72,4 +72,8 @@
   .nav-toggle {
     display: none;
   }
+
+  .country-nav {
+    @include border-radius-bottom-right(10px);
+  }
 }
