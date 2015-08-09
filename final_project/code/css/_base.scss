@@ -148,6 +148,10 @@ a {
 	@include font(1.2);
 }
 
+.bold {
+	font-weight: $bold;
+}
+
 //BUTTONS -----------------------------------------------------
 .apply, .donate {
 	border-radius: 100px/50px;

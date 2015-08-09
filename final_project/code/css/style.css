@@ -142,6 +142,9 @@ a {
   font-size: 21.6px;
   font-size: 1.2em; }
 
+.bold {
+  font-weight: 700; }
+
 .apply, .donate {
   border-radius: 100px/50px;
   font-weight: 700; }
@@ -423,6 +426,8 @@ section {
     margin-bottom: 30px;
     text-transform: none;
     font-weight: 300; }
+    .research-block button:hover {
+      background: url(../assets/images/texture_white1.png) #F8A3AC; }
 
 .app-deadlines {
   border: 4px solid #F8A3AC;
@@ -430,6 +435,11 @@ section {
   padding: 15px;
   max-width: 365px;
   margin: 0 auto; }
+  .app-deadlines .apply {
+    max-width: 100px;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto; }
 
 .map h1 {
   color: #20253F;
@@ -559,11 +569,23 @@ footer {
 
 .social-icons {
   float: left;
-  padding-right: 15px; }
+  margin-right: 15px; }
 
-.float-lt {
+.center-icons {
+  margin: 0 auto;
+  width: 90%; }
+
+.thirds {
+  width: 32%;
   float: left;
-  padding-right: 15px; }
+  margin-left: 2%; }
+  .thirds:first-of-type {
+    margin-left: 0; }
+
+.columns {
+  float: left; }
+  .columns:first-of-type {
+    padding-right: 80px; }
 
 /* Base Styles */
 #cssmenu {
@@ -594,6 +616,8 @@ footer {
 
 #cssmenu ul ul a {
   display: block; }
+  #cssmenu ul ul a:hover {
+    border-bottom: 3px solid #F36674; }
 
 @media screen and (min-width: 665px) {
   .main-nav li {
@@ -737,6 +761,21 @@ footer {
     text-align: center;
     font-size: 18px;
     font-size: 1em; } }
+@media screen and (min-width: 947px) {
+  #cssmenu ul ul {
+    display: block; }
+
+  .thirds {
+    width: 32%;
+    float: left;
+    margin-left: 2%; }
+    .thirds:first-of-type {
+      margin-left: 0; }
+
+  .columns {
+    float: left; }
+    .columns:first-of-type {
+      padding-right: 80px; } }
 @media screen and (min-width: 1020px) {
   .hd-volunteers h1 {
     padding: 150px; } }

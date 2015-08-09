@@ -295,6 +295,10 @@
 		margin-bottom: 30px;
 		text-transform: none;
 		font-weight: $regular;
+
+		&:hover {
+			background: url(../assets/images/texture_white1.png) $pink;
+		}
 	}
 }
 
@@ -304,6 +308,13 @@
 	padding: 15px;
 	max-width: 365px;
 	margin: 0 auto;
+
+	.apply {
+		max-width: 100px;
+		padding: 10px;
+		text-align: center;
+		margin: 0 auto;
+	}
 }
 
 //DESTINATION CONTENT ---------------------------------------------
@@ -475,18 +486,22 @@ footer {
 	a {
 		color: white;
 		@include font(1.111);
+
+		
 	}
 }
 
 .social-icons {
 	float: left;
-	padding-right: 15px;
+	margin-right: 15px;
 }
 
-.float-lt {
-	float: left;
-	padding-right: 15px;
+.center-icons {
+	margin: 0 auto;
+	width: 90%;
 }
+
+
 
 //CSS Menu
 
@@ -524,5 +539,8 @@ footer {
 
 #cssmenu ul ul a {
   display: block;
+  &:hover {
+			border-bottom: 3px solid $lt-red;
+		}
 }
 
