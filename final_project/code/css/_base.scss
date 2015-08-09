@@ -89,12 +89,48 @@ a {
 
 //STYLES -----------------------------------------------------
 
+@mixin border-radius($px) {
+	-webkit-border-radius: ($px);
+	   -moz-border-radius: ($px);
+		-ms-border-radius: ($px);
+		 -o-border-radius: ($px);
+			border-radius: ($px);
+}
+
+@mixin border-radius-bottom-right($px) {
+	-webkit-border-radius: 0 0 $px 0;
+	   -moz-border-radius: 0 0 $px 0;
+		-ms-border-radius: 0 0 $px 0;
+		 -o-border-radius: 0 0 $px 0;
+			border-radius: 0 0 $px 0;
+}
+
+@mixin border-radius-right-corners($px) {
+	-webkit-border-radius: 0 $px $px 0;
+	   -moz-border-radius: 0 $px $px 0;
+		-ms-border-radius: 0 $px $px 0;
+		 -o-border-radius: 0 $px $px 0;
+			border-radius: 0 $px $px 0;
+}
+
+@mixin border-radius-left-corners($px) {
+	-webkit-border-radius: $px 0 0 $px;
+	   -moz-border-radius: $px 0 0 $px;
+		-ms-border-radius: $px 0 0 $px;
+		 -o-border-radius: $px 0 0 $px;
+			border-radius: $px 0 0 $px;
+}
+
 .dots {
 	width: 100%;
 	display: inline-block;
 	padding-bottom: 4px;
 	border-width: 10px;
-	border-image: url("../assets/images/border_image_aqua.png") 0 0 50 repeat;
+	-webkit-border-image: url("../assets/images/border_image_aqua.png") 0 0 50 repeat;
+	   -moz-border-image: url("../assets/images/border_image_aqua.png") 0 0 50 repeat;
+		-ms-border-image: url("../assets/images/border_image_aqua.png") 0 0 50 repeat;
+		 -o-border-image: url("../assets/images/border_image_aqua.png") 0 0 50 repeat;
+			border-image: url("../assets/images/border_image_aqua.png") 0 0 50 repeat;
 }
 
 .dots-box {
@@ -154,7 +190,7 @@ a {
 
 //BUTTONS -----------------------------------------------------
 .apply, .donate {
-	border-radius: 100px/50px;
+	@include border-radius(50%);
 	font-weight: $bold;	
 
 	a {
@@ -177,7 +213,7 @@ a {
 }
 
 button {
-	border-radius: 10px;
+	@include border-radius(10px);
 	border: 0;
 	font-family: $signo;
 	font-weight: $bold;

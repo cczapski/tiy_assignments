@@ -58,7 +58,7 @@
   color: $lt-red;
   @include font(2);
   border: 3px solid $lt-red;
-  border-radius: 10px;
+  @include border-radius(10px);
   padding: 0 5px;
 }
 

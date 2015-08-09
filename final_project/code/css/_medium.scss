@@ -164,11 +164,11 @@
 		padding-bottom: 30px;
 		width: 25%;
 		float: left;
-		border-radius: 0 0 10px 0;
+		@include border-radius-right-corners(10px);
 
 		li {
 			padding: 10px;
-			border-radius: 10px 0 0 10px;
+			@include border-radius-left-corners(10px);
 
 			&:hover {
 				background: $lt-red;
@@ -200,7 +200,7 @@
 //VOLUNTEERS RESPONSIVE NAV STYLING ------------------------
 @media screen and (min-width: 815px) {
 
-	.dots:nth-of-type(2) {
+	.no-dots {
 		border: none;
 	}
 
